@@ -16,6 +16,16 @@ GlobalScope.launch {
 `Anyway use CoroutineScope`
 {% endhint %}
 
+### NonBlocking lifecyclescope
+
+```
+activity.lifecycleScope.launch {
+    withContext(Dispatchers.IO) { 
+        // code
+    }
+}
+```
+
 ## RunBlocking
 
 ```
