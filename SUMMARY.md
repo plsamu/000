@@ -13,6 +13,7 @@
   * [Retrofit](readme/retrofit/README.md)
     * [FormUrlEncoded](readme/retrofit/formurlencoded.md)
   * [Unique ID](readme/unique-id.md)
+  * [Notifications](readme/notifications.md)
   * [Error List Collection](readme/error-list-collection.md)
 * [Gradle](gradle/README.md)
   * [Android library](gradle/android-library.md)
