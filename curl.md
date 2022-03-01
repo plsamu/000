@@ -25,3 +25,20 @@ curl --location --request POST 'https://SERVER_ADDRESS:8443/v1/wg/auth' \
 --data-urlencode 'pubkey=PUBLIC_KEY'
 ```
 
+<details>
+
+<summary>Spoiler alert</summary>
+
+The above request won't work, the documentation was in error, use JSON
+
+```bash
+curl --location --request POST 'https://SERVER_ADDRESS:8443/v1/wg/auth' \
+--header 'Authorization: PASSWORD' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "device_id": "USERNAME",
+    "pubkey": "PUBLIC_KEY"
+}'
+```
+
+</details>
