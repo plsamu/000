@@ -11,6 +11,7 @@
   * [Coroutine](readme/coroutine.md)
   * [Toolbar](readme/toolbar.md)
   * [Retrofit](readme/retrofit/README.md)
+    * [Headers](readme/retrofit/headers.md)
     * [FormUrlEncoded](readme/retrofit/formurlencoded.md)
   * [Unique ID](readme/unique-id.md)
   * [Notifications](readme/notifications.md)
