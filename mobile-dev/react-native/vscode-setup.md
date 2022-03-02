@@ -1,5 +1,9 @@
 # VSCode setup
 
+### Remember to
+
+* rename a JavaScript file to be `*.tsx`
+
 ### Plugins
 
 * React Native Tools
