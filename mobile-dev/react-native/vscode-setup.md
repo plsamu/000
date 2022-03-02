@@ -8,14 +8,14 @@
 ### Fixes
 
 ```typescript
-// change this:
+// change this
 import type { Node } from 'react'
 // into this
 import type { ReactNode } from 'react'
 ```
 
 ```typescript
-// change this:
+// change this
 const App: () => Node = () => {
 // into this
 const App: () => ReactNode = () => {
