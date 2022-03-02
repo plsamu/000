@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Home](README.md)
+* [Licenses](licenses.md)
 * [Android Kotlin](<README (1).md>)
   * [Basics](readme/basics.md)
   * [Storage Systems](readme/storage-systems/README.md)
@@ -16,6 +17,11 @@
   * [Unique ID](readme/unique-id.md)
   * [Notifications](readme/notifications.md)
   * [Error List Collection](readme/error-list-collection.md)
+  * [Curiosity](readme/curiosity.md)
 * [Gradle](gradle/README.md)
   * [Android library](gradle/android-library.md)
 * [cURL](curl.md)
+* [Clients VPN](clients-vpn/README.md)
+  * [Wireguard](clients-vpn/wireguard.md)
+  * [Clients that use OpenVPN](clients-vpn/clients-that-use-openvpn.md)
+  * [IPsec](clients-vpn/ipsec.md)
