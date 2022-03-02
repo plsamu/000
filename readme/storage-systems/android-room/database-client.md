@@ -29,6 +29,8 @@ abstract class AppDatabase : RoomDatabase() {
 
 ### Converters
 
+Android Room (SQLite) do not support saving JSON, but you can provide methods to automatically convert them to string and get them as object (see [DAO](database-client.md#dao-applogdao)).
+
 ```kotlin
 class Converters {
 
@@ -86,6 +88,8 @@ class Converters {
 
 ### Entity - AppLog
 
+For example, a "type" can be saved thanks to [Converters](database-client.md#converters).
+
 ```kotlin
 @Entity(tableName = LOG_TABLE_NAME)
 data class AppLog(
@@ -106,7 +110,7 @@ data class AppLog(
 }
 ```
 
-### DAO - AppLogDao&#x20;
+### DAO - AppLogDao
 
 ```kotlin
 @Dao
