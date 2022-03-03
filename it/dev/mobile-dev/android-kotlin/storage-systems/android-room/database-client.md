@@ -14,7 +14,6 @@ class LogJSON(
     var event: String,
     var description: String?
 )
-
 ```
 
 ### DB connection

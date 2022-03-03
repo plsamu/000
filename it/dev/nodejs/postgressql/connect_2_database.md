@@ -1,15 +1,12 @@
-Connect To A Database
-===
+# connect to database
 
-Get the port
----
+## Get the port
 
-```text
+```
 \conninfo
 ```
 
-Show tables
----
+## Show tables
 
 ```bash
 \c music_live_city_list     # select database
@@ -18,8 +15,7 @@ Show tables
 SELECT * FROM <nome_tabella>;  # per leggere la tabella
 ```
 
-Drop table
----
+## Drop table
 
 ```bash
 DROP TABLE [ IF EXISTS ] name [, ...] [ CASCADE | RESTRICT ];

@@ -70,6 +70,6 @@ class NotificationHelper(private val activity: AppCompatActivity) : CoroutineSco
 What is important:
 
 * CoroutineScope
-* private val job = Job()   &#x20;
+* private val job = Job()
 * override val coroutineContext = Dispatchers.IO + job
 {% endhint %}

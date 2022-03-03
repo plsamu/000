@@ -41,4 +41,3 @@ const ListScreen: () => JSX.Element = () => {
     renderItem={(el) => { return <Text>{el.item.proper}</Text>} }
 />
 ```
-

@@ -25,4 +25,3 @@ npx react-native start
 ```bash
 npx react-native run-android
 ```
-
