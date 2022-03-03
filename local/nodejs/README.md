@@ -1,8 +1,6 @@
 nodejs
 ===
 
-- [databases](./database.md)
-
 run code only once
 ---
 
