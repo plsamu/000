@@ -1,21 +1,17 @@
-♠ faststart
-===
+# faststart
 
-download postgressql
----
+## download postgressql
 
 window -> exe
 
-create role
----
+## create role
 
 ```bash
 psql postgres  # connect to default db
 postgres= \conninfo  # check info connection  
 ```
 
-create a project
----
+## create a project
 
 ```bash
 npm init -y
@@ -51,7 +47,7 @@ npm run start
 
 [source](https://developer.okta.com/blog/2018/11/15/node-express-typescript)
 
----
+***
 
 Classic express basic server:
 
