@@ -53,3 +53,5 @@
     * [domande](local/cybersec/domande.md)
     * [idee](local/cybersec/idee.md)
   * [filosofia](local/filosofia/README.md)
+* [DIY](diy/README.md)
+  * [Laser Engraving](diy/laser-engraving.md)
