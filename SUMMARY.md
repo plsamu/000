@@ -47,6 +47,7 @@
     * [Terminals for window](it/windows/terminals-for-window.md)
   * [WMware](it/wmware/README.md)
     * [Kali Linux](it/wmware/kali-linux.md)
+  * [keytool](it/keytool.md)
 * [Local](local/README.md)
   * [hunter](local/hunter/README.md)
   * [cybersec](local/cybersec/README.md)
