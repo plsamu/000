@@ -3,6 +3,8 @@
 * [Home](README.md)
 * [IT](it/README.md)
   * [DEV](it/dev/README.md)
+    * [IDE](it/dev/ide/README.md)
+      * [VSCode](it/dev/ide/vscode.md)
     * [Mobile dev](it/dev/mobile-dev/README.md)
       * [Setup](it/dev/mobile-dev/setup.md)
       * [Android Kotlin](it/dev/mobile-dev/android-kotlin/README.md)
