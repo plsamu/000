@@ -2,6 +2,8 @@
 
 ## Types
 
+[https://www.youtube.com/watch?v=Y7tknUioLwY](https://www.youtube.com/watch?v=Y7tknUioLwY)
+
 * CO2
   * some CO2 can't mark steel, for this you need a fiber laser
   * you can mark anodized aluminum
