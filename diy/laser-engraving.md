@@ -19,7 +19,15 @@ Or g code (thanks to some plugins).
 
 ### Prep material
 
-[https://kanyanaengineering.com.au/can-you-laser-engrave-stainless-steel/#What\_Is\_the\_Best\_Method\_to\_Mark\_Stainless\_Steel](https://kanyanaengineering.com.au/can-you-laser-engrave-stainless-steel/#What\_Is\_the\_Best\_Method\_to\_Mark\_Stainless\_Steel)
+{% embed url="https://kanyanaengineering.com.au/can-you-laser-engrave-stainless-steel#What_Is_the_Best_Method_to_Mark_Stainless_Steel" %}
+
+### Prep modality
+
+engraving vs etching  vs marking vs cutting
+
+#### **Can Stainless Steel Be Laser Etched?** <a href="#can-stainless-steel-be-laser-etched" id="can-stainless-steel-be-laser-etched"></a>
+
+Yes, stainless steel can be laser etched. Laser etching is less invasive than engraving, meaning less material is removed in the process.&#x20;
 
 ## Models
 
