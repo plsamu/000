@@ -6,6 +6,12 @@
  promise.resolve(true)
 ```
 
+```
+val results: MutableList<Int> = ArrayList()
+results.add(AUTHENTICATION_TYPE_FACIAL_RECOGNITION)
+promise.resolve(results)
+```
+
 ## expo.modules.core.Promise
 
 ```kotlin
