@@ -26,6 +26,7 @@
       * [React Native](it/dev/mobile-dev/react-native/README.md)
         * [Setup](it/dev/mobile-dev/react-native/setup/README.md)
         * [Code](it/dev/mobile-dev/react-native/code/README.md)
+          * [Hooks and Lifecycle](it/dev/mobile-dev/react-native/code/hooks-and-lifecycle.md)
           * [Show list](it/dev/mobile-dev/react-native/code/show-list.md)
         * [Native Modules](it/dev/mobile-dev/react-native/native-modules/README.md)
           * [Promises](it/dev/mobile-dev/react-native/native-modules/promises.md)
