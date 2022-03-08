@@ -7,13 +7,19 @@
 * CO2
   * some CO2 can't mark steel, for this you need a fiber laser
   * you can mark anodized aluminum
-* Fiber laser&#x20;
+* Fiber laser
 
 ## Flow
+
+### Prep file
 
 Use for example Inkscape to produce a PNG, or TIFF, or BMP, or other Raster images that are 1-Bit black and white camera ready artwork. No Gray scale. Should be in a minimum of 300 DPI resolution.
 
 Or g code (thanks to some plugins).
+
+### Prep material
+
+[https://kanyanaengineering.com.au/can-you-laser-engrave-stainless-steel/#What\_Is\_the\_Best\_Method\_to\_Mark\_Stainless\_Steel](https://kanyanaengineering.com.au/can-you-laser-engrave-stainless-steel/#What\_Is\_the\_Best\_Method\_to\_Mark\_Stainless\_Steel)
 
 ## Models
 
@@ -23,10 +29,17 @@ Or g code (thanks to some plugins).
 
 ### For steel
 
-* [https://www.juneauempire.com/national-marketplace/the-10-best-laser-engraver-machines-laser-cutters-for-2022/](https://www.juneauempire.com/national-marketplace/the-10-best-laser-engraver-machines-laser-cutters-for-2022/)
 * ATOMSTACK S10 Pro 50W&#x20;
 * ATOMSTACK A10 Pro 50w
 * [ATOMSTACK X7 Pro 50W](https://www.youtube.com/watch?v=0aT8im3G9RI)
+
+{% hint style="info" %}
+source: amazon review
+
+Q: What is the difference between the S10 and X7?&#x20;
+
+A: Based on what I have read, the S10 and the X7 are the same machine, just called different names in different markets (X7 in the US, S10 elsewhere)
+{% endhint %}
 
 ## Information from pro players
 
