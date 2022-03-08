@@ -39,7 +39,7 @@ Yes, stainless steel can be laser etched. Laser etching is less invasive than en
 
 * ATOMSTACK S10 Pro 50W&#x20;
 * ATOMSTACK A10 Pro 50w
-* [ATOMSTACK X7 Pro 50W](https://www.youtube.com/watch?v=0aT8im3G9RI)
+* [ATOMSTACK X7 Pro 50W](https://youtu.be/NQoeYksA\_ao?t=418)
 
 {% hint style="info" %}
 source: amazon review
