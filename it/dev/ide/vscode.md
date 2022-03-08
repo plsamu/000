@@ -6,3 +6,14 @@
 C:\Users\\\<username>\AppData\Roaming\Code\User\settings.json
 {% endhint %}
 
+### set rulers
+
+```
+"editor.rulers": [
+    80
+],
+"workbench.colorCustomizations": {
+    "editorRuler.foreground": "#ff4747"
+}
+```
+
