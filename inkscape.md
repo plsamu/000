@@ -17,3 +17,9 @@ Edit -> Preferences -> Interface -> Language
 ```
 File -> Document Properties
 ```
+
+### Change foreground color and border
+
+```
+Right click over object -> Fill and Stroke -> right panel will open
+```
