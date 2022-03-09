@@ -19,3 +19,7 @@ expo start
 expo start -c
 expo start --clear
 ```
+
+### add custom module
+
+[https://docs.expo.dev/workflow/customizing/](https://docs.expo.dev/workflow/customizing/)
