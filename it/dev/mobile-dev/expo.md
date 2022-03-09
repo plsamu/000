@@ -12,3 +12,9 @@ expo start
 expo install
 expo start
 ```
+
+### clear cache
+
+```
+expo start -c
+```
