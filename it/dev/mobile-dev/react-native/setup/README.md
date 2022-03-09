@@ -20,6 +20,7 @@ npx react-native init AwesomeTSProject --template react-native-template-typescri
 
 ```
 npx react-native start
+react-native start --reset-cache
 ```
 
 ### Start app
