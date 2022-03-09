@@ -17,4 +17,5 @@ expo start
 
 ```
 expo start -c
+expo start --clear
 ```
