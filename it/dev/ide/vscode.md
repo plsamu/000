@@ -17,3 +17,8 @@ C:\Users\\\<username>\AppData\Roaming\Code\User\settings.json
 }
 ```
 
+### run command
+
+```
+Ctrl+Shift+P
+```
