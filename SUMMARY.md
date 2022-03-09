@@ -30,6 +30,7 @@
           * [Show list](it/dev/mobile-dev/react-native/code/show-list.md)
         * [Native Modules](it/dev/mobile-dev/react-native/native-modules/README.md)
           * [Promises](it/dev/mobile-dev/react-native/native-modules/promises.md)
+      * [Expo](it/dev/mobile-dev/expo.md)
     * [Gradle](it/dev/gradle/README.md)
       * [Android library](it/dev/gradle/android-library.md)
     * [NodeJS](it/dev/nodejs/README.md)
