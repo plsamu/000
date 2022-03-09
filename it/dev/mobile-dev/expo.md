@@ -7,3 +7,8 @@ expo init my-app
 cd my-app
 expo start
 ```
+
+```
+expo install
+expo start
+```
