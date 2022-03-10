@@ -1,5 +1,25 @@
 # Create native package
 
+## Create and install local package
+
+```
+npx create-react-native-library my_package
+cd ./my_package
+npm pack
+cp my_package.tgz ../path/to/react_native_proj
+cd ../path/to/react_native_proj
+npm install --save .\my_package.tgz 
+```
+
+```javascript
+import * as MyModule from 'my_package'
+MyModule.multiply(3, 4).then((result) => {
+    console.log(result)
+})
+```
+
+## Other things
+
 {% embed url="https://stackoverflow.com/questions/44061155/react-native-npm-link-local-dependency-unable-to-resolve-module" %}
 CHECK THIS
 {% endembed %}
