@@ -5,6 +5,7 @@
 ```
 npx create-react-native-library my_package
 cd ./my_package
+npm install
 npm pack
 cp my_package-0.1.0.tgz ../path/to/react_native_proj
 cd ../path/to/react_native_proj
