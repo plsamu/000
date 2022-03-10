@@ -18,6 +18,10 @@ MyModule.multiply(3, 4).then((result) => {
 })
 ```
 
+## WIP - Create and install Expo package
+
+
+
 ## Other things
 
 {% embed url="https://stackoverflow.com/questions/44061155/react-native-npm-link-local-dependency-unable-to-resolve-module" %}
