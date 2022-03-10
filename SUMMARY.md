@@ -62,6 +62,7 @@
     * [Kali Linux](it/wmware/kali-linux.md)
   * [keytool](it/keytool.md)
   * [Hacktivism & Hackers](it/hacktivism-and-hackers.md)
+  * [Hidden Services aka Onion Services](it/hidden-services-aka-onion-services.md)
 * [Local](local/README.md)
   * [hunter](local/hunter/README.md)
   * [cybersec](local/cybersec/README.md)
