@@ -6,3 +6,7 @@
 
 {% embed url="https://medium.com/@AidThompsin/how-to-npm-link-to-a-local-version-of-your-dependency-84e82126667a" %}
 
+```
+npm link --save <native-package>
+npm unlink --no-save <native-package>
+```
