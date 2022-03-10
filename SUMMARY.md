@@ -33,6 +33,7 @@
         * [Native Modules](it/dev/mobile-dev/react-native/native-modules/README.md)
           * [Promises](it/dev/mobile-dev/react-native/native-modules/promises.md)
       * [Expo](it/dev/mobile-dev/expo/README.md)
+        * [Create Expo Package](it/dev/mobile-dev/expo/create-expo-package.md)
         * [Error](it/dev/mobile-dev/expo/error.md)
       * [npm](it/dev/mobile-dev/npm/README.md)
         * [Create native package](it/dev/mobile-dev/npm/create-native-package.md)
