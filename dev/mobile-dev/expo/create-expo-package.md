@@ -8,6 +8,10 @@ A **package** is a directory with one or more modules inside of it and a package
 
 {% embed url="https://github.com/expo/expo/tree/main/packages/create-expo-module" %}
 
+{% embed url="https://blog.expo.dev/whats-new-in-expo-modules-infrastructure-7a7cdda81ebc#0ff9" %}
+From unimodules to Expo package
+{% endembed %}
+
 ## How
 
 {% hint style="warning" %}
@@ -17,9 +21,32 @@ A **package** is a directory with one or more modules inside of it and a package
 ### step 1
 
 ```
+yarn add expo
+```
+
+```bash
 npx create-react-native-library my_package
-npm install --save react-native-unimodules
+expo install react-native-unimodules
 npm install --save expo-updates
+expo install expo-image-loader
+expo install unimodules-app-loader
+# expo install @unimodules-core
+yarn add react-native-unimodules
+yarn add expo-constants
+yarn add expo-file-system
+yarn add expo-modules-core
+yarn add unimodules-task-manager-interface
+```
+
+#### android
+
+Expo needs 'maven' as plugin, but this was removed in gradle 7.x.\
+So keep gradle to version 4.2.2:
+
+```
+dependencies {
+    classpath 'com.android.tools.build:gradle:4.2.2'
+}
 ```
 
 ### step 2
