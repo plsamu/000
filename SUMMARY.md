@@ -49,6 +49,7 @@
   * [Dev Ideas](dev/ideas.md)
 * [ICT](ict/README.md)
   * [Linux](ict/linux/README.md)
+    * [Debian](ict/linux/debian.md)
     * [Backup](ict/linux/backup.md)
   * [cURL](ict/curl.md)
   * [Clients VPN](ict/clients-vpn/README.md)
