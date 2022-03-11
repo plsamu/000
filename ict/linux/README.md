@@ -10,3 +10,9 @@ su
            Add the user to the supplementary group(s). Use only with the
            -G option.
 ```
+
+```bash
+su
+nano /etc/sudoers
+# username ALL=(ALL:ALL) ALL
+```
