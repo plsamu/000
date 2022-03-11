@@ -4,7 +4,7 @@
 
 ```
 su
-usermod -aG sudo username
+/usr/sbin/usermod -aG sudo username
 
 -a, --append
            Add the user to the supplementary group(s). Use only with the
