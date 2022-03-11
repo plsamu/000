@@ -20,22 +20,11 @@ From unimodules to Expo package
 
 ### step 1
 
-```
-yarn add expo
-```
-
 ```bash
 npx create-react-native-library my_package
-expo install react-native-unimodules
-npm install --save expo-updates
-expo install expo-image-loader
-expo install unimodules-app-loader
-# expo install @unimodules-core
-yarn add react-native-unimodules
-yarn add expo-constants
-yarn add expo-file-system
-yarn add expo-modules-core
-yarn add unimodules-task-manager-interface
+yarn add react react-native react-native-builder-bob pod-install
+yarn add expo
+yarn add typescript
 ```
 
 #### android
