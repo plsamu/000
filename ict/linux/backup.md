@@ -6,11 +6,12 @@
 sudo apt-get install rsync
 ```
 
-## rsync
+## [rsync](https://www.youtube.com/watch?v=qE77MbDnljA)
 
 ### copy recursive
 
-```
+```bash
+# copy the entire folder, not only the content
 rsync -a /path/to/folder2save /path/to/backup_folder
 ```
 
@@ -31,8 +32,6 @@ rsync -za user@host:/path /path/to/local
 ```
 rsync -za -e 'ssh -p 2222' --progress user@host:/path /path/to/local
 ```
-
-## Backup specific folder
 
 
 
