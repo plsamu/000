@@ -1,5 +1,11 @@
 # Common Commands
 
+### change root (su) password
+
+```
+sudo passwd root
+```
+
 ### search
 
 * `grep`: search for specific terms in a file
