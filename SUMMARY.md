@@ -48,6 +48,7 @@
       * [connect to database](dev/nodejs/postgressql/connect\_2\_database.md)
   * [Dev Ideas](dev/ideas.md)
 * [ICT](ict/README.md)
+  * [IRC clients](ict/irc-clients.md)
   * [Linux](ict/linux/README.md)
     * [Common Commands](ict/linux/common-commands/README.md)
       * [sed](ict/linux/common-commands/sed.md)
