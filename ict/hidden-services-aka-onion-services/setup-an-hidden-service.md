@@ -25,9 +25,8 @@ grep -r /etc/ -e torrc
 ### [configure torrc](https://community.torproject.org/onion-services/setup/#step-2-configure-your-tor-onion-service)
 
 ```bash
-sudo mkdir /var/lib/tor/onion_service_1
 sudo nano /etc/tor/torrc
-# create these lines
+# add these lines
 # HiddenServiceDir /var/lib/tor/onion_service_1/
 # HiddenServicePort <port> 127.0.0.1:<port>
 ```
