@@ -18,6 +18,14 @@ From unimodules to Expo package
 **UNIX** is needed
 {% endhint %}
 
+{% hint style="success" %}
+A simple shortcut is to create an expo-app in bare mode and copy all the settings from it.\
+
+
+$ expo init\
+\# choose bare workflow
+{% endhint %}
+
 ### step 1
 
 ```bash
@@ -30,11 +38,11 @@ yarn add typescript
 #### android
 
 Expo needs 'maven' as plugin, but this was removed in gradle 7.x.\
-So keep gradle to version 4.2.2:
+So keep gradle to version 4.1.0:
 
 ```
 dependencies {
-    classpath 'com.android.tools.build:gradle:4.2.2'
+    classpath 'com.android.tools.build:gradle:4.1.0'
 }
 ```
 
