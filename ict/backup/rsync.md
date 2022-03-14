@@ -44,3 +44,8 @@ Or
 ```
 wsl --install -d Debian
 ```
+
+{% hint style="info" %}
+Idk, ended up installing git bash...\
+[https://prasaz.medium.com/add-rsync-to-windows-git-bash-f42736bae1b3](https://prasaz.medium.com/add-rsync-to-windows-git-bash-f42736bae1b3)
+{% endhint %}
