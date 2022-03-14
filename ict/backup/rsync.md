@@ -29,6 +29,12 @@ rsync -za -e 'ssh -p 2222' --progress user@host:/path /path/to/local
 
 ## rsync on Windows 10
 
+### enable dev mode
+
+{% embed url="https://answers.microsoft.com/en-us/insider/forum/all/how-to-enable-the-windows-subsystem-for-linux/16e8f2e8-4a6a-4325-a89a-fd28c7841775" %}
+
+### Install WSL
+
 ```
 Microsoft Store > Debian > download
 ```
