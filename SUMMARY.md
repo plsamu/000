@@ -39,6 +39,7 @@
     * [npm](dev/mobile-dev/npm.md)
   * [Gradle](dev/gradle/README.md)
     * [Android library](dev/gradle/android-library.md)
+    * [build.gradle from java to kotlin](dev/gradle/build.gradle-from-java-to-kotlin.md)
     * [Errors](dev/gradle/errors.md)
   * [NodeJS](dev/nodejs/README.md)
     * [database](dev/nodejs/database.md)
