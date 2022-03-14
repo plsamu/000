@@ -1,12 +1,6 @@
-# Backup
+# rsync
 
-## Tools
-
-```
-sudo apt-get install rsync
-```
-
-## [rsync](https://www.youtube.com/watch?v=qE77MbDnljA)
+{% embed url="https://www.youtube.com/watch?v=qE77MbDnljA" %}
 
 ### copy recursive
 
@@ -33,5 +27,14 @@ rsync -za user@host:/path /path/to/local
 rsync -za -e 'ssh -p 2222' --progress user@host:/path /path/to/local
 ```
 
+## rsync on Windows 10
 
+```
+Microsoft Store > Debian > download
+```
 
+Or
+
+```
+wsl --install -d Debian
+```
