@@ -15,18 +15,6 @@ From unimodules to Expo package
 ## How
 
 {% hint style="warning" %}
-**UNIX** is needed
-{% endhint %}
-
-{% hint style="success" %}
-A simple shortcut is to create an expo-app in bare mode and copy all the settings from it.\
-
-
-$ expo init\
-\# choose bare workflow
-{% endhint %}
-
-{% hint style="warning" %}
 Use [EAS ](https://docs.expo.dev/eas/)if you are going to use native package\
 \
 $ expo init app-demo1\
