@@ -25,6 +25,8 @@ apply plugin: 'kotlin-android'
 
 ...
 
+def kotlin_version = "1.6.10"
+
 dependencies {
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
   // implementation "com.android.support:appcompat-v7:28.0.0"
