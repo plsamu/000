@@ -54,3 +54,6 @@ Idk, ended up installing git bash...\
 
 {% embed url="https://alanbarber.com/post/installing-rsync-on-windows" %}
 
+```
+C:\MinGW\msys\1.0\bin
+```
