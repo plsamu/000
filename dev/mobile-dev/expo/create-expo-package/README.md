@@ -26,6 +26,22 @@ $ expo init\
 \# choose bare workflow
 {% endhint %}
 
+{% hint style="warning" %}
+Use [EAS ](https://docs.expo.dev/eas/)if you are going to use native package\
+\
+$ expo init app-demo1\
+$ cd ./app-demo1\
+$ npm install\
+&#x20;   \# it's a pure react native module \
+$ npm install --save --legacy-peer-deps react-native-blurhash\
+\
+$ npm install -g eas-cli\
+&#x20;   \# in eas.json add\
+&#x20;   "preview": { "distribution": "internal", "android": { "buildType": "apk" } },\
+$ eas build --profile preview -p android\
+&#x20;   \# install apk on device
+{% endhint %}
+
 ### step 1
 
 ```bash
