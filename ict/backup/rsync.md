@@ -49,3 +49,8 @@ wsl --install -d Debian
 Idk, ended up installing git bash...\
 [https://prasaz.medium.com/add-rsync-to-windows-git-bash-f42736bae1b3](https://prasaz.medium.com/add-rsync-to-windows-git-bash-f42736bae1b3)
 {% endhint %}
+
+## Third method
+
+{% embed url="https://alanbarber.com/post/installing-rsync-on-windows" %}
+
