@@ -6,7 +6,15 @@
 npx create-react-native-library my_package
 cd ./my_package
 npm install
+
+# create examples
+yarn example android
+yarn example ios
+
+# pack to install in another project
 npm pack
+
+# installation in another project
 cp my_package-0.1.0.tgz ../path/to/react_native_proj
 cd ../path/to/react_native_proj
 npm install --save .\my_package-0.1.0.tgz 
