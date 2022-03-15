@@ -13,6 +13,14 @@ expo install
 expo start
 ```
 
+### update
+
+```
+npm install expo-updates
+npx pod-install
+expo install expo-updates
+```
+
 ### clear cache
 
 ```
