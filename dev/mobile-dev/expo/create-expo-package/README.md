@@ -6,6 +6,10 @@ A **package** is a directory with one or more modules inside of it and a package
 
 ## What worked for me
 
+{% hint style="warning" %}
+`expo-dev-client needed`
+{% endhint %}
+
 ```
 expo init demo1
 # you can choose managed workflow
