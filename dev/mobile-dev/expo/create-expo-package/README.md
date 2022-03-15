@@ -4,6 +4,22 @@ A **module** is a single JavaScript file that has some reasonable functionality.
 
 A **package** is a directory with one or more modules inside of it and a package.json file which has metadata about the package.
 
+## What worked for me
+
+```
+expo init demo1
+# you can choose managed workflow
+cd ./demo1
+yarn
+expo install /path/to/react-native-mypkg-0.1.0.tgz
+# eject the project
+expo run:android
+```
+
+### [how to create react-native-mypkg-0.1.0.tgz](../../react-native/create-native-package.md)
+
+## Info
+
 {% embed url="https://www.farhansayshi.com/post/build-an-npm-package-with-expo-dependencies-for-expo-and-plain-react-native-projects" %}
 
 {% embed url="https://github.com/expo/expo/tree/main/packages/create-expo-module" %}
