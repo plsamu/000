@@ -1,6 +1,7 @@
 # NET
 
+#### get default gateway
+
 ```
-# get deafault getway
 ip route show 
 ```
