@@ -55,6 +55,7 @@
     * [rsync](ict/backup/rsync.md)
   * [IRC clients](ict/irc-clients.md)
   * [Linux](ict/linux/README.md)
+    * [NET](ict/linux/net.md)
     * [Common Commands](ict/linux/common-commands/README.md)
       * [sed](ict/linux/common-commands/sed.md)
     * [Package Manager](ict/linux/package-manager/README.md)
