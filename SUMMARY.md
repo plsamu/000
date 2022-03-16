@@ -30,6 +30,7 @@
         * [Hooks and Lifecycle](dev/mobile-dev/react-native/code/hooks-and-lifecycle.md)
         * [Show list](dev/mobile-dev/react-native/code/show-list.md)
         * [Native Module](dev/mobile-dev/react-native/code/native-module.md)
+      * [Setup typescript](dev/mobile-dev/react-native/setup-typescript.md)
       * [Native Modules](dev/mobile-dev/react-native/native-modules/README.md)
         * [Promises](dev/mobile-dev/react-native/native-modules/promises.md)
       * [Create native package](dev/mobile-dev/react-native/create-native-package.md)
