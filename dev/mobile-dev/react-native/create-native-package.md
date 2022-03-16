@@ -27,6 +27,16 @@ MyModule.multiply(3, 4).then((result) => {
 })
 ```
 
+### If doesn't work
+
+```jsx
+import { NativeModules, Platform } from 'react-native'
+const MyModule = NativeModules.MyModule
+MyModule.multiply(3, 4).then((result) => {
+    console.log(result)
+})
+```
+
 ## WIP - Create and install Expo package
 
 
