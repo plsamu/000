@@ -76,6 +76,7 @@
   * [Hidden Services aka Onion Services](ict/hidden-services-aka-onion-services/README.md)
     * [Setup an Hidden Service](ict/hidden-services-aka-onion-services/setup-an-hidden-service.md)
 * [Cybersec](cybersec/README.md)
+  * [000](cybersec/000.md)
   * [Hacktivism & Hackers](cybersec/hacktivism-and-hackers.md)
   * [domande](cybersec/domande.md)
   * [idee](cybersec/idee.md)
