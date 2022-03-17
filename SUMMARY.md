@@ -10,6 +10,8 @@
     * [Errors](dev/mobile-dev/errors.md)
     * [Setup](dev/mobile-dev/setup.md)
     * [Android Kotlin](dev/mobile-dev/android-kotlin/README.md)
+      * [Deprecation](dev/mobile-dev/android-kotlin/deprecation/README.md)
+        * [OnActivityResultListener - onActivityResult - startActivityForResult](dev/mobile-dev/android-kotlin/deprecation/onactivityresultlistener-onactivityresult-startactivityforresult.md)
       * [Basics](dev/mobile-dev/android-kotlin/basics.md)
       * [Storage Systems](dev/mobile-dev/android-kotlin/storage-systems/README.md)
         * [SqliteOpenHelper](dev/mobile-dev/android-kotlin/storage-systems/sqliteopenhelper.md)
