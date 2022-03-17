@@ -28,6 +28,7 @@
       * [Error List Collection](dev/mobile-dev/android-kotlin/error-list-collection.md)
       * [Curiosity](dev/mobile-dev/android-kotlin/curiosity.md)
     * [React Native](dev/mobile-dev/react-native/README.md)
+      * [Tricky](dev/mobile-dev/react-native/tricky.md)
       * [Setup](dev/mobile-dev/react-native/setup.md)
       * [Code](dev/mobile-dev/react-native/code/README.md)
         * [Hooks and Lifecycle](dev/mobile-dev/react-native/code/hooks-and-lifecycle.md)
