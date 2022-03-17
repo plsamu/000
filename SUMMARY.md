@@ -4,6 +4,7 @@
 * [DEV](dev/README.md)
   * [IDE](dev/ide/README.md)
     * [VSCode](dev/ide/vscode/README.md)
+      * [Open VScode from shift + right click](dev/ide/vscode/open-vscode-from-shift-+-right-click.md)
       * [Edit Colors](dev/ide/vscode/edit-colors.md)
   * [Mobile dev](dev/mobile-dev/README.md)
     * [Errors](dev/mobile-dev/errors.md)
