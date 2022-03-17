@@ -32,3 +32,18 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode\command]
 @="code ."
 ```
+
+## Tried
+
+```
+powershell -?
+```
+
+```batch
+C:\WINDOWS\system32\cmd.exe /k start "" "code.cmd ."
+```
+
+```scss
+powershell.exe -windowstyle hidden { Start-Process -WindowStyle Hidden code.cmd -ArgumentList "." }
+```
+
