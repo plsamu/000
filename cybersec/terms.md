@@ -2,14 +2,22 @@
 
 {% embed url="https://www.youtube.com/watch?index=3&list=PLYmlEoSHldN7HJapyiQ8kFLUsk_a7EjCw&v=rZWyIriYyVA" %}
 
-**Footprinting/reconnaissance**: techniques used for gathering information about computer systems
+#### **Footprinting/reconnaissance**
 
-**FUD**: Fully UnDetectable
+**T**echniques used for gathering information about computer systems
 
-**RAT**: Remote Administration Tool
+#### **FUD:** Fully UnDetectable
 
-**rootkit**: is a collection of software, typically malicious, designed to enable access to a computer and often masks its existence or the existence of other software
+#### **RAT:** Remote Administration Tool
 
-**DNS spoofing, or DNS cache poisoning:**&#x20;
+#### **rootkit**
 
-Used also to force fishing. \
+**I**s a collection of software, typically malicious, designed to enable access to a computer and often masks its existence or the existence of other software
+
+#### **DNS spoofing, or DNS cache poisoning:**&#x20;
+
+Used also to force fishing
+
+#### Reverse Shells
+
+###
