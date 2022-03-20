@@ -43,7 +43,7 @@ macchanger
 @reboot macchanger -r <your interface>
 ```
 
-didn't work for me...
+didn't work for me... So.
 
 ### systemd
 
