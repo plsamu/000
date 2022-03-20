@@ -86,7 +86,7 @@
   * [000](cybersec/000/README.md)
     * [Kali Linux](cybersec/000/kali-linux.md)
     * [Became Anonymous](cybersec/000/became-anonymous.md)
-    * [Footprinting](cybersec/000/footprinting/README.md)
+    * [Footprinting](cybersec/000/footprinting.md)
       * [Nmap](cybersec/000/footprinting/nmap.md)
   * [Hacktivism & Hackers](cybersec/hacktivism-and-hackers.md)
   * [domande](cybersec/domande.md)
