@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Home](README.md)
+* [History Of Internet](history-of-internet.md)
 * [DEV](dev/README.md)
   * [IDE](dev/ide/README.md)
     * [VSCode](dev/ide/vscode/README.md)
@@ -85,7 +86,8 @@
   * [000](cybersec/000/README.md)
     * [Kali Linux](cybersec/000/kali-linux.md)
     * [Became Anonymous](cybersec/000/became-anonymous.md)
-    * [Footprinting](cybersec/000/footprinting.md)
+    * [Footprinting](cybersec/000/footprinting/README.md)
+      * [Nmap](cybersec/000/footprinting/nmap.md)
   * [Hacktivism & Hackers](cybersec/hacktivism-and-hackers.md)
   * [domande](cybersec/domande.md)
   * [idee](cybersec/idee.md)

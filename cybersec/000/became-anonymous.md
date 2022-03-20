@@ -6,6 +6,8 @@
 
 {% embed url="https://geekflare.com/anonymize-linux-traffic" %}
 
+### proxychains <a href="#proxychains" id="proxychains"></a>
+
 The `proxychains` command can be used to route your following command traffic through tor, **but** you can choose also to use proxies, not really recommended.
 
 ## DNS
