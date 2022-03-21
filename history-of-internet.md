@@ -26,6 +26,8 @@ We pay these people.
 
 ## RIR
 
+ARPANET -> IANA -> RIR
+
 {% embed url="https://en.wikipedia.org/wiki/Regional_Internet_registry" %}
 
 ## RIPE
