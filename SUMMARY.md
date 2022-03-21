@@ -88,6 +88,7 @@
     * [Became Anonymous](cybersec/000/became-anonymous.md)
     * [Footprinting](cybersec/000/footprinting.md)
       * [Nmap](cybersec/000/footprinting/nmap.md)
+  * [WiFi cracking](cybersec/wifi-cracking.md)
   * [Hacktivism & Hackers](cybersec/hacktivism-and-hackers.md)
   * [domande](cybersec/domande.md)
   * [idee](cybersec/idee.md)

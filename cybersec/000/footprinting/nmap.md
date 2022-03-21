@@ -21,3 +21,30 @@ If you scan a network, do a random scan flagging already scanned IPs
 {% hint style="success" %}
 Slow scan ad libitum
 {% endhint %}
+
+## Questions
+
+<details>
+
+<summary>Why nmap?</summary>
+
+cuz is massive, extensible, well documented and widely used
+
+</details>
+
+<details>
+
+<summary>Why port scanning?</summary>
+
+Try scan your default gateway and see what you find.
+
+```
+nmap -vv -A 192.168.1.1
+```
+
+</details>
+
+## Where to start
+
+{% embed url="https://nmap.org/nsedoc/categories" %}
+
