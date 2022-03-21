@@ -24,13 +24,21 @@ We pay these people.
 
 {% embed url="https://www.nirsoft.net/countryip" %}
 
-## RIR
+## From ARPANET to end-user
 
-ARPANET -> IANA -> RIR
+ARPANET -> IANA -> [RIR ](https://en.wikipedia.org/wiki/Regional\_Internet\_registry)-> [LIR ](https://en.wikipedia.org/wiki/Regional\_Internet\_registry)(ISP) -> end-user
 
-{% embed url="https://en.wikipedia.org/wiki/Regional_Internet_registry" %}
+{% embed url="https://prefixx.net/news/how-to-get-ipv4-from-regional-internet-registries" %}
+GOLD SOURCE
+{% endembed %}
 
-## RIPE
+### types of RIR
 
-{% embed url="https://en.wikipedia.org/wiki/RIPE_NCC" %}
+* ARIN
+* [RIPE NCC](https://en.wikipedia.org/wiki/RIPE\_NCC)
+* APNIC
+* LACNIC
+* AFRINIC
+
+
 
