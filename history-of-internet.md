@@ -10,8 +10,6 @@
 
 ### 4. [CYCLADES ](https://en.wikipedia.org/wiki/CYCLADES)NETWORK (FR) - 1971 \[Internet born here]
 
-We pay these people.
-
 ### 5. [Akademset ](https://en.wikipedia.org/wiki/Akademset)(RU)
 
 ### 6. [JANET ](https://en.wikipedia.org/wiki/JANET)(UK) - 1984
