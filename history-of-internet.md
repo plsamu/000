@@ -24,5 +24,7 @@ We pay these people.
 
 {% embed url="https://www.nirsoft.net/countryip" %}
 
+## RIPE
 
+{% embed url="https://en.wikipedia.org/wiki/RIPE_NCC" %}
 
