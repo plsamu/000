@@ -24,6 +24,10 @@ We pay these people.
 
 {% embed url="https://www.nirsoft.net/countryip" %}
 
+## RIR
+
+{% embed url="https://en.wikipedia.org/wiki/Regional_Internet_registry" %}
+
 ## RIPE
 
 {% embed url="https://en.wikipedia.org/wiki/RIPE_NCC" %}
