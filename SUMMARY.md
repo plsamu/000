@@ -42,6 +42,7 @@
     * [Expo](dev/mobile-dev/expo/README.md)
       * [Create Expo Package](dev/mobile-dev/expo/create-expo-package/README.md)
         * [Expo + Typescript + Native Code](dev/mobile-dev/expo/create-expo-package/expo-+-typescript-+-native-code.md)
+        * [Build Expo proj with Native Modules](dev/mobile-dev/expo/create-expo-package/build-expo-proj-with-native-modules.md)
       * [Error](dev/mobile-dev/expo/error.md)
     * [npm](dev/mobile-dev/npm.md)
   * [Gradle](dev/gradle/README.md)
