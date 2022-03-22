@@ -37,11 +37,21 @@ Yes, stainless steel can be laser etched. Laser etching is less invasive than en
 
 ### For steel
 
+{% hint style="warning" %}
+### [Stainless Steel Must Be Laser Annealed, Not Engraved](https://www.laserax.com/blog/laser-engrave-stainless-steel)
+
+To create marks such as logos or data matrix codes on stainless steel, you need to rely on a technology that does not remove the chromium oxide layer from the surface.
+
+For such a need, only one technology leaves a permanent mark directly on stainless steel. This technology is laser annealing, and it can be done using a metal laser marking machine.
+{% endhint %}
+
 * ATOMSTACK S10 Pro 50W&#x20;
 * ATOMSTACK A10 Pro 50w
 * [ATOMSTACK X7 Pro 50W](https://youtu.be/NQoeYksA\_ao?t=418)
   * [https://youtu.be/wHlAXOrSHhw?t=498](https://youtu.be/wHlAXOrSHhw?t=498)
 * Sculpfun S9 90W
+
+{% embed url="https://www.youtube.com/watch?v=pnUNBT4yNvo" %}
 
 ### To check: <a href="#title" id="title"></a>
 
