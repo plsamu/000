@@ -63,6 +63,7 @@ For such a need, only one technology leaves a permanent mark directly on stainle
 * ATOMSTACK A10 Pro 50w
 * [ATOMSTACK X7 Pro 50W](https://youtu.be/NQoeYksA\_ao?t=418)
   * [https://youtu.be/wHlAXOrSHhw?t=498](https://youtu.be/wHlAXOrSHhw?t=498)
+  * [https://www.youtube.com/watch?v=6xaaeZBSxpY\&t=285s](https://www.youtube.com/watch?v=6xaaeZBSxpY\&t=285s)
 * Sculpfun S9 90W
 
 {% embed url="https://www.youtube.com/watch?v=pnUNBT4yNvo" %}
