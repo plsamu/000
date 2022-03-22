@@ -43,6 +43,12 @@ Yes, stainless steel can be laser etched. Laser etching is less invasive than en
   * [https://youtu.be/wHlAXOrSHhw?t=498](https://youtu.be/wHlAXOrSHhw?t=498)
 * Sculpfun S9 90W
 
+### To check: <a href="#title" id="title"></a>
+
+* Totem S 40W
+* NEJE Master 2S Max
+* Ortur Laser Master 2 pro
+
 {% hint style="info" %}
 source: amazon review
 
