@@ -29,6 +29,18 @@ engraving vs etching  vs marking vs cutting
 
 Yes, stainless steel can be laser etched. Laser etching is less invasive than engraving, meaning less material is removed in the process.&#x20;
 
+## Premises
+
+{% embed url="http://www.differencebetween.net/object/difference-between-steel-and-metal" %}
+
+| Steel (plain carbon steel)                                                       | Metals                                                                                        | Steinless Steel                                                                                          |
+| -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **NOT a metal**, but an alloy of iron and carbon                                 | **Metals exist naturally** in the crust of the Earth, and are mined out of the ground         | **Alloy of a at least four elements**: carbon, iron, nickel, and chromium.                               |
+| **Strong** and made for structures, used for houses, sky scrapers, ships or guns | **Malleable**, ductile and used for making jewelry, decorative products and surgical implants | Stainless steel is **slightly weaker than steel**                                                        |
+|  **Can rust**, and is magnetic                                                   | **Anti corrosive** and nonmagnetic, and are high thermal and electrical conductors            | Has a high chromium content that forms an invisible **layer on the surface** to prevent it from staining |
+
+
+
 ## Models
 
 ### Newbie models
