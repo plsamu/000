@@ -67,6 +67,10 @@ Q: What is the difference between the S10 and X7?&#x20;
 A: Based on what I have read, the S10 and the X7 are the same machine, just called different names in different markets (X7 in the US, S10 elsewhere)
 {% endhint %}
 
+### For Metal
+
+{% embed url="https://omtechlaser.com/products/20w-fiber-laser-engraver-cutter-usb-20w2-us" %}
+
 ## Information from pro players
 
 From: Laser Lance (AKA Vasily Basov, former employee of Control Laser Corporation, part of Hans Laser, China)
