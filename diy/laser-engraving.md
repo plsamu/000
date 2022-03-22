@@ -39,7 +39,9 @@ Yes, stainless steel can be laser etched. Laser etching is less invasive than en
 | **Strong** and made for structures, used for houses, sky scrapers, ships or guns | **Malleable**, ductile and used for making jewelry, decorative products and surgical implants | Stainless steel is **slightly weaker than steel**                                                        |
 |  **Can rust**, and is magnetic                                                   | **Anti corrosive** and nonmagnetic, and are high thermal and electrical conductors            | Has a high chromium content that forms an invisible **layer on the surface** to prevent it from staining |
 
+### HELP!
 
+[https://www.reddit.com/r/Laserengraving/comments/tkad0u/atomstack\_x7\_pro\_with\_600\_claims\_to\_be\_able\_to/](https://www.reddit.com/r/Laserengraving/comments/tkad0u/atomstack\_x7\_pro\_with\_600\_claims\_to\_be\_able\_to/)
 
 ## Models
 
