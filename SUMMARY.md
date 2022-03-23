@@ -18,7 +18,7 @@
         * [SqliteOpenHelper](dev/mobile-dev/android-kotlin/storage-systems/sqliteopenhelper.md)
         * [Android Room](dev/mobile-dev/android-kotlin/storage-systems/android-room/README.md)
           * [Database Client](dev/mobile-dev/android-kotlin/storage-systems/android-room/database-client.md)
-      * [Current Time in Milliseconds](dev/mobile-dev/android-kotlin/current-time-in-milliseconds.md)
+      * [Current Time](dev/mobile-dev/android-kotlin/current-time-in-milliseconds.md)
       * [Coroutine](dev/mobile-dev/android-kotlin/coroutine.md)
       * [Toolbar](dev/mobile-dev/android-kotlin/toolbar.md)
       * [Retrofit](dev/mobile-dev/android-kotlin/retrofit/README.md)
