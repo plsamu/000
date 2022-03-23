@@ -1,6 +1,8 @@
 # Current Time in Milliseconds
 
 ```kotlin
+import java.util.*
+
 // method 1
 val calendar = Calendar.getInstance()
 println(calendar.timeInMillis)
