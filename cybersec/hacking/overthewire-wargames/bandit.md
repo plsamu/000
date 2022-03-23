@@ -2,6 +2,11 @@
 
 {% embed url="https://overthewire.org/wargames/bandit/bandit2.html" %}
 
+[Good source](https://hackinganarchy.wordpress.com/2020/01/20/overthewire-bandit-writeup/) (better source)
+
+imagine you have successfully launched a reverse shell hack.\
+Now, ideally, you want to move to the privilege escalation stage.
+
 ```
 ssh -p 2220 bandit0@bandit.labs.overthewire.org
 
@@ -18,3 +23,175 @@ ssh -p 2220 bandit4@bandit.labs.overthewire.org
 pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 ```
 
+### LV4
+
+```
+find . -type f ! -executable -exec file {} +
+
+ssh -p 2220 bandit5@bandit.labs.overthewire.org
+koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+ssh -p 2220 bandit6@bandit.labs.overthewire.org
+DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+```
+
+### LV6 - IMPORTANT
+
+#### This level teach you how to find a file based on the group and user it belongs to.
+
+```
+The password for the next level is stored somewhere on the server 
+and has all of the following properties:
+
+    owned by user bandit7
+    owned by group bandit6
+    33 bytes in size
+```
+
+```bash
+find . -group bandit6 -user bandit7 -size -34c
+    
+    -size -34c   # less than 34 bytes
+```
+
+#### Filter "Permission denied"
+
+```
+find . -size -34c -group bandit6 -user bandit7 2>/dev/null
+
+cat ./var/lib/dpkg/info/bandit7.password
+```
+
+#### Explanation
+
+```
+> 
+    redirects stdout
+    
+1> file 
+    redirects stdout to file
+
+2> file 
+    redirects stderr to file
+
+&> file 
+    redirects stdout and stderr to file
+
+2>/dev/null
+    redirects stderr to null === do nothing with stderr
+```
+
+```
+ssh -p 2220 bandit7@bandit.labs.overthewire.org
+HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+
+ssh -p 2220 bandit8@bandit.labs.overthewire.org
+cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+```
+
+### LV8
+
+{% hint style="info" %}
+Note: 'uniq' does not detect repeated lines unless they are adjacent. \
+You may want to sort the input first.
+{% endhint %}
+
+```
+sort data.txt | uniq -c
+sort data.txt | uniq -c | sort -rn  # reverse numeric sort
+```
+
+```bash
+ssh -p 2220 bandit9@bandit.labs.overthewire.org
+UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+
+# grep data.txt -a -e =
+# not clean but, can be boring
+ssh -p 2220 bandit10@bandit.labs.overthewire.org
+truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+
+ssh -p 2220 bandit11@bandit.labs.overthewire.org
+IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+
+# tr...
+ssh -p 2220 bandit12@bandit.labs.overthewire.org
+5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+```
+
+### LV12
+
+{% hint style="info" %}
+A “hex dump” is a representation of a **binary data stream** where the contents of that stream are displayed as **hexadecimal values**.
+{% endhint %}
+
+```
+bandit12@bandit:~$ file data.txt
+data.txt: ASCII text
+bandit12@bandit:~$ cat data.txt
+00000000: 1f8b 0808 0650 b45e 0203 6461 7461 322e  .....P.^..data2.
+00000010: 6269 6e00 013d 02c2 fd42 5a68 3931 4159  bin..=...BZh91AY
+```
+
+Look at that data2.bin: `.....P.^..data2.bin..=...BZh91AY`\
+And all the **hex** lines like: `6269 6e00 013d 02c2 fd42 5a68 3931 4159`\
+It's an hexdump of a binary! (yeah it's written...)\
+\
+Convert to a binary:
+
+```
+xxd -r data.txt > data
+```
+
+Let's check the file!
+
+```
+data: bandit12@bandit:/tmp/tmp1$ file data
+    gzip compressed data, was "data2.bin", 
+    last modified: Thu May  7 18:14:30 2020, 
+    max compression, from Unix
+```
+
+```bash
+ssh -p 2220 bandit13@bandit.labs.overthewire.org
+8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+
+```
+
+### LV13
+
+I invite to think what happened here.
+
+{% hint style="danger" %}
+You can connect using localhost, **but you can't connect using your pc and the private key with bandit.labs.overthewire.org.**\
+****\
+**Remote connection filter bypassed ? Maybe....**\
+**Is this a connection to another device in the local LAN of our ssh host connection ? Maybe....**
+{% endhint %}
+
+```
+# ssh -i sshkey.private bandit14@localhost
+ssh -p 2220 bandit14@bandit.labs.overthewire.org
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+```
+
+### LV14
+
+{% hint style="danger" %}
+Wait, what program is running behind port 30000 ?
+{% endhint %}
+
+```
+nmap -p 30000 localhost
+```
+
+{% hint style="info" %}
+$ man nc
+
+**netcat is a simple unix utility which reads and writes data across network connection**
+{% endhint %}
+
+```
+ssh -p 2220 bandit15@bandit.labs.overthewire.org
+BfMYroe26WYalil77FoDi9qh59eK5xNr
+```
