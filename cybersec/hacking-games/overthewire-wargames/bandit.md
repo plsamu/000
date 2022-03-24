@@ -195,3 +195,73 @@ $ man nc
 ssh -p 2220 bandit15@bandit.labs.overthewire.org
 BfMYroe26WYalil77FoDi9qh59eK5xNr
 ```
+
+### LV15
+
+{% hint style="info" %}
+The s\_client command implements a generic SSL/TLS client which connects to a remote host using SSL/TLS. It is a very useful diagnostic tool for SSL servers.\
+\
+$ man s\_client\
+$ openssl s\_client \[-help]
+{% endhint %}
+
+```
+openssl s_client -connect localhost:30001
+
+ssh -p 2220 bandit16@bandit.labs.overthewire.org
+cluFn7wTiGryunymYOu4RcffSxQluehd
+```
+
+### LV16 - IF BASH WIP
+
+Ok. Let's roll.
+
+```
+nmap -p 31000-32000 localhost 
+
+Starting Nmap 7.40 ( https://nmap.org ) at 2022-03-24 21:58 CET
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00031s latency).
+Not shown: 996 closed ports
+PORT      STATE SERVICE
+31046/tcp open  unknown
+31518/tcp open  unknown
+31691/tcp open  unknown
+31790/tcp open  unknown
+31960/tcp open  unknown
+```
+
+{% embed url="https://regex101.com" %}
+
+```
+nmap -p 31000-32000 localhost | 
+    grep -e ^[0-9] | 
+    awk -F/ '{ print $1}'
+
+31046
+31518
+31691
+31790
+31960
+```
+
+```
+nmap -p 31000-32000 localhost | 
+    grep -e ^[0-9] | 
+    awk -F/ '{ print $1}' | 
+    while read port; do 
+        output=$(echo "" | openssl s_client -connect localhost:"$port" | grep -e "Renegotiation IS supported")
+        if [ ! "$output" ]; then
+            echo $port
+        fi
+    done 
+    
+```
+
+```
+nmap -p 31000-32000 localhost
+
+
+ssh -p 2220 bandit17@bandit.labs.overthewire.org
+
+```
