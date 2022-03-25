@@ -25,3 +25,9 @@ cd just-perfection-main/
 ### Through Browser Extension
 
 {% embed url="https://extensions.gnome.org/extension/3843/just-perfection" %}
+
+## Where are the shortcut?
+
+Accessibility.
+
+Activities > Settings > Keyboard > Personalize
