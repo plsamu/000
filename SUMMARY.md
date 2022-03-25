@@ -59,6 +59,7 @@
       * [create database](dev/nodejs/postgressql/create\_database.md)
       * [connect to database](dev/nodejs/postgressql/connect\_2\_database.md)
   * [Dev Ideas](dev/ideas.md)
+  * [Utils](dev/utils.md)
 * [Linux](linux/README.md)
   * [NET](linux/net.md)
   * [Common Commands](linux/common-commands/README.md)
