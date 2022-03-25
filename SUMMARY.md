@@ -69,6 +69,7 @@
     * [Apt](linux/package-manager/apt.md)
   * [Debian](linux/debian/README.md)
     * [USB installation](linux/debian/usb-installation.md)
+  * [Manjaro](linux/manjaro.md)
 * [Windows](windows/README.md)
   * [Protections](windows/protections.md)
 * [ICT](ict/README.md)
