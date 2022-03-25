@@ -11,3 +11,5 @@ Something has gone seriously wrong: shim_init() failed: Invalid Parameter
 {% embed url="https://forums.opensuse.org/showthread.php/554628-USB-Installer-not-working-get_second_stage()-failed" %}
 
 {% embed url="https://bugzilla.opensuse.org/show_bug.cgi?id=1185232" %}
+
+{% embed url="https://www.mail-archive.com/debian-bugs-dist@lists.debian.org/msg1824331.html" %}
