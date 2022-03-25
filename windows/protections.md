@@ -16,6 +16,10 @@ then
 
 Advanced > Performance > Advanced > Change...
 
+{% hint style="info" %}
+If you disable the pagefile windows 10 should delete it automatically... Not for me.
+{% endhint %}
+
 ### Kernel Memory Dump
 
 Control Panel > System and Security > System > Advanced System Settings
