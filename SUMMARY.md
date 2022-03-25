@@ -68,6 +68,8 @@
   * [Package Manager](linux/package-manager/README.md)
     * [Apt](linux/package-manager/apt.md)
   * [Debian](linux/debian.md)
+* [Windows](windows/README.md)
+  * [Protections](windows/protections.md)
 * [ICT](ict/README.md)
   * [Backup](ict/linux/backup.md)
     * [rsync](ict/backup/rsync.md)
