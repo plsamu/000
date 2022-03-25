@@ -16,3 +16,11 @@ then
 
 Advanced > Performance > Advanced > Change...
 
+### Kernel Memory Dump
+
+Control Panel > System and Security > System > Advanced System Settings
+
+then
+
+Startup and Recovery > Write Debugging Information
+
