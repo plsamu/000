@@ -259,6 +259,9 @@ nmap -p 31000-32000 localhost |
 ```
 
 ```
+```
+
+```
 nmap -p 31000-32000 localhost
 
 
