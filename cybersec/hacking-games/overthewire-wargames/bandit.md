@@ -251,7 +251,7 @@ nmap -p 31000-32000 localhost |
     awk -F/ '{ print $1}' | 
     while read port; do 
         output=$(echo "" | openssl s_client -connect localhost:"$port" 2>/dev/null | grep -e "Renegotiation IS supported")
-        if [ ! "$output" ]; then
+        if [ "$output" ]; then
             echo $port
         fi
     done 
@@ -259,12 +259,6 @@ nmap -p 31000-32000 localhost |
 ```
 
 ```
-```
-
-```
-nmap -p 31000-32000 localhost
-
-
-ssh -p 2220 bandit17@bandit.labs.overthewire.org
-
+chmod 700 privkbandit
+ssh -p 2220 -i /path/to/private/key bandit17@bandit.labs.overthewire.org
 ```
