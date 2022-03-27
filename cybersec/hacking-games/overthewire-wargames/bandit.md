@@ -250,7 +250,7 @@ nmap -p 31000-32000 localhost |
     grep -e ^[0-9] | 
     awk -F/ '{ print $1}' | 
     while read port; do 
-        output=$(echo "" | openssl s_client -connect localhost:"$port" | grep -e "Renegotiation IS supported")
+        output=$(echo "" | openssl s_client -connect localhost:"$port" 2>/dev/null | grep -e "Renegotiation IS supported")
         if [ ! "$output" ]; then
             echo $port
         fi
