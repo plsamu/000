@@ -261,4 +261,48 @@ nmap -p 31000-32000 localhost |
 ```
 chmod 700 privkbandit
 ssh -p 2220 -i /path/to/private/key bandit17@bandit.labs.overthewire.org
+
+ssh -p 2220 bandit18@bandit.labs.overthewire.org cat ./readme
+kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+
+ssh -p 2220 bandit19@bandit.labs.overthewire.org
+IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+```
+
+### LV19
+
+{% embed url="https://res.cloudinary.com/lwgatsby/f_auto/www/uploads/2021/02/permission-structure.png" %}
+
+```
+id
+uid=11019(bandit19) gid=11019(bandit19) groups=11019(bandit19)
+
+stat /etc/bandit_pass/bandit20
+Access: (0400/-r--------)  Uid: (11020/bandit20)   Gid: (11020/bandit20)
+
+./bandit20-do id
+uid=11019(bandit19) gid=11019(bandit19) euid=11020(bandit20) groups=11019(bandit19)
+```
+
+```
+# you can't sudo inside bandit, but I wanted to see in it my VM
+
+sudo id
+uid=0(root) gid=0(root) groups=0(root),4(adm),20(dialout),119(wireshark),142(kaboxer)
+```
+
+#### RUID vs EUID
+
+{% hint style="info" %}
+euid
+
+Allows the process to _temporarily_ raise and lower privileges as it needs.
+{% endhint %}
+
+```
+ssh -p 2220 bandit20@bandit.labs.overthewire.org
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+
+
+
 ```
