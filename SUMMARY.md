@@ -120,4 +120,5 @@
 * [DIY](diy/README.md)
   * [Laser Engraving](diy/laser-engraving.md)
 * [Music](music/README.md)
+  * [HH channels](music/hh-channels.md)
   * [Radio](music/radio.md)
