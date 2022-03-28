@@ -73,6 +73,7 @@
       * [USB installation](linux/distros/debian/usb-installation.md)
     * [Manjaro](linux/distros/manjaro.md)
     * [POP\_OS!](linux/distros/pop\_os.md)
+  * [Tmux](linux/tmux.md)
 * [Windows](windows/README.md)
   * [Protections](windows/protections.md)
 * [ICT](ict/README.md)
