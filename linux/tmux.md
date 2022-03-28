@@ -19,3 +19,9 @@ ctrlb then (->) shift + 5 (%)         # split vertically
 ctrlb -> shift + 2 (")                # split horizontally
 ctrlb -> x                            # close pane
 ```
+
+### Scroll on shell history
+
+```
+ctrlb -> [             # then use arrows
+```
