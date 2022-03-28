@@ -418,3 +418,12 @@ Idk if there is another way.\
 Good thing is that you can use what you want to create the logic.
 
 </details>
+
+```
+ssh -p 2220 bandit25@bandit.labs.overthewire.org
+uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+
+ssh -i privkeybandit26.txt -p 2220 bandit26@bandit.labs.overthewire.org
+
+
+```
