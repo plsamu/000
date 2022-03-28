@@ -16,3 +16,7 @@ su
 nano /etc/sudoers
 # username ALL=(ALL:ALL) ALL
 ```
+
+### PS1
+
+{% embed url="https://ezprompt.net" %}
