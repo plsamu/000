@@ -26,8 +26,18 @@ cd just-perfection-main/
 
 {% embed url="https://extensions.gnome.org/extension/3843/just-perfection" %}
 
-## Where are the shortcut?
+### Where are the shortcut?
 
 Accessibility.
 
 Activities > Settings > Keyboard > Personalize
+
+### Remote Desktop Client
+
+* Remmina
+
+### Tilix vs Tmux
+
+> Tmux it always works, even with no graphical interface installed (e.g. when connected to a server using SSH) is very lightweight, and has the "detach session" feature.
+
+So, yes...
