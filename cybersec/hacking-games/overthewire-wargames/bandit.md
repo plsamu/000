@@ -413,23 +413,8 @@ UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
 
 <summary>spoiler</summary>
 
-```bash
-for i in {0000..9999}; do
-    echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i" 
-done
-```
-
-```bash
-  echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 0000" | nc 127.0.0.1 30002
-```
-
-```bash
-!/bin/bash
-
-for i in {0000..9999}; do
-        echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i" | nc 127.0.0.1 30002 &
-        # sleep 1 &
-done
-```
+Yes, you have to do a brute force.\
+Idk if there is another way.\
+Good thing is that you can use what you want to create the logic.
 
 </details>
