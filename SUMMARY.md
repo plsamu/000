@@ -126,6 +126,7 @@
 * [DIY](diy/README.md)
   * [Laser Engraving](diy/laser-engraving.md)
 * [Music](music/README.md)
+  * [Focus](music/focus.md)
   * [HxH](music/hxh.md)
   * [HH channels](music/hh-channels.md)
   * [Radio](music/radio.md)
