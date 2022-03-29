@@ -1,5 +1,11 @@
 # Remote
 
+### Get informations (branches & Co.)
+
+```
+git remote show origin
+```
+
 ### Branches
 
 #### delete remote branch
