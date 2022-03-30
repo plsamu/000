@@ -1,5 +1,3 @@
 # Android Kotlin
 
-### Edit Shortcut
-
-`File` -> `Settings` -> `Keymap`
+{% embed url="https://www.raywenderlich.com/books/kotlin-coroutines-by-tutorials/v2.0/chapters/i-what-you-need" %}

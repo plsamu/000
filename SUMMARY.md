@@ -8,6 +8,7 @@
 * [DEV](dev/README.md)
   * [Backend](dev/backend.md)
   * [IDE](dev/ide/README.md)
+    * [Android Studio](dev/ide/android-studio.md)
     * [VSCode](dev/ide/vscode/README.md)
       * [Open VScode from shift + right click](dev/ide/vscode/open-vscode-from-shift-+-right-click.md)
       * [Edit Colors](dev/ide/vscode/edit-colors.md)
