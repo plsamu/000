@@ -2,7 +2,7 @@
 
 * [Home](README.md)
 * [History Of Internet](history-of-internet.md)
-* [Hunter - Curious Things](hunter-curious-things.md)
+* [Hunter - Curious Things - Internet is Awesome](hunter-curious-things-internet-is-awesome.md)
 * [GIT](git/README.md)
   * [Remote](git/remote.md)
 * [DEV](dev/README.md)
@@ -104,6 +104,7 @@
   * [Hidden Services aka Onion Services](ict/hidden-services-aka-onion-services/README.md)
     * [Setup an Hidden Service](ict/hidden-services-aka-onion-services/setup-an-hidden-service.md)
 * [Cybersec](cybersec/README.md)
+  * [dO u wAnT InFO?](cybersec/do-u-want-info.md)
   * [Tools](cybersec/tools/README.md)
     * [aircrack-ng](cybersec/tools/aircrack-ng.md)
     * [Reaver](cybersec/tools/reaver.md)
