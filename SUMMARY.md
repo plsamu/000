@@ -16,6 +16,7 @@
     * [Errors](dev/mobile-dev/errors.md)
     * [Setup](dev/mobile-dev/setup.md)
     * [Android Kotlin](dev/mobile-dev/android-kotlin/README.md)
+      * [Promise](dev/mobile-dev/android-kotlin/promise.md)
       * [Code](dev/mobile-dev/android-kotlin/code/README.md)
         * [Basics](dev/mobile-dev/android-kotlin/code/basics.md)
         * [Storage Systems](dev/mobile-dev/android-kotlin/code/storage-systems/README.md)
