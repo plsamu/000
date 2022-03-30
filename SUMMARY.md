@@ -122,6 +122,8 @@
   * [Crack It](cybersec/crack-it/README.md)
     * [Routers](cybersec/crack-it/routers.md)
     * [WiFi cracking](cybersec/crack-it/wifi-cracking.md)
+  * [Questions](cybersec/questions/README.md)
+    * [How to Find Router Make, Model, Firmware Type and Revision Info?](cybersec/questions/how-to-find-router-make-model-firmware-type-and-revision-info.md)
 * [Local](local/README.md)
   * [hunter](local/hunter/README.md)
   * [filosofia](local/filosofia/README.md)
