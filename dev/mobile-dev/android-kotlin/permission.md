@@ -20,7 +20,9 @@ implementation "org.jetbrains.kotlin:kotlin-serialization:$kotlin_version"
 ```
 
 ```
-import java.io.Serializableclass ParcellableUnit() : Serializable { 
+import java.io.Serializable
+
+class ParcellableUnit() : Serializable { 
     private var callback: ((MyCallback<Boolean>) -> Unit)? = null
 }
 ```
