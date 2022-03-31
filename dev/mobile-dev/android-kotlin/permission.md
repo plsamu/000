@@ -12,3 +12,15 @@ val mActivity = MyActivity().apply {
 val intent = Intent(context, activityPermission)
 context.startActivity(intent)
 ```
+
+### Can be useful
+
+```
+implementation "org.jetbrains.kotlin:kotlin-serialization:$kotlin_version"
+```
+
+```
+import java.io.Serializableclass ParcellableUnit() : Serializable { 
+    private var callback: ((MyCallback<Boolean>) -> Unit)? = null
+}
+```
