@@ -4,6 +4,7 @@
 * [History Of Internet](history-of-internet.md)
 * [Hunter - Curious Things - Internet is Awesome](hunter-curious-things-internet-is-awesome.md)
 * [GIT](git/README.md)
+  * [From local to remote by terminal](git/from-local-to-remote-by-terminal.md)
   * [Remote](git/remote.md)
 * [DEV](dev/README.md)
   * [Backend](dev/backend.md)
