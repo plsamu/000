@@ -142,3 +142,4 @@
   * [HH channels](music/hh-channels.md)
   * [Radio](music/radio.md)
 * [Wallpaper](wallpaper.md)
+* [Games](games.md)
