@@ -141,3 +141,4 @@
   * [HxH](music/hxh.md)
   * [HH channels](music/hh-channels.md)
   * [Radio](music/radio.md)
+* [Wallpaper](wallpaper.md)
