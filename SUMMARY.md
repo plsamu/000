@@ -24,6 +24,7 @@
         * [FormUrlEncoded](dev/android-kotlin/code/retrofit/formurlencoded.md)
   * [Mobile dev](dev/mobile-dev/README.md)
     * [Android Kotlin](dev/mobile-dev/android-kotlin/README.md)
+      * [Permission](dev/mobile-dev/android-kotlin/permission.md)
       * [Storage Systems](dev/mobile-dev/android-kotlin/storage-systems/README.md)
         * [SqliteOpenHelper](dev/mobile-dev/android-kotlin/storage-systems/sqliteopenhelper.md)
         * [Android Room](dev/mobile-dev/android-kotlin/storage-systems/android-room/README.md)
