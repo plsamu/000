@@ -17,9 +17,15 @@ container.pack(side="top", fill="both", expand=True)
 container.columnconfigure(tuple(range(60)), weight=1)
 container.rowconfigure(tuple(range(30)), weight=1)
 
-frame_button = tk.Frame(container)
+s = ttk.Style()
+s.configure('TFrame', background='green')
+
+s.configure('Frame1.TFrame', background='orange')
+frame_button = ttk.Frame(container, style='Frame1.TFrame')
 frame_button.grid(column=0, row=0, sticky="news")
-frame_listbox = tk.Frame(container)
+
+s.configure('Frame2.TFrame', background='blue')
+frame_listbox = ttk.Frame(container, style='Frame2.TFrame')
 frame_listbox.grid(column=1, row=0, sticky="news")
 
 listbox = tk.Listbox(frame_listbox)
