@@ -8,6 +8,8 @@
   * [Remote](git/remote.md)
 * [DEV](dev/README.md)
   * [Python](dev/python/README.md)
+    * [Minimal Examples](dev/python/minimal-examples/README.md)
+      * [Switch Case](dev/python/minimal-examples/switch-case.md)
     * [Tkinter](dev/python/tkinter/README.md)
       * [Minimal Examples](dev/python/tkinter/minimal-examples/README.md)
         * [Theme + auto item ordering](dev/python/tkinter/minimal-examples/theme-+-auto-item-ordering.md)
