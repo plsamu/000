@@ -11,7 +11,7 @@ Tor nodes are blacklisted and probably blocked
 {% endhint %}
 
 {% hint style="success" %}
-[Use Tor with random proxies](../became-anonymous.md)&#x20;
+[Use Tor with random proxies](../enter-anonymous.md)&#x20;
 {% endhint %}
 
 {% hint style="success" %}
