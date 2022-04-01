@@ -119,6 +119,7 @@
     * [Concepts](cybersec/do-u-want-info/concepts.md)
     * [Terms](cybersec/do-u-want-info/terms.md)
     * [Tools](cybersec/do-u-want-info/tools/README.md)
+      * [List](cybersec/do-u-want-info/tools/list.md)
       * [aircrack-ng](cybersec/do-u-want-info/tools/aircrack-ng.md)
       * [Reaver](cybersec/do-u-want-info/tools/reaver.md)
   * [Roadmap](cybersec/roadmap/README.md)
