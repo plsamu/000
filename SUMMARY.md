@@ -143,6 +143,7 @@
 * [DIY](diy/README.md)
   * [Laser Engraving](diy/laser-engraving.md)
 * [Music](music/README.md)
+  * [D\&B](music/d-and-b.md)
   * [Fire](music/fire.md)
   * [HH](music/hh/README.md)
     * [low visual](music/hh/low-visual.md)
