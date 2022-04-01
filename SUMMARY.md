@@ -143,6 +143,7 @@
 * [Local](local/README.md)
   * [hunter](local/hunter/README.md)
   * [filosofia](local/filosofia/README.md)
+* [Aste](aste.md)
 * [Editing](editing/README.md)
   * [Inkscape](editing/inkscape.md)
 * [DIY](diy/README.md)
