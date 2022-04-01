@@ -9,6 +9,8 @@
 * [DEV](dev/README.md)
   * [Python](dev/python/README.md)
     * [Tkinter](dev/python/tkinter/README.md)
+      * [Minimal Examples](dev/python/tkinter/minimal-examples/README.md)
+        * [Theme + auto item ordering](dev/python/tkinter/minimal-examples/theme-+-auto-item-ordering.md)
       * [from Tkinter to exe](dev/python/tkinter/from-tkinter-to-exe.md)
       * [Frame](dev/python/tkinter/frame/README.md)
         * [Minimal](dev/python/tkinter/frame/minimal.md)
