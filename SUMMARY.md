@@ -94,6 +94,7 @@
   * [Tmux](linux/tmux.md)
 * [Windows](windows/README.md)
   * [Protections](windows/protections.md)
+  * [Cool](windows/cool.md)
 * [ICT](ict/README.md)
   * [Backup](ict/linux/backup.md)
     * [rsync](ict/backup/rsync.md)
