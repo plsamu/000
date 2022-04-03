@@ -10,7 +10,7 @@ In one I have installed Kali Linux and I want to read the traffic of the other.
 
 ## Get the IP
 
-### Advance list scan
+### Advance list scan to find the target
 
 ```
 ip addr
@@ -36,7 +36,9 @@ Not only I know the IP, but also the hostname...
 Nmap scan report for OnePlus5.blabla.bla (192.168.1.115)
 ```
 
+## ARP
 
+> ARP only works with 32-bit IP addresses in the older IPv4 standard. The newer IPv6 protocol uses a different protocol, Neighbor Discovery Protocol (NDP), which is secure and uses cryptographic keys to verify host identities. However, since most of the Internet still uses the older IPv4 protocol, ARP remains in wide use.
 
 ## Sources
 
@@ -69,6 +71,14 @@ cat /etc/resolv.conf
 # or better
 ( nmcli dev list || nmcli dev show ) | grep DNS
 ```
+
+</details>
+
+<details>
+
+<summary>What is a ARP spoofing / ARP poisoning?</summary>
+
+
 
 </details>
 

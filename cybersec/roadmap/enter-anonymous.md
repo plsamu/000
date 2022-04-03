@@ -1,4 +1,4 @@
-# Became Anonymous
+# Enter Anonymous
 
 ## Proxies, Tor, VPN
 
