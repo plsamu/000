@@ -1,4 +1,4 @@
-# Bandit
+# Bandit - used to learn bash shell & Linux system
 
 {% embed url="https://overthewire.org/wargames/bandit/bandit2.html" %}
 
@@ -7,7 +7,7 @@
 imagine you have successfully launched a reverse shell hack.\
 Now, ideally, you want to move to the privilege escalation stage.
 
-```
+```bash
 ssh -p 2220 bandit0@bandit.labs.overthewire.org
 
 ssh -p 2220 bandit1@bandit.labs.overthewire.org
@@ -25,7 +25,7 @@ pIwrPrtPN36QITSp3EQaw936yaFoFgAB
 
 ### LV4
 
-```
+```bash
 find . -type f ! -executable -exec file {} +
 
 ssh -p 2220 bandit5@bandit.labs.overthewire.org
@@ -81,7 +81,7 @@ cat ./var/lib/dpkg/info/bandit7.password
     redirects stderr to null === do nothing with stderr
 ```
 
-```
+```bash
 ssh -p 2220 bandit7@bandit.labs.overthewire.org
 HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 
@@ -154,8 +154,6 @@ data: bandit12@bandit:/tmp/tmp1$ file data
 ```bash
 ssh -p 2220 bandit13@bandit.labs.overthewire.org
 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
-
-
 ```
 
 ### LV13
@@ -169,7 +167,7 @@ You can connect using localhost, **but you can't connect using your pc and the p
 **Is this a connection to another device in the local LAN of our ssh host connection ? Maybe....**
 {% endhint %}
 
-```
+```shell
 # ssh -i sshkey.private bandit14@localhost
 ssh -p 2220 bandit14@bandit.labs.overthewire.org
 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
@@ -191,7 +189,7 @@ $ man nc
 **netcat is a simple unix utility which reads and writes data across network connection**
 {% endhint %}
 
-```
+```bash
 ssh -p 2220 bandit15@bandit.labs.overthewire.org
 BfMYroe26WYalil77FoDi9qh59eK5xNr
 ```
@@ -205,7 +203,7 @@ $ man s\_client\
 $ openssl s\_client \[-help]
 {% endhint %}
 
-```
+```bash
 openssl s_client -connect localhost:30001
 
 ssh -p 2220 bandit16@bandit.labs.overthewire.org
@@ -216,7 +214,7 @@ cluFn7wTiGryunymYOu4RcffSxQluehd
 
 Ok. Let's roll.
 
-```
+```bash
 nmap -p 31000-32000 localhost 
 
 Starting Nmap 7.40 ( https://nmap.org ) at 2022-03-24 21:58 CET
@@ -233,7 +231,7 @@ PORT      STATE SERVICE
 
 {% embed url="https://regex101.com" %}
 
-```
+```bash
 nmap -p 31000-32000 localhost | 
     grep -e ^[0-9] | 
     awk -F/ '{ print $1}'
@@ -245,7 +243,7 @@ nmap -p 31000-32000 localhost |
 31960
 ```
 
-```
+```bash
 nmap -p 31000-32000 localhost | 
     grep -e ^[0-9] | 
     awk -F/ '{ print $1}' | 
@@ -258,7 +256,7 @@ nmap -p 31000-32000 localhost |
     
 ```
 
-```
+```bash
 chmod 700 privkbandit
 ssh -p 2220 -i /path/to/private/key bandit17@bandit.labs.overthewire.org
 
@@ -273,7 +271,7 @@ IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
 
 {% embed url="https://res.cloudinary.com/lwgatsby/f_auto/www/uploads/2021/02/permission-structure.png" %}
 
-```
+```bash
 id
 uid=11019(bandit19) gid=11019(bandit19) groups=11019(bandit19)
 
@@ -285,7 +283,7 @@ uid=11019(bandit19) gid=11019(bandit19) euid=11020(bandit20) groups=11019(bandit
 ```
 
 ```
-# you can't sudo inside bandit, but I wanted to see in it my VM
+# you can't sudo inside bandit, but I wanted to see it in my VM
 
 sudo id
 uid=0(root) gid=0(root) groups=0(root),4(adm),20(dialout),119(wireshark),142(kaboxer)
@@ -299,7 +297,7 @@ euid
 Allows the process to _temporarily_ raise and lower privileges as it needs.
 {% endhint %}
 
-```
+```bash
 ssh -p 2220 bandit20@bandit.labs.overthewire.org
 GbKksEFF4yrVs6il55v6gwY5aVje5f0j
 ```
@@ -310,7 +308,7 @@ GbKksEFF4yrVs6il55v6gwY5aVje5f0j
 microservices
 {% endhint %}
 
-```
+```bash
 ssh -p 2220 bandit21@bandit.labs.overthewire.org
 gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
 
@@ -323,7 +321,7 @@ jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
 
 ### LV23
 
-```
+```bash
 stat /usr/bin/cronjob_bandit23.sh
 Access: (0750/-rwxr-x---)  Uid: (11023/bandit23)   Gid: (11022/bandit22)
 
@@ -402,7 +400,7 @@ cat /etc/bandit_pass/bandit24 | nc 127.0.0.1 5001
 
 </details>
 
-```
+```bash
 ssh -p 2220 bandit24@bandit.labs.overthewire.org
 UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
 ```
@@ -419,7 +417,7 @@ Good thing is that you can use what you want to create the logic.
 
 </details>
 
-```
+```bash
 ssh -p 2220 bandit25@bandit.labs.overthewire.org
 uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
 
