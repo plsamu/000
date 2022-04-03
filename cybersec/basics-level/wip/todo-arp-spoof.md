@@ -29,8 +29,7 @@ sudo macchanger -r eth0
 nmap -sL 192.168.1.0/24
 ```
 
-Feels like this reverse DNS request is pretty broken...\
-Not only I know the IP, but also the hostname...
+Feels like this reverse DNS request is pretty broken...
 
 ```
 Nmap scan report for OnePlus5.blabla.bla (192.168.1.115)
@@ -39,6 +38,44 @@ Nmap scan report for OnePlus5.blabla.bla (192.168.1.115)
 ## ARP
 
 > ARP only works with 32-bit IP addresses in the older IPv4 standard. The newer IPv6 protocol uses a different protocol, Neighbor Discovery Protocol (NDP), which is secure and uses cryptographic keys to verify host identities. However, since most of the Internet still uses the older IPv4 protocol, ARP remains in wide use.
+
+<details>
+
+<summary>How ARP spoofing works?</summary>
+
+It works cuz every ARP-request to a node completely updates the ARP table present in the cache dedicated to it by the protocol, without respecting the pre-existing entries in the Routing table.
+
+So if the hacker impersonate the router and send an ARP request to a host, this host will think that the hacker is the router.\
+And again, if the hacker impersonate the target host and send an ARP request to the router, the router will think that the hacker is the host.\
+\
+In the end the ARP table of the target host will see the hacker MAC as the default gateway.
+
+`192.168.1.1      HH:HH:HH:HH:HH:HH`
+
+The ARP table of the router will see the hacker MAC as the host IP.
+
+`192.168.1.115    HH:HH:HH:HH:HH:HH`
+
+In the ARP table/cache of all devices this could be seen:
+
+`192.168.1.25    HH:HH:HH:HH:HH:HH   -> the real IP of the host` \
+`192.168.1.115    HH:HH:HH:HH:HH:HH  -> the spoofed one`
+
+</details>
+
+<details>
+
+<summary>How frequently does a router perform Address resolution protocol (ARP)?</summary>
+
+Guess what, depends by a lot of factors :D
+
+</details>
+
+## ARP spoofing
+
+{% embed url="https://www.monkey.org/~dugsong/dsniff" %}
+
+
 
 ## Sources
 
@@ -78,7 +115,7 @@ cat /etc/resolv.conf
 
 <summary>What is a ARP spoofing / ARP poisoning?</summary>
 
-
+Is a technique by which an attacker sends ([spoofed](https://en.wikipedia.org/wiki/Spoofing\_attack)) ARP messages onto a LAN. Generally, the aim is to associate the attacker's MAC address with the IP address of another host, such as the default gateway, causing any traffic meant for that IP address to be sent to the attacker instead.
 
 </details>
 
