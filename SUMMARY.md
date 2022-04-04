@@ -40,6 +40,7 @@
         * [Android Room](dev/mobile-dev/android-kotlin/storage-systems/android-room/README.md)
           * [Database Client](dev/mobile-dev/android-kotlin/storage-systems/android-room/database-client.md)
       * [Code](dev/mobile-dev/android-kotlin/code/README.md)
+        * [Background Communication](dev/mobile-dev/android-kotlin/code/background-communication.md)
         * [Unique ID](dev/mobile-dev/android-kotlin/code/unique-id.md)
       * [UI](dev/mobile-dev/android-kotlin/ui/README.md)
         * [Toolbar](dev/mobile-dev/android-kotlin/ui/toolbar.md)
