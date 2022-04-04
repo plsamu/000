@@ -37,6 +37,8 @@ class MyBroadcastReceiver : BroadcastReceiver() {
 
 This code actually sends the broadcast to all the receiver that are registered to the action called “MY\_ACTION”.
 
+`ComponentName` is explicitly defining (recursivly) app name (`receiver.activityInfo.applicationInfo.packageName`) and service name (`receiver.activityInfo.name`): this is called _**explicit broadcast**._
+
 ```kotlin
 findViewById<Button>(R.id.btn_2).setOnClickListener {
     var outIntent = Intent("MY_ACTION")
