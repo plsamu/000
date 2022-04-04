@@ -1,7 +1,5 @@
 # Background Communication
 
-
-
 ## Real Background Comunication
 
 ### ReceiverApp
