@@ -84,6 +84,7 @@
   * [Scripts](dev/scripts/README.md)
     * [Node & NPM](dev/scripts/node-and-npm.md)
 * [Linux](linux/README.md)
+  * [VM](linux/vm.md)
   * [NET](linux/net.md)
   * [Common Commands](linux/common-commands/README.md)
     * [users & groups](linux/common-commands/users-and-groups.md)
