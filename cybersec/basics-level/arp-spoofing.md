@@ -1,4 +1,4 @@
-# TODO - ARP spoof
+# ARP spoofing
 
 ## Overhead
 
@@ -79,31 +79,30 @@ Guess what, depends by a lot of factors :D
 sudo arpspoof -i eth0 -t 192.168.1.115 -r 192.168.1.1 
 ```
 
-Now the command is saying this to me:
+Now, this is the command output:
 
 ```
 hacker_mac target_mac 0806 42: arp reply 192.168.1.1 is-at hacker_mac
 ```
 
-This is the ARP reply of the host that now thinks that the hacker\_mac is the default gateway. \
-Then:
+This is the ARP reply of the host (the target). \
+This is saying that now the target thinks that the hacker\_mac is the default gateway. \
+Then we can read another output line:
 
 ```
-hacker_mac dg_mac 0806 42: arp reply 192.168.1.93 is-at hacker_mac
 # dg_mac === default gateway MAC
+hacker_mac dg_mac 0806 42: arp reply 192.168.1.93 is-at hacker_mac
 ```
 
-This is the ARP reply of the dg that now thinks that the hacker\_mac is the host.&#x20;
+This is the ARP reply of the default gateway that now thinks that the hacker\_mac is the host.&#x20;
 
 {% hint style="danger" %}
-But now, the connection of the host is not working. De fak?\
+But now, the connection of the host is not working. De fak? Why?\
 Well, the hacker\_host is not configured to be a switch...\
 Or better, ARP spoofing doesn't mean auto-packet-redirect !!!
 {% endhint %}
 
-## ARP spoofing with packet redirect
-
-
+## [ARP spoofing with packets redirect AKA Man in the Middle](wip/todo-man-in-the-middle-with-arp-spoofing.md)
 
 ## Sources
 
