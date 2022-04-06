@@ -53,6 +53,12 @@ echo "$mac1"
 echo "$mac2"
 ```
 
+{% embed url="https://linux.die.net/man/8/iptables" %}
+
+{% hint style="info" %}
+iptables command has a "mac" section that could be useful
+{% endhint %}
+
 ## Sources
 
 {% embed url="https://www.cyberciti.biz/tips/iptables-mac-address-filtering.html" %}
