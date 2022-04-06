@@ -59,6 +59,12 @@ To create marks such as logos or data matrix codes on stainless steel, you need 
 For such a need, only one technology leaves a permanent mark directly on stainless steel. This technology is laser annealing, and it can be done using a metal laser marking machine.
 {% endhint %}
 
+{% hint style="warning" %}
+You cannot mark with diode
+{% endhint %}
+
+{% embed url="https://www.reddit.com/r/Laserengraving/comments/r974a7/comment/hnfjptk?context=3" %}
+
 * ATOMSTACK S10 Pro 50W&#x20;
 * ATOMSTACK A10 Pro 50w
 * [ATOMSTACK X7 Pro 50W](https://youtu.be/NQoeYksA\_ao?t=418)
@@ -85,6 +91,12 @@ A: Based on what I have read, the S10 and the X7 are the same machine, just call
 ### For Metal
 
 {% embed url="https://omtechlaser.com/products/20w-fiber-laser-engraver-cutter-usb-20w2-us" %}
+
+#### Mr Carve M1&#x20;
+
+{% embed url="https://www.indiegogo.com/projects/all-metal-engraver-with-industrial-grade-quality#/" %}
+
+
 
 ## Information from pro players
 
