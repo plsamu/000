@@ -45,14 +45,6 @@ fi
 nmap -sL "$ip_selected" 2>&1 | tee | grep --line-buffered -e \( | awk -Ffor '{print $2}'
 ```
 
-<details>
-
-<summary>scan all your LAN</summary>
-
-
-
-</details>
-
 ### check if host is alive
 
 {% embed url="https://security.stackexchange.com/questions/36198/how-to-find-live-hosts-on-my-network" %}
@@ -107,19 +99,27 @@ Now a method is needed to be able to not block the connection of the target host
 
 </details>
 
-linux mac forwarding
+### Let's think
 
-## [iptables](todo-iptables.md)
+There are 3 actor:
 
-### MAC forwarding
+1. `target_host : 192.168.1.65`
+2. `mitm_host : 192.168.1.100`
+3. `default_gateway : 192.168.1.1`
 
-As if we were switches we could use MAC addresses to forward data at the data link layer (layer 2) of the OSI model.&#x20;
+**After the ARP spoof**:
 
-{% embed url="https://serverfault.com/questions/293786/is-there-a-tool-like-route-in-linux-to-configure-the-forwarding-entry-dst-mac" %}
+1. `target_host` send packets to `192.168.1.1` but using `mitm_mac`
+2. `mitm_host` get packets from `192.168.1.65` going to `192.168.1.1`
+3. so `mitm_host` forwards packets to the `default_gateway`&#x20;
+4. the `default_gateway` thinks that `192.168.1.65` is the `mitm_host` because that IP is registered (in his arp table) with the `mitm_mac`
+5. so `mitm_host` now receives packets from `192.168.1.1` going to `192.168.1.65`
 
-{% embed url="https://en.wikipedia.org/wiki/MAC-Forced_Forwarding" %}
+```
+echo 1 > /proc/sys/net/ipv4/ip_forward
+```
 
-{% embed url="https://linux.die.net/man/8/iptables" %}
+## [iptables](../iptables.md)
 
 {% hint style="info" %}
 iptables command has a "mac" section that could be useful
@@ -128,6 +128,7 @@ iptables command has a "mac" section that could be useful
 ## ARP spoofing
 
 ```
+
 sudo arpspoof -i eth0 -t 192.168.1.68 -r 192.168.1.1 
 ```
 
@@ -136,3 +137,5 @@ sudo arpspoof -i eth0 -t 192.168.1.68 -r 192.168.1.1
 {% embed url="https://www.cyberciti.biz/tips/iptables-mac-address-filtering.html" %}
 
 {% embed url="https://explainshell.com/explain/1/nmap" %}
+
+{% embed url="https://unix4lyfe.org/darkstat" %}
