@@ -1,5 +1,7 @@
 # Nmap
 
+{% embed url="https://nmap.org/man/it/man-briefoptions.html" %}
+
 {% embed url="http://scanme.nmap.org" %}
 
 {% embed url="https://www.reddit.com/r/AskNetsec/comments/a1i3gl/how_do_you_detect_nmap_scans" %}

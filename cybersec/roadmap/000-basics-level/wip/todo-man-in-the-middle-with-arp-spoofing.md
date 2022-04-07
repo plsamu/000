@@ -16,7 +16,7 @@ sudo macchanger -r eth0
 
 and find the target
 
-```
+```bash
 nmap -sL 192.168.1.0/24
 # -sL     reverse DNS resolution (send no packet to the host, 
                 only to the DNS server probably)
@@ -26,28 +26,17 @@ nmap -sL 192.168.1.0/24
 
 {% embed url="https://security.stackexchange.com/questions/36198/how-to-find-live-hosts-on-my-network" %}
 
-```
+```bash
 nmap -sn 192.168.1.68
 
 # -sn     disable port scan
-# -sn is the same as -sP and does NOT work all the time
+# -sn is the same as -sP (Ping scan)
+# this command is not 100% reliable, it is reliable enough though
 ```
 
-### ARP spoofing
+{% embed url="https://unix.stackexchange.com/questions/87935/nmap-sn-scan-or-no-scan" %}
 
-```
-sudo arpspoof -i eth0 -t 192.168.1.68 -r 192.168.1.1 
-```
-
-Now we need not to arouse suspicion
-
-## Packet redirect
-
-Now a method is needed to be able to not block the connection of the target host with the router.
-
-## MAC forwarding
-
-As if we were switches we could use MAC addresses to forward data at the data link layer (layer 2) of the OSI model.&#x20;
+## Get MAC addrs
 
 A script could be useful.
 
@@ -55,9 +44,10 @@ A script could be useful.
 ./basic_mitm 192.168.1.68 192.168.1.1
 ```
 
-<details>
-
-<summary>first thing is to gather the MAC addresses</summary>
+```
+-n     no DNS resolution 
+-sP    skip port scan
+```
 
 ```bash
 #!/bin/bash
@@ -72,12 +62,27 @@ echo "$mac1"
 echo "$mac2"
 ```
 
-```
--R     Never do DNS resolution
--sn    Ping Scan - disable port scan
-```
+## Packet redirect
+
+Now a method is needed to be able to not block the connection of the target host with the router.
+
+<details>
+
+<summary>How can I forward using MAC addrs, or IP?</summary>
+
+* _bridge_ command from iproute2 package
+* iptables mac command
+* ebtables
 
 </details>
+
+linux mac forwarding
+
+## [iptables](todo-iptables.md)
+
+### MAC forwarding
+
+As if we were switches we could use MAC addresses to forward data at the data link layer (layer 2) of the OSI model.&#x20;
 
 {% embed url="https://serverfault.com/questions/293786/is-there-a-tool-like-route-in-linux-to-configure-the-forwarding-entry-dst-mac" %}
 
@@ -89,8 +94,14 @@ echo "$mac2"
 iptables command has a "mac" section that could be useful
 {% endhint %}
 
+## ARP spoofing
+
+```
+sudo arpspoof -i eth0 -t 192.168.1.68 -r 192.168.1.1 
+```
+
 ## Sources
 
 {% embed url="https://www.cyberciti.biz/tips/iptables-mac-address-filtering.html" %}
 
-{% embed url="https://explainshell.com/explain?cmd=nmap+-sP" %}
+{% embed url="https://explainshell.com/explain/1/nmap" %}
