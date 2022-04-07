@@ -22,6 +22,31 @@ nmap -sL 192.168.1.0/24
                 only to the DNS server probably)
 ```
 
+<details>
+
+<summary>scan all your LAN</summary>
+
+```bash
+#! /bin/bash
+
+ip=$(hostname -I | awk '{print $1}')
+ip="${ip##*( )}"
+ip_selected=()
+
+if [[ "$ip" == *"$192"* ]]; then
+    ip_selected=192.168.0.0/16
+elif [[ "$ip" == *"$172"* ]]; then
+    ip_selected=172.16.0.0/12
+elif [[ "$ip" == *"$10"* ]]; then
+    ip_selected=10.0.0.0/8
+fi
+
+# echo "$ip_selected"
+nmap -sL "$ip_selected" | grep -e \( | awk -Ffor '{print $2}'
+```
+
+</details>
+
 ### check if host is alive
 
 {% embed url="https://security.stackexchange.com/questions/36198/how-to-find-live-hosts-on-my-network" %}
