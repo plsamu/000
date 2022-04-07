@@ -27,6 +27,8 @@ nmap -sL 192.168.1.0/24
 ```bash
 #! /bin/bash
 
+echo "change your MAC =D"
+
 ip=$(hostname -I | awk '{print $1}')
 ip="${ip##*( )}"
 ip_selected=()
