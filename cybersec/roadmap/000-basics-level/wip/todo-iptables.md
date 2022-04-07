@@ -8,7 +8,7 @@
 If you don’t specify the -t option, it will display the default filter table
 {% endhint %}
 
-![](../../../.gitbook/assets/zF1uo.jpg)
+![](../../../../.gitbook/assets/zF1uo.jpg)
 
 ## NAT table
 

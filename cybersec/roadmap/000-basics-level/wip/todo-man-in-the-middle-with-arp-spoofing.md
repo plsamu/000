@@ -115,11 +115,21 @@ There are 3 actor:
 4. the `default_gateway` thinks that `192.168.1.65` is the `mitm_host` because that IP is registered (in his arp table) with the `mitm_mac`
 5. so `mitm_host` now receives packets from `192.168.1.1` going to `192.168.1.65`
 
+So, this should work:
+
 ```
-echo 1 > /proc/sys/net/ipv4/ip_forward
+sysctl -w net.ipv4.ip_forward=1
 ```
 
-## [iptables](../iptables.md)
+But doesn't.
+
+{% hint style="warning" %}
+This because `mitm_host` IP is `192.168.1.100` so every packets coming from `target_host` to IP `192.168.1.65` is rejected by default.\
+\
+Simply `mitm_host` sees packets going to `192.168.1.65 and says "these are not my packets because I am 192.168.1.100" and then rejects theme.`
+{% endhint %}
+
+## [iptables](todo-iptables.md)
 
 {% hint style="info" %}
 iptables command has a "mac" section that could be useful
