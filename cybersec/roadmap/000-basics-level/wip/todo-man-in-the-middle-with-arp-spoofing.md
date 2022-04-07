@@ -22,9 +22,7 @@ nmap -sL 192.168.1.0/24
                 only to the DNS server probably)
 ```
 
-<details>
-
-<summary>scan all your LAN</summary>
+### scan all your LAN
 
 ```bash
 #! /bin/bash
@@ -42,8 +40,14 @@ elif [[ "$ip" == *"$10"* ]]; then
 fi
 
 # echo "$ip_selected"
-nmap -sL "$ip_selected" | grep -e \( | awk -Ffor '{print $2}'
+nmap -sL "$ip_selected" 2>&1 | tee | grep --line-buffered -e \( | awk -Ffor '{print $2}'
 ```
+
+<details>
+
+<summary>scan all your LAN</summary>
+
+
 
 </details>
 
