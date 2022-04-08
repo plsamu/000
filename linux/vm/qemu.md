@@ -27,11 +27,13 @@ virt-manager
 
 {% embed url="https://linuxconfig.org/how-to-use-bridged-networking-with-libvirt-and-kvm" %}
 
-## sources
+## raw sources
 
 ```
 nmtui
 ip link set eth1 up
+sudo ip link set wlp2s0 master virbr0
+
 ```
 
 {% embed url="https://forum.level1techs.com/t/solved-how-to-expose-virtual-machines-to-local-network/156726/2" %}
