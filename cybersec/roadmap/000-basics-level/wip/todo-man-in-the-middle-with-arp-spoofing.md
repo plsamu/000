@@ -126,7 +126,7 @@ But doesn't.
 {% hint style="warning" %}
 This because `mitm_host` IP is `192.168.1.100` so every packets coming from `target_host` to IP `192.168.1.65` is rejected by default.\
 \
-Simply `mitm_host` sees packets going to `192.168.1.65 and says "these are not my packets because I am 192.168.1.100" and then rejects theme.`
+Simply `mitm_host` receives packets going to `192.168.1.65 and says "these are not my packets because I am 192.168.1.100" and then rejects theme.`
 {% endhint %}
 
 ## [iptables](todo-iptables.md)

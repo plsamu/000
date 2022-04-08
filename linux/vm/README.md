@@ -4,11 +4,3 @@
 
 * Vagrant uses libvirt
 * libvirt uses QEMU and KVM
-
-## QEMU
-
-{% embed url="https://www.youtube.com/watch?v=nhblFcZuros" %}
-
-```
-sudo apt install qemu qemu-kvm
-```
