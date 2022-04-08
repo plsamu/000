@@ -27,6 +27,8 @@ virt-manager
 
 {% embed url="https://linuxconfig.org/how-to-use-bridged-networking-with-libvirt-and-kvm" %}
 
+{% embed url="https://serverfault.com/questions/1059099/how-to-create-bridged-connection-for-qemu-kvm-with-wifi" %}
+
 ## raw sources
 
 ```
