@@ -17,3 +17,22 @@ sudo systemctl start libvirtd
 sudo systemctl enable libvirtd
 ```
 
+```
+virt-manager
+```
+
+{% embed url="https://www.iduoad.com/til/qemusystem-vs-qemusession" %}
+
+### connect to home LAN
+
+{% embed url="https://wiki.qemu.org/Features/HelperNetworking" %}
+
+{% embed url="https://github.com/cloudius-systems/osv/issues/707" %}
+
+```
+nmtui
+ip link set eth1 up
+```
+
+{% embed url="https://forum.level1techs.com/t/solved-how-to-expose-virtual-machines-to-local-network/156726/2" %}
+
