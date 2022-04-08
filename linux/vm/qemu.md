@@ -25,7 +25,7 @@ virt-manager
 
 ## expose VM to LAN
 
-
+{% embed url="https://linuxconfig.org/how-to-use-bridged-networking-with-libvirt-and-kvm" %}
 
 ## sources
 
