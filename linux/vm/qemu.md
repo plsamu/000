@@ -23,11 +23,11 @@ virt-manager
 
 {% embed url="https://www.iduoad.com/til/qemusystem-vs-qemusession" %}
 
-### connect to home LAN
+## expose VM to LAN
 
-{% embed url="https://wiki.qemu.org/Features/HelperNetworking" %}
 
-{% embed url="https://github.com/cloudius-systems/osv/issues/707" %}
+
+## sources
 
 ```
 nmtui
@@ -36,3 +36,8 @@ ip link set eth1 up
 
 {% embed url="https://forum.level1techs.com/t/solved-how-to-expose-virtual-machines-to-local-network/156726/2" %}
 
+{% embed url="https://github.com/cloudius-systems/osv/issues/707" %}
+
+{% embed url="https://wiki.qemu.org/Features/HelperNetworking" %}
+
+{% embed url="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/virtualization_administration_guide/sect-attch-nic-physdev" %}
