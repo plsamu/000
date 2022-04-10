@@ -118,7 +118,7 @@ There are 3 actor:
 So, this should work:
 
 ```
-sysctl -w net.ipv4.ip_forward=1
+sudo sysctl -w net.ipv4.ip_forward=1
 ```
 
 But doesn't.
@@ -129,18 +129,15 @@ This because `mitm_host` IP is `192.168.1.100` so every packets coming from `tar
 Simply `mitm_host` receives packets going to `192.168.1.65 and says "these are not my packets because I am 192.168.1.100" and then rejects theme.`
 {% endhint %}
 
-## [iptables](todo-iptables.md)
+## Accept all incoming connection
 
-{% hint style="info" %}
-iptables command has a "mac" section that could be useful
-{% endhint %}
-
-## ARP spoofing
+### [iptables](../iptables.md)
 
 ```
-
-sudo arpspoof -i eth0 -t 192.168.1.68 -r 192.168.1.1 
+sudo iptables -t filter -A FORWARD -j ACCEPT
 ```
+
+## [Summary](../../summaries/mitm.md)
 
 ## Sources
 
