@@ -5,3 +5,7 @@ With nmap there is something that can be done, but conceptually router are disti
 Build a database is a medium level.
 
 Build a database like these is probably going to advance. Maybe not, let me grow.
+
+### keywords
+
+* banner grabbing
