@@ -28,5 +28,7 @@ sudo iptables -t filter -A FORWARD -j ACCEPT
 sudo arpspoof -i eth0 -t 192.168.1.224 -r 192.168.1.1
 ```
 
+### or just use Ettercap
 
+{% embed url="https://www.ettercap-project.org" %}
 
