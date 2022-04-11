@@ -1,4 +1,4 @@
-# TODO - Man in the Middle with ARP spoofing
+# Man in the Middle with ARP spoofing
 
 Welcome again :D&#x20;
 
@@ -131,13 +131,13 @@ Simply `mitm_host` receives packets going to `192.168.1.65 and says "these are n
 
 ## Accept all incoming connection
 
-### [iptables](../iptables.md)
+### [iptables](iptables.md)
 
 ```
 sudo iptables -t filter -A FORWARD -j ACCEPT
 ```
 
-## [Summary](../../summaries/mitm.md)
+## [Summary](../summaries/mitm.md)
 
 ## Sources
 

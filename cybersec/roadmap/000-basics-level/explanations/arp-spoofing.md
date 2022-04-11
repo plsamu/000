@@ -102,7 +102,7 @@ Well, the hacker\_host is not configured to be a switch...\
 Or better, ARP spoofing doesn't mean auto-packet-redirect !!!
 {% endhint %}
 
-## [ARP spoofing with packets redirect AKA Man in the Middle](wip/todo-man-in-the-middle-with-arp-spoofing.md)
+## [ARP spoofing with packets redirect AKA Man in the Middle](man-in-the-middle-with-arp-spoofing.md)
 
 ## Sources
 
