@@ -107,6 +107,7 @@
 * [ICT](ict/README.md)
   * [Databases](ict/databases/README.md)
     * [SQLite](ict/databases/sqlite.md)
+    * [DB Clients](ict/databases/db-clients.md)
   * [Backup](ict/linux/backup.md)
     * [rsync](ict/backup/rsync.md)
   * [IRC clients](ict/irc-clients.md)
