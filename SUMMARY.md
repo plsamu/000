@@ -187,3 +187,4 @@
 * [Games](games/README.md)
   * [Legal free download](games/legal-free-download.md)
 * [Sports](sports.md)
+* [Inkscape](inkscape.md)
