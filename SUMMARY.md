@@ -174,6 +174,7 @@
 * [DIY](diy/README.md)
   * [Laser Engraving](diy/laser-engraving.md)
 * [Music](music/README.md)
+  * [Heavenly](music/heavenly.md)
   * [J-CORE](music/j-core.md)
   * [D\&B](music/d-and-b/README.md)
     * [Playlist](music/d-and-b/playlist.md)
