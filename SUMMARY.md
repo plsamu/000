@@ -120,7 +120,7 @@
   * [keytool](ict/keytool.md)
   * [Hidden Services aka Onion Services](ict/hidden-services-aka-onion-services/README.md)
     * [Setup an Hidden Service](ict/hidden-services-aka-onion-services/setup-an-hidden-service.md)
-    * [binary keys to base64](ict/hidden-services-aka-onion-services/binary-keys-to-base64.md)
+    * [Recover .onion url](ict/hidden-services-aka-onion-services/recover-.onion-url.md)
   * [Windows](windows/README.md)
     * [Protections](windows/protections.md)
     * [Cool](windows/cool.md)
