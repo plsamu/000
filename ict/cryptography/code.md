@@ -19,12 +19,12 @@ Some shit:
 
 {% embed url="https://malware.news/t/everyone-loves-curves-but-which-elliptic-curve-is-the-most-popular/17657" %}
 
-### Generate ECC Key Pair
+### Generate ECC Key
 
 #### method 1
 
 ```
-openssl ecparam -name secp521r1 -genkey -out keypair.ec
+openssl ecparam -name secp521r1 -genkey -out privkey.ec
 ```
 
 ```
@@ -43,7 +43,7 @@ lmMmOHiroDlL1S2HrINa7A5yCmkiaOhykY7s/3uK7A==                                    
 #### method 2
 
 ```
-openssl ecparam -name secp521r1 -genkey -noout -out keypair.ec
+openssl ecparam -name secp521r1 -genkey -noout -out privkey.ec
 ```
 
 ```
@@ -56,7 +56,7 @@ ZYvV+kuNwVrAAw/4BAAn1BNO1+i1x3IrmEuyCxygf7RJgn6AqBgroyYrnkQeMhiC                
 -----END EC PRIVATE KEY-----   
 ```
 
-### Read priv/pub and info of key
+### Obtain pub and info of key
 
 ```
 openssl ec -in priv.ec.key -noout -text
@@ -68,12 +68,6 @@ openssl ec -in priv.ec.key -noout -text
 openssl ec -in private.ec.key -param_out > params
 ```
 
-### get priv
-
-```
-openssl ec -in private.ec.key >> priv
-```
-
 ### get pub
 
 ```
@@ -81,3 +75,15 @@ openssl ec -in private.ec.key -pubout >> pub
 # or
 openssl ec -in keys.pem -pubout -out pub
 ```
+
+## Encrypt / Decrypt
+
+{% embed url="https://stackoverflow.com/questions/62155130/openssl-command-for-encryption-decryption-with-prime256v1-private-key" %}
+
+{% embed url="https://superuser.com/questions/1003690/how-can-i-encrypt-a-file-with-an-ec-public-key" %}
+
+```
+openssl enc -ciphers
+```
+
+{% embed url="https://stackoverflow.com/questions/1220751/how-to-choose-an-aes-encryption-mode-cbc-ecb-ctr-ocb-cfb" %}
