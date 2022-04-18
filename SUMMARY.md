@@ -32,7 +32,7 @@
   * [Mobile dev](dev/mobile-dev/README.md)
     * [Android Kotlin](dev/mobile-dev/android-kotlin/README.md)
       * [UI](dev/mobile-dev/android-kotlin/ui/README.md)
-        * [Page 1](dev/mobile-dev/android-kotlin/ui/page-1.md)
+        * [Contextual Action Mode](dev/mobile-dev/android-kotlin/ui/contextual-action-mode.md)
         * [Hide/Show Action Bar](dev/mobile-dev/android-kotlin/ui/hide-show-action-bar.md)
         * [Toolbar](dev/mobile-dev/android-kotlin/ui/toolbar.md)
         * [Trasparent Activity](dev/mobile-dev/android-kotlin/ui/trasparent-activity.md)
