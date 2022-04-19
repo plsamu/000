@@ -1,8 +1,18 @@
-# Code
+# EC
 
-RSA had different key sizes (512, 1024, 2048, 4096).&#x20;
+As RSA had different key sizes (512, 1024, 2048, 4096).&#x20;
 
-ECC has different curves.
+As ECC has different curves.
+
+## FAQ
+
+<details>
+
+<summary>Do Android support EC encryption decryption?</summary>
+
+Yes! But I couldn't instantiate a public key from file.
+
+</details>
 
 ### list curves
 
@@ -90,4 +100,4 @@ openssl enc -ciphers
 
 ## Examples
 
-* [in Android](../../dev/mobile-dev/android/encrypt-a-string.md)
+* [in Android](../../../dev/mobile-dev/android/encrypt-a-string.md)
