@@ -31,6 +31,7 @@
         * [FormUrlEncoded](dev/android-kotlin/code/retrofit/formurlencoded.md)
   * [Mobile dev](dev/mobile-dev/README.md)
     * [Android](dev/mobile-dev/android-kotlin/README.md)
+      * [Background Service](dev/mobile-dev/android/background-service.md)
       * [Encrypt a string](dev/mobile-dev/android/encrypt-a-string.md)
       * [UI](dev/mobile-dev/android-kotlin/ui/README.md)
         * [Border](dev/mobile-dev/android/ui/border.md)
