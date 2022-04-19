@@ -90,4 +90,4 @@ openssl enc -ciphers
 
 ## Examples
 
-* in Android
+* [in Android](../../dev/mobile-dev/android/encrypt-a-string.md)
