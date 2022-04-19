@@ -1,5 +1,7 @@
 # Encrypt a string
 
+{% embed url="https://stackoverflow.com/questions/64012929/convert-bytearray-to-privatekey-in-kotlin" %}
+
 ### get priv key
 
 ```
@@ -17,16 +19,22 @@ openssl ec -in pri -pubout -out pub
 ### use them
 
 ```kotlin
- val dsa = Signature.getInstance("SHA1withECDSA")
+val dsa = Signature.getInstance("SHA1withECDSA")
 try {
+    val curveName = "secp521r1"
     val kf = KeyFactory.getInstance("EC")
+    val params = AlgorithmParameters.getInstance("EC")
+    params.init(ECGenParameterSpec(curveName))
+    val spec = params.getParameterSpec(ECParameterSpec::class.java)
 
     val priRaw = resources.openRawResource(R.raw.pri)
-    val priSpec = X509EncodedKeySpec(priRaw.readBytes())
+    val priKeyBI = BigInteger(1, priRaw.readBytes())
+    val priSpec = ECPrivateKeySpec(priKeyBI, spec)
     val pri = kf.generatePrivate(priSpec)
 
     val pubRaw = resources.openRawResource(R.raw.pub)
-    val pubSpec = X509EncodedKeySpec(pubRaw.readBytes())
+    val pubKeyBI = BigInteger(1, pubRaw.readBytes())
+    val pubSpec = ECPublicKeySpec(ECPoint(spec.curve.a, spec.curve.b), spec)
     val pub = kf.generatePublic(pubSpec)
 
     dsa.initSign(pri)
