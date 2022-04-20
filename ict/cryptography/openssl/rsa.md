@@ -25,4 +25,4 @@ openssl pkcs12 -export -out public_privatekey.pfx -inkey keypair.pem -in publick
 
 ### Example
 
-* [android-rsa.md](../../../dev/mobile-dev/android/encrypt-a-string/android-rsa.md "mention")
+* [android-rsa.md](../../../dev/mobile-dev/android/encrypt-a-string-with-private-key/android-rsa.md "mention")
