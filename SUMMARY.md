@@ -79,6 +79,7 @@
     * [build.gradle from java to kotlin](dev/gradle/build.gradle-from-java-to-kotlin.md)
     * [Errors](dev/gradle/errors.md)
   * [NodeJS](dev/nodejs/README.md)
+    * [Crypthography](dev/nodejs/crypthography.md)
     * [database](dev/nodejs/database.md)
     * [postgresSQL](dev/nodejs/postgressql/README.md)
       * [faststart](dev/nodejs/postgressql/faststart.md)
