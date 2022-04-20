@@ -13,6 +13,8 @@ As ECC has different curves.
 Nope. You have to use RSA keys.\
 EC in Android should be available only for sign operation and not encryption/decryption...
 
+2021/2022
+
 [https://stackoverflow.com/questions/57087599/how-to-encrypt-and-decrypt-data-in-android-using-the-elliptic-curve-key-pair-of](https://stackoverflow.com/questions/57087599/how-to-encrypt-and-decrypt-data-in-android-using-the-elliptic-curve-key-pair-of)
 
 </details>
