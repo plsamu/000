@@ -2,7 +2,7 @@
 
 ### Encrypt with RSA pri key (PKCS#1) from file
 
-[How to generate key](../../ict/cryptography/openssl/rsa.md).
+[How to generate key](../../../ict/cryptography/openssl/rsa.md).
 
 ```javascript
 const fs = require('fs')
