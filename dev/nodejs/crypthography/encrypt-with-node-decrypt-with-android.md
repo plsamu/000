@@ -6,6 +6,11 @@ Do not do this!
 Just use a script in Kotlin if you need to encrypt in `RSA/ECB/OAEPPadding`with `MGF1ParameterSpec`
 {% endhint %}
 
+Two way to do this:
+
+* fastest: download IntelliJ IDEA
+* download kotlin (kotlinc) and setup vscode
+
 ## NodeJS
 
 ```javascript
