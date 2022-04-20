@@ -15,6 +15,7 @@
     * RSA
     * ECC
     * ECDSA
+      * variant of DSA aka DSA with Elliptic Curve
     * ECDH
 *   **Symmetric-key algorithms**
 
