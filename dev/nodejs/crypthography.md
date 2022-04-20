@@ -26,7 +26,7 @@ const fs = require('fs')
 const crypto = require("crypto")
 
 const data = {
-    path: "/gaea"
+    str1: "somestr"
 }
 
 const pri = fs.readFileSync("./keypair.pem", 'utf-8')
