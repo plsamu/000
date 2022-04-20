@@ -12,7 +12,7 @@
 
     E.g.
 
-    * RSA**asymmetric cryptography**
+    * RSA
     * ECC
     * ECDSA
     * ECDH
