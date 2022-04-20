@@ -17,3 +17,8 @@ openssl pkcs8 -topk8 -inform PEM -outform PEM -nocrypt -in keypair.pem -out pkcs
 openssl pkcs12 -export -out public_privatekey.pfx -inkey keypair.pem -in publickey.crt
 ```
 
+### Try your keys
+
+`reccomended: RSA/ECB/OAEPWithSHA-1AndMGF1Padding`
+
+{% embed url="https://www.devglan.com/online-tools/rsa-encryption-decryption" %}
