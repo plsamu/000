@@ -1,7 +1,7 @@
 # RSA
 
 ```bash
-# generate keypair
+# generate keypair, PKCS#1
 openssl genrsa -out keypair.pem 4096
 
 # read file created
