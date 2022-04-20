@@ -19,6 +19,9 @@
 -----BEGIN PRIVATE KEY-----
 -----END PRIVATE KEY-----
 
+-----BEGIN PUBLIC KEY-----
+-----END PUBLIC KEY-----
+
 -----BEGIN ENCRYPTED PRIVATE KEY-----
 -----END ENCRYPTED PRIVATE KEY-----
 ```

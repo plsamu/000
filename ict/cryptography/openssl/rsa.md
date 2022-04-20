@@ -7,7 +7,7 @@ openssl genrsa -out keypair.pem 4096
 # read file created
 cat keypair.pem
 
-# extract pub key
+# extract pub key, that is already in PKCS#8
 openssl rsa -in keypair.pem -pubout -out publickey.crt
 
 # export keypair to standard PKCS#8
