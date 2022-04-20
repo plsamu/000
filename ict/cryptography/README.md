@@ -6,7 +6,7 @@
 
 ## Types
 
-### OpenSSL type
+### PKCS#1 type in PEM
 
 ```
 -----BEGIN RSA PRIVATE KEY-----
