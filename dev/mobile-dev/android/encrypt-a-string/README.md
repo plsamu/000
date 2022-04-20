@@ -4,7 +4,7 @@
 
 {% embed url="https://stackoverflow.com/questions/57087599/how-to-encrypt-and-decrypt-data-in-android-using-the-elliptic-curve-key-pair-of" %}
 
-## RAW
+## RAW - Do not read here
 
 {% embed url="https://stackoverflow.com/questions/64012929/convert-bytearray-to-privatekey-in-kotlin" %}
 

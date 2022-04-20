@@ -22,3 +22,7 @@ openssl pkcs12 -export -out public_privatekey.pfx -inkey keypair.pem -in publick
 `reccomended: RSA/ECB/OAEPWithSHA-1AndMGF1Padding`
 
 {% embed url="https://www.devglan.com/online-tools/rsa-encryption-decryption" %}
+
+### Example
+
+* [android-rsa.md](../../../dev/mobile-dev/android/encrypt-a-string/android-rsa.md "mention")
