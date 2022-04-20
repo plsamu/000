@@ -8,13 +8,13 @@ openssl genrsa -out keypair.pem 4096
 cat keypair.pem
 
 # extract pub key, that is already in PKCS#8
-openssl rsa -in keypair.pem -pubout -out publickey.crt
+openssl rsa -in keypair.pem -pubout -out pub.pkcs8
 
 # export keypair to standard PKCS#8
-openssl pkcs8 -topk8 -inform PEM -outform PEM -nocrypt -in keypair.pem -out pkcs8.key
+openssl pkcs8 -topk8 -inform PEM -outform PEM -nocrypt -in keypair.pem -out pri.pkcs8
 
-# export keipair to standard PKCS#12
-openssl pkcs12 -export -out public_privatekey.pfx -inkey keypair.pem -in publickey.crt
+# export keipair to standard PKCS#12 (.pfx, .p12)
+openssl pkcs12 -export -out pair.pfx -inkey keypair.pem -in pub.pkcs8
 ```
 
 ### Try your keys
