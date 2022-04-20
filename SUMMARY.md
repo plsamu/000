@@ -136,6 +136,7 @@
   * [Cryptography](ict/cryptography/README.md)
     * [Theory](ict/cryptography/theory.md)
     * [OpenSSL](ict/cryptography/openssl/README.md)
+      * [RSA](ict/cryptography/openssl/rsa.md)
       * [EC](ict/cryptography/openssl/ec.md)
 * [Cybersec](cybersec/README.md)
   * [dO u wAnT InFO?](cybersec/do-u-want-info/README.md)

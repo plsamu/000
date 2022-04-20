@@ -10,7 +10,10 @@ As ECC has different curves.
 
 <summary>Do Android support EC encryption decryption?</summary>
 
-Yes! But I couldn't instantiate a public key from file.
+Nope. You have to use RSA keys.\
+EC in Android should be available only for sign operation and not encryption/decryption...
+
+[https://stackoverflow.com/questions/57087599/how-to-encrypt-and-decrypt-data-in-android-using-the-elliptic-curve-key-pair-of](https://stackoverflow.com/questions/57087599/how-to-encrypt-and-decrypt-data-in-android-using-the-elliptic-curve-key-pair-of)
 
 </details>
 
@@ -97,7 +100,3 @@ openssl enc -ciphers
 ```
 
 {% embed url="https://stackoverflow.com/questions/1220751/how-to-choose-an-aes-encryption-mode-cbc-ecb-ctr-ocb-cfb" %}
-
-## Examples
-
-* [in Android](../../../dev/mobile-dev/android/encrypt-a-string.md)
