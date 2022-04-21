@@ -8,6 +8,8 @@
   * [JS & NodeJS](dev/js-and-nodejs/README.md)
     * [Promise - Callback with "then"](dev/js-and-nodejs/promise-callback-with-then.md)
     * [NodeJS](dev/nodejs/README.md)
+      * [Express](dev/js-and-nodejs/nodejs/express/README.md)
+        * [static](dev/js-and-nodejs/nodejs/express/static.md)
       * [Custom Modules](dev/nodejs/custom-modules.md)
       * [Crypthography](dev/nodejs/crypthography/README.md)
         * [Encrypt with Node, decrypt with Android](dev/nodejs/crypthography/encrypt-with-node-decrypt-with-android.md)
