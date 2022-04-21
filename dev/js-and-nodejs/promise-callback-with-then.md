@@ -34,7 +34,7 @@ window.onload = () => {
 ## Async Promise
 
 ```javascript
-jaasync function get_dark_color() {
+async function get_dark_color() {
   return new Promise((resolve, reject) => {
     let minimum = 130;
 
