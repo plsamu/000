@@ -20,4 +20,6 @@
 
 {% embed url="https://youtu.be/hs5O6Uq5sEA?list=PL1gGBxKeYbPzYbMClbtS79tf8M3RzPq-z" %}
 
+{% embed url="https://www.youtube.com/watch?v=TAutddyBrOg" %}
+
 {% embed url="https://youtu.be/1HPqyQRw-PU?list=PLhPp-QAUKF_hS8_Ce3EfxvKEoYtyZRIPB" %}
