@@ -1,5 +1,7 @@
 # Promise - Callback with "then"
 
+## Simple Promise
+
 ```
 innocent-face:ʘ‿ʘ
 table-flip:(╯°□°）╯︵ ┻━┻
@@ -27,4 +29,30 @@ window.onload = () => {
     document.title = emoji;
   });
 };
+```
+
+## Async Promise
+
+```javascript
+jaasync function get_dark_color() {
+  return new Promise((resolve, reject) => {
+    let minimum = 130;
+
+    let r = Math.floor(Math.random() * 255);
+    while (r > minimum) r = Math.floor(Math.random() * 255);
+
+    let g = Math.floor(Math.random() * 255);
+    while (g > minimum) g = Math.floor(Math.random() * 255);
+
+    let b = Math.floor(Math.random() * 255);
+    while (b > minimum) b = Math.floor(Math.random() * 255);
+
+    let a = Math.random();
+    while (a < 0.45) a = Math.random().toFixed(2);
+
+    console.log(r, g, b, a);
+    // rgba(20,60,200,0.67423)
+    resolve("rgba(" + [r, g, b, a].join(",") + ")");
+  });
+}
 ```
