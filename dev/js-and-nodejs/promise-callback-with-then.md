@@ -1,5 +1,14 @@
 # Promise - Callback with "then"
 
+```
+innocent-face:ʘ‿ʘ
+table-flip:(╯°□°）╯︵ ┻━┻
+tidy-up:┬─┬⃰͡ (ᵔᵕᵔ͜ )
+fisticuffs:ლ(｀ー´ლ)
+surprised:（　ﾟДﾟ）
+shrug-face:¯\_(ツ)_/¯
+```
+
 ```javascript
 const get_random_emoji = new Promise((resolve, reject) => {
   const url = "/res/ascii-emojis";
