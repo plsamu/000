@@ -2,7 +2,8 @@
 
 * [Home](README.md)
 * [History Of Internet](history-of-internet.md)
-* [Hunter - Curious Things - Internet is Awesome](hunter-curious-things-internet-is-awesome.md)
+* [Hunter - Curious Things - Internet is Awesome](hunter-curious-things-internet-is-awesome/README.md)
+  * [Security](hunter-curious-things-internet-is-awesome/security.md)
 * [Remember](remember.md)
 * [DEV](dev/README.md)
   * [JS & NodeJS](dev/js-and-nodejs/README.md)
