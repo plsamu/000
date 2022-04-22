@@ -6,4 +6,10 @@
 
 {% embed url="https://www.iotpentestingguide.com" %}
 
+### Wikileaks
+
+{% embed url="https://wikileaks.org/vault7/releases" %}
+Vault 7
+{% endembed %}
+
 {% embed url="https://wikileaks.org/ciav7p1/cms/index.html" %}
