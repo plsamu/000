@@ -1,7 +1,5 @@
 # low visual
 
-{% embed url="https://www.youtube.com/watch?v=MFZicYzrvH8" %}
-
 {% embed url="https://www.youtube.com/watch?v=2Oy5faeeS0U" %}
 
 {% embed url="https://www.youtube.com/watch?v=-rvVKe_hzVk" %}
