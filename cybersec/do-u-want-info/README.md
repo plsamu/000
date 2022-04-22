@@ -5,3 +5,5 @@
 {% embed url="https://www.pentesteracademy.com/course?id=6" %}
 
 {% embed url="https://www.iotpentestingguide.com" %}
+
+{% embed url="https://wikileaks.org/ciav7p1/cms/index.html" %}
