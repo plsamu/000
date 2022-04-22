@@ -1,64 +1,38 @@
-# Time, Instant, Epoch
+# Current Time
 
-## Get current time
-
-### In number
-
-#### In millis
+## In Millis
 
 ```kotlin
 import java.util.*
 
 // method 1
-Calendar.getInstance().timeInMillis
+val calendar = Calendar.getInstance()
+println(calendar.timeInMillis)
 
 // method 2
-System.currentTimeMillis()
+println(System.currentTimeMillis())
 ```
 
-#### In seconds
+### Mind the Date, isn't in millis
 
-```kotlin
-val now = Instant.now().epochSecond
+```
+Log.d(TAG, System.currentTimeMillis().toString())
+Log.d(TAG, Date().toString())
 ```
 
-### In formatted string
+Output
 
-#### general
-
-```kotlin
-// method 1
-Date().toString() // Wed Feb 23 16:34:08 GMT+01:00 2022
-
-// method 2
-if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-    // 2022-04-22T10:14:11.626Z
-    Instant.now()
-}
+```
+1645630448874
+Wed Feb 23 16:34:08 GMT+01:00 2022
 ```
 
-#### ISO-8601 timestamp
-
-{% embed url="https://stackoverflow.com/questions/49862357/how-do-i-get-the-current-time-as-a-timestamp-in-kotlin" %}
+## [From Instant to TimeStamp](https://stackoverflow.com/questions/49862357/how-do-i-get-the-current-time-as-a-timestamp-in-kotlin)
 
 ```kotlin
 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-    // 2022-03-23T11:39:46.370Z
-    DateTimeFormatter.ISO_INSTANT.format(Instant.now())
+    println(DateTimeFormatter.ISO_INSTANT.format(Instant.now()))
 }
+
+// I/System.out: 2022-03-23T11:39:46.370Z
 ```
-
-## From string to epoch seconds
-
-```kotlin
-val isoInstantStr = DateTimeFormatter.ISO_INSTANT.format(Instant.now())
-
-// {MicroOfSecond=39000, NanoOfSecond=39000000, MilliOfSecond=39, InstantSeconds=1650534855},ISO
-DateTimeFormatter.ISO_INSTANT.parse(isoInstantStr)
-
-// 1650534855
-DateTimeFormatter.ISO_INSTANT.parse(isoInstantStr).getLong(ChronoField.INSTANT_SECONDS)
-```
-
-
-
