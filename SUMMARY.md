@@ -29,6 +29,8 @@
           * [connect to database](dev/nodejs/database/postgressql/connect\_2\_database.md)
   * [Mobile dev](dev/mobile-dev/README.md)
     * [Android](dev/mobile-dev/android-kotlin/README.md)
+      * [Retrofit](dev/mobile-dev/android/retrofit/README.md)
+        * [Send and receive JSON](dev/mobile-dev/android/retrofit/send-and-receive-json.md)
       * [Swipe Listener](dev/mobile-dev/android/swipe-listener.md)
       * [Background Service](dev/mobile-dev/android/background-service.md)
       * [Encrypt a string with private key](dev/mobile-dev/android/encrypt-a-string-with-private-key/README.md)
