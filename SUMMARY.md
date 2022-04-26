@@ -4,6 +4,8 @@
 * [History Of Internet](history-of-internet.md)
 * [Hunter - Curious Things - Internet is Awesome](hunter-curious-things-internet-is-awesome/README.md)
   * [Security](hunter-curious-things-internet-is-awesome/security.md)
+  * [Social](hunter-curious-things-internet-is-awesome/social/README.md)
+    * [Mastodon](hunter-curious-things-internet-is-awesome/social/mastodon.md)
 * [Remember](remember.md)
 * [Databases](databases/README.md)
   * [SQLite](databases/sqlite.md)
