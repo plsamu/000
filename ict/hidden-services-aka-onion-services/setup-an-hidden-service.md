@@ -27,7 +27,7 @@ grep -r /etc/ -e torrc
 ```bash
 sudo nano /etc/tor/torrc
 # add these lines
-# HiddenServiceDir /var/lib/tor/onion_service_1/
+# HiddenServiceDir /var/lib/tor/m_onion_service/
 # HiddenServicePort <port> 127.0.0.1:<port>
 ```
 
@@ -39,7 +39,7 @@ sudo nano /etc/tor/torrc
 **Tip:** A good practice to avoid leaking an Onion Service to a local network is to run Onion Services over Unix sockets instead of a TCP socket. You will need to edit and put the following two lines in your `torrc` file:
 
 ```
-HiddenServiceDir /var/lib/tor/my-website/
+HiddenServiceDir /var/lib/tor/m_onion_service/
 HiddenServicePort 80 unix:/var/run/tor-my-website.sockhinrt
 ```
 {% endhint %}
@@ -49,3 +49,10 @@ HiddenServicePort 80 unix:/var/run/tor-my-website.sockhinrt
 ```
 sudo systemctl restart tor
 ```
+
+### where to read the hostname?
+
+{% hint style="info" %}
+The path is showed inside the torrc file:\
+`HiddenServiceDir /var/lib/tor/m_onion_service/`
+{% endhint %}
