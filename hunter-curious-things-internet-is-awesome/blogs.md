@@ -1,4 +1,6 @@
-# Security
+# Blogs
+
+{% embed url="https://christine.website" %}
 
 ### SpyBlog.org.uk
 
