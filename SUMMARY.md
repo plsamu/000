@@ -2,6 +2,8 @@
 
 * [Home](README.md)
 * [History Of Internet](history-of-internet.md)
+* [Raspberry Pi](raspberry-pi/README.md)
+  * [Install Node](raspberry-pi/install-node.md)
 * [Hunter - Curious Things - Internet is Awesome](hunter-curious-things-internet-is-awesome/README.md)
   * [Blogs](hunter-curious-things-internet-is-awesome/blogs.md)
   * [Social](hunter-curious-things-internet-is-awesome/social/README.md)
