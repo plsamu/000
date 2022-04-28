@@ -56,3 +56,10 @@ To prevent to create client side JS with NextJS, it necessary to avoid using som
 {% endhint %}
 
 {% embed url="https://www.johanbleuzen.fr/blog/next-remove-clientside-javascript" %}
+
+{% content-ref url="../js-and-nodejs/nextjs/000-create-clean-project.md" %}
+[000-create-clean-project.md](../js-and-nodejs/nextjs/000-create-clean-project.md)
+{% endcontent-ref %}
+
+## 4. load data from database
+
