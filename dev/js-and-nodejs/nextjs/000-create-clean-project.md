@@ -122,6 +122,20 @@ export default class CustomDocument extends Document {
 }
 ```
 
+### minimalistic init mode
+
+```
+project
+    - .next
+    - node_modules
+    - pages
+        - _document.tsx
+        - index.tsx
+    - package-lock.json
+    - package.json
+    - tsconfig.json
+```
+
 ### start
 
 ```
