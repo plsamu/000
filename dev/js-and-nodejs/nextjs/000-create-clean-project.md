@@ -59,6 +59,8 @@ npm install --save-dev typescript @types/react
 * delete .babelrc file
 * delete .eslint file
 * delete config.js
+* delete next-env.d.ts
+* delete components directory
 
 <details>
 
