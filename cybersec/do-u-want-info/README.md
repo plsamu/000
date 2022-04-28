@@ -1,5 +1,7 @@
 # dO u wAnT InFO?
 
+## Random Sources
+
 {% embed url="https://github.com/trimstray/the-book-of-secret-knowledge#hackingpenetration-testing-toc" %}
 
 {% embed url="https://www.pentesteracademy.com/course?id=6" %}
@@ -17,3 +19,5 @@ Vault 7
 ### Youtube channel
 
 {% embed url="https://www.youtube.com/c/NullByteWHT/videos" %}
+
+{% embed url="https://www.youtube.com/c/PinkDraconian/playlists" %}

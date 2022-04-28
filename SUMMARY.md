@@ -177,7 +177,7 @@
       * [List](cybersec/do-u-want-info/tools/list.md)
       * [aircrack-ng](cybersec/do-u-want-info/tools/aircrack-ng.md)
       * [Reaver](cybersec/do-u-want-info/tools/reaver.md)
-    * [Hacktivism & Hackers](cybersec/do-u-want-info/hacktivism-and-hackers.md)
+    * [Hacktivism & Hackers](cybersec/hacktivism-and-hackers.md)
   * [Roadmap](cybersec/roadmap/README.md)
     * [000 - Start here](cybersec/roadmap/000-start-here.md)
     * [001 - MITM](cybersec/roadmap/001-mitm/README.md)
