@@ -11,6 +11,15 @@ npx create-nextjs-app proj_name
 #### before
 
 ```json
+"dependencies": {
+    "babel-plugin-styled-components": "latest",
+    "next": "canary",
+    "react": "latest",
+    "react-dom": "latest",
+    "prop-types": "latest",
+    "styled-components": "latest",
+    "webpack": "latest"
+},
 "devDependencies": {
     "eslint": "latest",
     "babel-eslint": "latest",
@@ -28,6 +37,10 @@ npx create-nextjs-app proj_name
 #### after
 
 ```json
+"dependencies": {
+    "next": "canary",
+    "react": "latest"
+},
 "devDependencies": {
     "prettier": "latest",  // actually you can delete everything
 }
@@ -43,6 +56,9 @@ npm install --save-dev typescript @types/react
 
 * delete everything inside `/pages`
 * create `index.tsx`
+* delete .babelrc file
+* delete .eslint file
+* delete config.js
 
 <details>
 

@@ -29,7 +29,7 @@
           * [faststart](dev/nodejs/database/postgressql/faststart.md)
           * [create database](dev/nodejs/database/postgressql/create\_database.md)
           * [connect to database](dev/nodejs/database/postgressql/connect\_2\_database.md)
-    * [NextJS](dev/js-and-nodejs/nextjs/README.md)
+    * [NextJS](dev/js-and-nodejs/nextjs.md)
       * [000 - create clean project](dev/js-and-nodejs/nextjs/000-create-clean-project.md)
   * [Mobile dev](dev/mobile-dev/README.md)
     * [Android](dev/mobile-dev/android-kotlin/README.md)
