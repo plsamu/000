@@ -123,6 +123,7 @@
     * [p1](dev/ideas/p1.md)
 * [ICT](ict/README.md)
   * [Linux](linux/README.md)
+    * [Scripts](ict/linux/scripts.md)
     * [Shrink disk](linux/shrink-disk.md)
     * [VM](linux/vm/README.md)
       * [QEMU](linux/vm/qemu.md)
