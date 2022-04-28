@@ -54,3 +54,5 @@ These are two pre-rendering techniques.
 {% hint style="warning" %}
 To prevent to create client side JS with NextJS, it necessary to avoid using some NextJS object like \<Link>\</Link>
 {% endhint %}
+
+{% embed url="https://www.johanbleuzen.fr/blog/next-remove-clientside-javascript" %}

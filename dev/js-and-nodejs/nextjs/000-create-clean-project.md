@@ -98,28 +98,53 @@ export default Home;
 
 ### create \_document.tsx
 
+{% embed url="https://www.johanbleuzen.fr/blog/next-remove-clientside-javascript" %}
+
 The code here is available on every page.\
 It's called "global file".
 
-```tsx
-// delete what you don't need
-import Document, { Html, Main, Head, Main } from 'next/document'
+{% hint style="info" %}
+Head and NextScript are used for performace during dev phase.\
+\
+Just try:\
+\
+npm run build\
+npm run start
+{% endhint %}
 
-export default class CustomDocument extends Document {
+```tsx
+import Document, { Head, Html, Main, NextScript } from 'next/document'
+
+/* 
+    The code here is available on every page
+*/
+
+class HeadProduction extends Head {
     render() {
         return (
+            <head {...this.props}>
+                <title>Blog</title>
+            </head>
+        );
+    }
+}
+
+class MyDocument extends Document {
+    render() {
+        const isDev = process.env.NODE_ENV === "development"
+        return (
             <Html>
-                {/* 
-                    <Head /> or <CustomHead />
-                    <body>
-                        <Main />
-                    </body>
-                    <NextScript />
-                */}
+                {isDev ? <Head /> : <HeadProduction />}
+                <body>
+                    <Main />
+                    {isDev && <NextScript />}
+                </body>
             </Html>
         )
     }
 }
+
+export default MyDocument
 ```
 
 ### minimalistic init mode
