@@ -2,11 +2,21 @@
 
 ## API
 
+### Some API are public, like this:
+
 * https://mastodon.uno/api/v1/timelines/public
+
+### Get user info
+
 * https://mastodon.example/api/v1/accounts/:id
   * https://mastodon.uno/api/v1/accounts/1
+
+### Get all the follower of a user
+
 * https://mastodon.example/api/v1/accounts/:id/followers
   * Authorization required - Bearer \<app token>
+* https://mastodon.example/users/:username/followers?page=3
+  * from page 1 to page n scrape all the user
 
 ## Idea 1
 
