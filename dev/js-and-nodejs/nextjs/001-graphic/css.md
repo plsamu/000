@@ -70,7 +70,7 @@ export default MyDocument
 
 <details>
 
-<summary>2 - second working set for CSS SSR</summary>
+<summary>2 - second working set for CSS SSR - Much better</summary>
 
 ```json
 // package.json
@@ -101,6 +101,26 @@ export default MyDocument
         - _document.tsx
         - _app.tsx
         - index.tsx
+```
+
+```json
+// .babelrc
+
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    [
+      "styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ]
+  ]
+}
 ```
 
 ```tsx
