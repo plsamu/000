@@ -70,7 +70,7 @@ export default MyDocument
 
 <details>
 
-<summary>2 - second working set for CSS SSR - Much better</summary>
+<summary>2 - working global CSS SSR - Much better</summary>
 
 ```json
 // package.json
@@ -128,16 +128,19 @@ export default MyDocument
 
 import React from 'react';
 import Document, { Head, Html, Main, NextScript } from 'next/document';
+import Navbar from '../comps/Navbar'
 
 class MyDocument extends Document {
   render() {
     console.log(this.props);
+    const isDev = process.env.NODE_ENV === "development"
     return (
       <Html>
-        <Head />
+        <Head /> {/* loaded from _app */}
         <body>
+          <Navbar />
           <Main />
-          <NextScript />
+          {isDev && <NextScript />}
         </body>
       </Html>
     )
