@@ -63,7 +63,11 @@ To prevent to create client side JS with NextJS, it necessary to avoid using som
 
 ## 3.1 Load CSS without JS
 
-* put CSS inside "public" directory
+### Put CSS inside "public" directory and load them inside \_document
+
+{% hint style="info" %}
+sometimes CSS do not load, IDK why
+{% endhint %}
 
 ```tsx
 import Document, { Head, Html, Main, NextScript } from 'next/document'
@@ -78,7 +82,9 @@ function headContent() {
         <span>
             <title>Blog</title>
             <link rel="shortcut icon" href="/favicon.ico" />
-            {/* HERE ! */}
+            {/* 
+                 HERE ! 
+            */}
             <link rel="stylesheet" href="/globals.css" />
         </span>
     )
