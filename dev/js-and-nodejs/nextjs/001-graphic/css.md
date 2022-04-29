@@ -95,6 +95,7 @@ export default MyDocument
 // directory tree
 
 - public
+    - favicon.ico
     - globals.css
 - src
     - pages
@@ -164,6 +165,8 @@ const App = ({ Component }) => {
             <Head>
                 <meta charSet='utf-8'></meta>
                 <title>NodeBird</title>
+                {/* favicon and globals are inside public dir */}
+                <link rel="shortcut icon" href="/favicon.ico" />
                 <link rel="stylesheet" href="/globals.css" />
             </Head>
             <Component />
