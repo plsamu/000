@@ -3,7 +3,7 @@
 ## TODO
 
 ```
-[ ] server side rendering
+[x] server side rendering
 [ ] use of gzipping and caching
 [ ] detect if javascript or non-javascript user
 [ ] detect if from clearnet or from tor
@@ -61,5 +61,68 @@ To prevent to create client side JS with NextJS, it necessary to avoid using som
 [000-create-clean-project.md](../js-and-nodejs/nextjs/000-create-clean-project.md)
 {% endcontent-ref %}
 
-## 4. load data from database
+## 4. load data server side
 
+### getServerSideProps
+
+```tsx
+import { Component } from "react"
+
+// 1. this gets called on every request
+export async function getServerSideProps(context) {
+    // const res = await fetch(`https://.../data`)
+    // const data = await res.json()
+    let data = { "msg": "ciao" }
+    return { props: { data } }
+}
+
+// 2. called after getServerSideProps
+class Home extends Component {
+    render() {
+        return (
+            <div>
+                <p> ciao </p>
+                <p> {this.props['data'].msg} </p>
+            </div>
+        )
+    }
+}
+
+export default Home
+```
+
+### from database
+
+<details>
+
+<summary>some sources</summary>
+
+* [https://www.youtube.com/watch?v=FMnlyi60avU](https://www.youtube.com/watch?v=FMnlyi60avU)
+*
+
+</details>
+
+## 5. get project in production
+
+For example if
+
+```
+HiddenServicePort 80 127.0.0.1:8080
+```
+
+Then modify the package.json:
+
+```json
+"scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p 8080"     // change
+},
+```
+
+Then run the scripts:
+
+```bash
+npm run build
+npm run start
+```
