@@ -121,6 +121,7 @@
     * [From local to remote by terminal](git/from-local-to-remote-by-terminal.md)
     * [Remote](git/remote.md)
   * [mProjects](dev/ideas.md)
+    * [Get list of Mastodon instances](dev/ideas/get-list-of-mastodon-instances.md)
     * [Blog + Tor - JS](dev/ideas/blog-+-tor-js.md)
     * [p1](dev/ideas/p1.md)
 * [ICT](ict/README.md)
