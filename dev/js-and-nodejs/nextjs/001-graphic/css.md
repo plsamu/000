@@ -1,21 +1,10 @@
 # CSS
 
-## Client Side Javascript in DEV is necessary
-
-{% embed url="https://nextjs.org/docs/basic-features/built-in-css-support#does-it-work-with-javascript-disabled" %}
-
-{% embed url="https://stackoverflow.com/questions/66729498/next-js-is-not-rendering-css-in-server-side-rendering" %}
-
-{% hint style="warning" %}
-Holy fuck, doesn't work to me...\
-The hell.
-{% endhint %}
-
 ## Working CSS SSR
 
 <details>
 
-<summary>1</summary>
+<summary>1 - first working method, I hate this</summary>
 
 ```tsx
 import Document, { Head, Html, Main, NextScript } from 'next/document'
@@ -78,3 +67,22 @@ export default MyDocument
 ```
 
 </details>
+
+## Sources
+
+{% embed url="https://medium.com/swlh/server-side-rendering-styled-components-with-nextjs-1db1353e915e" %}
+
+{% embed url="https://jsramblings.com/server-side-rendered-styled-components-with-nextjs" %}
+
+{% embed url="https://www.youtube.com/watch?v=3eUZeuGXo_U" %}
+
+## Client Side Javascript in DEV is necessary
+
+{% hint style="warning" %}
+Holy fuck, doesn't work to me...\
+The hell.
+{% endhint %}
+
+{% embed url="https://nextjs.org/docs/basic-features/built-in-css-support#does-it-work-with-javascript-disabled" %}
+
+{% embed url="https://stackoverflow.com/questions/66729498/next-js-is-not-rendering-css-in-server-side-rendering" %}
