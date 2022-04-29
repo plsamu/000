@@ -64,7 +64,55 @@ To prevent to create client side JS with NextJS, it necessary to avoid using som
 ## 3.1 Load CSS without JS
 
 * put CSS inside "public" directory
-*
+
+```tsx
+import Document, { Head, Html, Main, NextScript } from 'next/document'
+import Navbar from '../comps/Navbar'
+
+/* 
+    The code here is available on every page
+*/
+
+function headContent() {
+    return (
+        <span>
+            <title>Blog</title>
+            <link rel="shortcut icon" href="/favicon.ico" />
+            {/* HERE ! */}
+            <link rel="stylesheet" href="/globals.css" />
+        </span>
+    )
+}
+
+class HeadProduction extends Head {
+    render() {
+        return (
+            <head {...this.props}>
+                {headContent()}
+            </head>
+        );
+    }
+}
+
+class MyDocument extends Document {
+    render() {
+        const isDev = process.env.NODE_ENV === "development"
+        return (
+            <Html>
+                {isDev && <Head> {headContent()} </Head>}
+                {!isDev && <HeadProduction />}
+                <body>
+                    <Navbar />
+                    <Main />
+                    {isDev && <NextScript />}
+                </body>
+            </Html>
+        )
+    }
+}
+
+export default MyDocument
+```
 
 ## 4. load data server side
 
