@@ -1,3 +1,7 @@
+---
+description: Have already other project, IDK why I am here
+---
+
 # Get list of Mastodon instances
 
 ## API
