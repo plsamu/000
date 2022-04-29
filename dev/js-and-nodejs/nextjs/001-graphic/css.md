@@ -68,6 +68,125 @@ export default MyDocument
 
 </details>
 
+<details>
+
+<summary>2 - second working set for CSS SSR</summary>
+
+```json
+// package.json
+
+"dependencies": {
+    "next": "canary",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "styled-components": "latest",
+    "webpack": "latest"
+},
+"devDependencies": {
+    "@types/react": "^18.0.8",
+    "babel-plugin-styled-components": "^2.0.7",
+    "prettier": "latest",
+    "typescript": "^4.6.4"
+}
+```
+
+```
+// directory tree
+
+- public
+    - globals.css
+- src
+    - pages
+        - _document.tsx
+        - _app.tsx
+        - index.tsx
+```
+
+```tsx
+// _document.tsx
+
+import React from 'react';
+import Document, { Head, Html, Main, NextScript } from 'next/document';
+
+class MyDocument extends Document {
+  render() {
+    console.log(this.props);
+    return (
+      <Html>
+        <Head />
+        <body>
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    )
+  }
+}
+
+export default MyDocument;
+```
+
+```tsx
+// _app.tsx
+
+import React from 'react';
+import Prototype from 'prop-types';
+import Head from 'next/head';
+
+const App = ({ Component }) => {
+
+    return (
+        <>
+            <Head>
+                <meta charSet='utf-8'></meta>
+                <title>NodeBird</title>
+                <link rel="stylesheet" href="/globals.css" />
+            </Head>
+            <Component />
+        </>
+
+    );
+}
+
+App.Prototype = {
+    Component: Prototype.elementType.isRequired,
+}
+
+export default App;
+```
+
+```tsx
+// index.tsx
+
+import React from 'react'
+
+const Index = (props) => {
+  return (
+    <>
+      <h1>Hello World</h1>
+    </>
+  )
+}
+
+export default Index;
+```
+
+```css
+// global.css
+
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ffc600;
+}
+```
+
+</details>
+
 ## Sources
 
 {% embed url="https://medium.com/swlh/server-side-rendering-styled-components-with-nextjs-1db1353e915e" %}
