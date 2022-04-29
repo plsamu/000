@@ -31,6 +31,7 @@
           * [connect to database](dev/nodejs/database/postgressql/connect\_2\_database.md)
     * [NextJS](dev/js-and-nodejs/nextjs.md)
       * [000 - create clean project](dev/js-and-nodejs/nextjs/000-create-clean-project.md)
+      * [001 - Graphic](dev/js-and-nodejs/nextjs/001-graphic.md)
   * [Mobile dev](dev/mobile-dev/README.md)
     * [Android](dev/mobile-dev/android-kotlin/README.md)
       * [Retrofit](dev/mobile-dev/android/retrofit/README.md)
