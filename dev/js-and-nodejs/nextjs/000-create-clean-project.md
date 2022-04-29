@@ -161,6 +161,24 @@ project
     - tsconfig.json
 ```
 
+### move everything inside src dir
+
+```
+project
+    - .next
+    - node_modules
+    - src
+        - comps
+        - public
+        - styles
+        - pages
+            - _document.tsx
+            - index.tsx
+    - package-lock.json
+    - package.json
+    - tsconfig.json
+```
+
 ### start
 
 ```
