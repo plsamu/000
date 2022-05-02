@@ -1,7 +1,12 @@
-# createGlobalStyle - injectGlobal
+# styled-components - createGlobalStyle - injectGlobal
 
 {% hint style="danger" %}
 `injectGlobal` was changed for `createGlobalStyle`
+{% endhint %}
+
+{% hint style="info" %}
+Heuristics:\
+to use styled-components without Javascript, meaning in SSR mode, ServerStyleSheet must be used.
 {% endhint %}
 
 ## createGlobalStyle
