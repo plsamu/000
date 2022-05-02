@@ -49,6 +49,8 @@
           * [SqliteOpenHelper](dev/mobile-dev/android/files-and-data/storage-systems/sqliteopenhelper.md)
           * [Android Room](dev/mobile-dev/android/files-and-data/storage-systems/android-room/README.md)
             * [Database Client](dev/mobile-dev/android/files-and-data/storage-systems/android-room/database-client.md)
+      * [Utils](dev/mobile-dev/android/utils/README.md)
+        * [Intents](dev/mobile-dev/android/utils/intents.md)
       * [Retrofit](dev/mobile-dev/android/retrofit/README.md)
         * [Request with params](dev/mobile-dev/android/retrofit/request-with-params.md)
         * [Send and receive JSON](dev/mobile-dev/android/retrofit/send-and-receive-json.md)
