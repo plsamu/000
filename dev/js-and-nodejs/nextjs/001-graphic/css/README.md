@@ -2,6 +2,8 @@
 
 ## Working CSS SSR
 
+{% embed url="https://styled-components.com/docs/advanced#server-side-rendering" %}
+
 <details>
 
 <summary>1 - first working method, I hate this</summary>
