@@ -33,6 +33,7 @@
       * [000 - create clean project](dev/js-and-nodejs/nextjs/000-create-clean-project.md)
       * [001 - Graphic](dev/js-and-nodejs/nextjs/001-graphic/README.md)
         * [CSS](dev/js-and-nodejs/nextjs/001-graphic/css.md)
+      * [003](dev/js-and-nodejs/nextjs/003.md)
   * [Mobile dev](dev/mobile-dev/README.md)
     * [Android](dev/mobile-dev/android-kotlin/README.md)
       * [UI](dev/mobile-dev/android-kotlin/ui/README.md)
