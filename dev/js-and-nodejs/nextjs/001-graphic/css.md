@@ -87,7 +87,6 @@ export default MyDocument
 },
 "devDependencies": {
     "@types/react": "^18.0.8",
-    "babel-plugin-styled-components": "^2.0.7",
     "prettier": "latest",
     "typescript": "^4.6.4"
 }
@@ -106,26 +105,6 @@ export default MyDocument
         - index.tsx
 ```
 
-```json
-// .babelrc
-
-{
-  "presets": [
-    "next/babel"
-  ],
-  "plugins": [
-    [
-      "styled-components",
-      {
-        "ssr": true,
-        "displayName": true,
-        "preprocess": false
-      }
-    ]
-  ]
-}
-```
-
 ```tsx
 // _document.tsx
 
@@ -139,7 +118,7 @@ class MyDocument extends Document {
     const isDev = process.env.NODE_ENV === "development"
     return (
       <Html>
-        <Head /> {/* loaded from _app */}
+        <Head /> {/* MUST - loaded from _app */}
         <body>
           <Navbar />
           <Main />
@@ -201,7 +180,7 @@ export default Index;
 ```
 
 ```css
-// global.css
+// globals.css
 
 body {
     background-color: aquamarine;
