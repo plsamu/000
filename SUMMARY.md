@@ -35,6 +35,7 @@
         * [CSS](dev/js-and-nodejs/nextjs/001-graphic/css.md)
   * [Mobile dev](dev/mobile-dev/README.md)
     * [Android](dev/mobile-dev/android-kotlin/README.md)
+      * [Access to local files](dev/mobile-dev/android/access-to-local-files.md)
       * [Retrofit](dev/mobile-dev/android/retrofit/README.md)
         * [Request with params](dev/mobile-dev/android/retrofit/request-with-params.md)
         * [Send and receive JSON](dev/mobile-dev/android/retrofit/send-and-receive-json.md)
