@@ -221,6 +221,7 @@
     * [WiFi cracking](cybersec/crack-it/wifi-cracking.md)
   * [Footprinting](cybersec/footprinting/README.md)
     * [Nmap](cybersec/footprinting/nmap.md)
+* [Tools](tools.md)
 * [Humanism](humanism/README.md)
   * [Philosophy](humanism/philosophy/README.md)
     * [Anxiety](humanism/philosophy/anxiety.md)
