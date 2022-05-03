@@ -184,6 +184,7 @@
       * [EC](ict/cryptography/openssl/ec.md)
 * [Cybersec](cybersec/README.md)
   * [dO u wAnT InFO?](cybersec/do-u-want-info/README.md)
+    * [0day](cybersec/do-u-want-info/0day.md)
     * [Hacker Camps](cybersec/do-u-want-info/hacker-camps.md)
     * [Concepts](cybersec/do-u-want-info/concepts.md)
     * [Terms](cybersec/do-u-want-info/terms.md)
