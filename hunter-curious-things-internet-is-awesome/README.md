@@ -1,4 +1,4 @@
-# Hunter - Curious Things - Internet is Awesome
+# Internet, is Awesome (random)
 
 * [https://github.com/sindresorhus/awesome](https://github.com/sindresorhus/awesome)
   * [https://github.com/sindresorhus/awesome#related](https://github.com/sindresorhus/awesome#related)
