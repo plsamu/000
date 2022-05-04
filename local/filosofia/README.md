@@ -1,4 +1,0 @@
-filosofia
-===
-
-particolarismo morale
