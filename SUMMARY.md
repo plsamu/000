@@ -82,7 +82,7 @@
         * [Native Module](dev/mobile-dev/react-native/code/native-module.md)
       * [Setup typescript](dev/mobile-dev/react-native/setup-typescript.md)
       * [Native Modules](dev/mobile-dev/react-native/native-modules/README.md)
-        * [Promises - React Native Bridge](dev/mobile-dev/react-native/native-modules/promises-react-native-bridge.md)
+        * [Promises - React Native Bridge](dev/mobile-dev/react-native/native-modules/promises.md)
       * [Create native package](dev/mobile-dev/react-native/create-native-package.md)
     * [Expo](dev/mobile-dev/expo/README.md)
       * [Create Expo Package](dev/mobile-dev/expo/create-expo-package/README.md)

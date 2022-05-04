@@ -1,4 +1,4 @@
-# Promises
+# Promises - React Native Bridge
 
 ## [com.facebook.react.bridge.Promise](https://github.com/facebook/react-native/blob/main/ReactAndroid/src/main/java/com/facebook/react/bridge/Promise.java)
 
@@ -22,4 +22,26 @@ promise.resolve(
         putString("warning", errString.toString())    
     }
 )
+```
+
+## From Kotlin to JS
+
+### WritableNativeMap
+
+```kotlin
+@ReactMethod
+fun checkArr(arr: ReadableArray, promise: Promise) {
+    val map1: Map<String, Boolean> = // something
+    val output = WritableNativeMap()
+    map1.forEach { entry ->
+        output.putBoolean(entry.key, entry.value)
+    }
+    promise.resolve(output)
+}
+```
+
+```kotlin
+export function checkArr(datarr: string[]): Promise<{ [key: string]: boolean }> {
+  return ReputationModule.checkArr(datarr);
+}
 ```
