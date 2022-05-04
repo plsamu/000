@@ -70,6 +70,18 @@ export default MyDocument
 
 </details>
 
+```tsx
+ <>
+    <div className="main"> Halpp </div>
+    
+    <style jsx>{`
+    .main {
+        background: green;
+    }
+    `}</style>
+</>
+```
+
 <details>
 
 <summary>2 - working global CSS SSR - Much better</summary>
