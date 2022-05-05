@@ -2,6 +2,7 @@
 
 * [Home](README.md)
 * [History Of Internet](history-of-internet.md)
+* [Hacker doesn't mean Cracker](hacker-doesnt-mean-cracker.md)
 * [Internet, is Awesome (random)](hunter-curious-things-internet-is-awesome/README.md)
   * [Antiquarian](internet-is-awesome-random/antiquarian.md)
   * [Lists](internet-is-awesome-random/lists.md)
