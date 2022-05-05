@@ -131,6 +131,7 @@
   * [Scripts](dev/scripts/README.md)
     * [Node & NPM](dev/scripts/node-and-npm.md)
   * [GIT](git/README.md)
+    * [git flow](dev/git/git-flow.md)
     * [From local to remote by terminal](git/from-local-to-remote-by-terminal.md)
     * [Remote](git/remote.md)
   * [mProjects](dev/ideas.md)
