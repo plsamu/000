@@ -29,3 +29,14 @@ Content is generated once, at build time.
 ### CSR - Client Side Rendering
 
 * useEffect (classic)
+
+## VSCode shortcut
+
+```
+/* 
+    File -> Preferences -> Keybindings
+    ctrl ù              line comment
+    maiusc alt a        block comment
+    maiusc alt f        format page
+*/
+```

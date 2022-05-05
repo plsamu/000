@@ -57,8 +57,8 @@ To prevent to create client side JS with NextJS, it necessary to avoid using som
 
 {% embed url="https://www.johanbleuzen.fr/blog/next-remove-clientside-javascript" %}
 
-{% content-ref url="../js-and-nodejs/nextjs/js/000.md" %}
-[000.md](../js-and-nodejs/nextjs/js/000.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ## 3.1 Load CSS without JS
