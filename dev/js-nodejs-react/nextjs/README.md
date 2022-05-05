@@ -14,6 +14,9 @@
 
 ## 4 - DB
 
+* Prisma
+* serverless-mysql
+
 {% embed url="https://leerob.io/blog/next-prisma" %}
 
 ## More
