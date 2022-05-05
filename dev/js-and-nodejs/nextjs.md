@@ -6,7 +6,7 @@
 
 ## 2
 
-* [https://www.reddit.com/r/nextjs/comments/sh4elk/comment/hv08lfy/?utm\_source=share\&utm\_medium=web2x\&context=3](https://www.reddit.com/r/nextjs/comments/sh4elk/comment/hv08lfy/?context=3)
+{% embed url="https://www.reddit.com/r/nextjs/comments/sh4elk/best_nextjs_course_on_udemy_for_an_experienced" %}
 
 ## 3
 
