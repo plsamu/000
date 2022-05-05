@@ -1,4 +1,4 @@
-# 000 - Project general
+# General
 
 ## Common Project Tree
 
@@ -6,9 +6,10 @@
 src
     components
     pages
-    styles
+    styles (dynamic, likely use JS)
 public
-    img, css
+    imges
+    styles (static, without JS)
 
 ```
 

@@ -9,6 +9,8 @@ Heuristics:\
 to use styled-components without Javascript, meaning in SSR mode, ServerStyleSheet must be used.
 {% endhint %}
 
+{% embed url="https://styled-components.com/docs/advanced#server-side-rendering" %}
+
 ## createGlobalStyle
 
 {% hint style="warning" %}
