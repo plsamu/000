@@ -5,5 +5,3 @@
 ## Awesome
 
 {% embed url="https://github.com/sindresorhus/awesome#related" %}
-
-{% embed url="http://www.crasseux.com" %}
