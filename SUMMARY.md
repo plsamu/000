@@ -3,6 +3,7 @@
 * [Home](README.md)
 * [History Of Internet](history-of-internet.md)
 * [Internet, is Awesome (random)](hunter-curious-things-internet-is-awesome/README.md)
+  * [Lists](internet-is-awesome-random/lists.md)
   * [Organizations](internet-is-awesome-random/organizations.md)
   * [Blogs](hunter-curious-things-internet-is-awesome/blogs.md)
   * [Social](hunter-curious-things-internet-is-awesome/social/README.md)
