@@ -1,5 +1,23 @@
 # CSS
 
+## Inline load
+
+```tsx
+export function Button() {
+  return (
+    <button
+      type="button"
+        style={{
+            color: 'white',
+            backgroundColor: 'red'
+        }}
+    >
+      Btn1
+    </button>
+  )
+}
+```
+
 ## Component load
 
 ```tsx
@@ -60,7 +78,7 @@ App.Prototype = {
 export default App;
 ```
 
-## Document load
+## Document (\_document) load
 
 The code here is available on every page. In theory.
 
@@ -116,4 +134,28 @@ class MyDocument extends Document {
 }
 
 export default MyDocument
+```
+
+## App (\_app) load
+
+```tsx
+import React from "react";
+import Head from "next/head";
+
+const App = ({ Component, pageProps }) => {
+  return (
+    <>
+      <Head>
+        <meta charSet="utf-8"></meta>
+        <title>NodeBird</title>
+        {/* favicon and globals are inside public dir */}
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="/globals.css" />
+      </Head>
+      <Component {...pageProps} />
+    </>
+  );
+};
+
+export default App;
 ```
