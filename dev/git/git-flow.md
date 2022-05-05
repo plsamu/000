@@ -13,7 +13,7 @@ git flow init
 ```bash
 git config --remove-section "gitflow.path"
 git config --remove-section "gitflow.prefix"
-git config --remove-section "gitflow.branch"h
+git config --remove-section "gitflow.branch"
 
 git flow init
 ```
