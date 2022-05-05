@@ -38,6 +38,8 @@
       * [Clean project](dev/js-and-nodejs/nextjs/clean-project.md)
       * [NO JS](dev/js-and-nodejs/nextjs/no-js/README.md)
         * [CSS](dev/js-and-nodejs/nextjs/no-js/css.md)
+        * [Datas](dev/js-and-nodejs/nextjs/no-js/datas/README.md)
+          * [SSG](dev/js-and-nodejs/nextjs/no-js/datas/ssg.md)
       * [JS](dev/js-and-nodejs/nextjs/js/README.md)
         * [000 - Graphic](dev/js-and-nodejs/nextjs/js/000-graphic/README.md)
           * [CSS](dev/js-and-nodejs/nextjs/js/000-graphic/css/README.md)
