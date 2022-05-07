@@ -22,3 +22,8 @@ C:\Users\\\<username>\AppData\Roaming\Code\User\settings.json
 ```
 Ctrl+Shift+P
 ```
+
+### Must extension
+
+* prettier
+  * format code on save
