@@ -12,12 +12,18 @@
 
 {% embed url="https://nextjs.org/learn/foundations/about-nextjs" %}
 
-## 4 - DB
+## 4 - [DB](../../../databases/choose-a-db.md)
 
 * Prisma
 * serverless-mysql
 
+{% embed url="https://github.com/vercel/next.js/tree/canary/examples" %}
+
 {% embed url="https://leerob.io/blog/next-prisma" %}
+
+* [https://www.reddit.com/r/reactjs/comments/heekbf/nextjs\_connect\_a\_postgresql\_database/](https://www.reddit.com/r/reactjs/comments/heekbf/nextjs\_connect\_a\_postgresql\_database/)
+
+{% embed url="https://stackshare.io/prisma/alternatives" %}
 
 ## More
 
