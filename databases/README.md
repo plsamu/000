@@ -2,10 +2,20 @@
 
 {% embed url="https://umb.libguides.com/az.php" %}
 
-### NoSQL
+## Here are the four main types of NoSQL databases:
 
+* [Document databases](https://www.mongodb.com/scale/types-of-nosql-databases#document-databases)
+* [Key-value stores](https://www.mongodb.com/scale/types-of-nosql-databases#key-value-stores)
+* [Column-oriented databases](https://www.mongodb.com/scale/types-of-nosql-databases#column-orientated-databases)
+* [Graph databases](https://www.mongodb.com/scale/types-of-nosql-databases#graph-databases)
+
+## Lack of schema DB - Schemaless Database
+
+* RavenDB
+* RethinkDB
 * MongoDB
-  * Windows Vista and later, Linux, OS X 10.7 and later, Solaris, FreeBSD
+  * Prototyping, Startups, Hackathons
+* ElasticSearch (semi-schemaless)
 
 ## Raspberry Pi
 

@@ -45,6 +45,7 @@
             * [styled-components - createGlobalStyle - injectGlobal](dev/js-nodejs-react/nextjs/js/000-graphic/css/styled-components-createglobalstyle-injectglobal.md)
         * [001](dev/js-nodejs-react/nextjs/js/001.md)
       * [DB Connections](dev/js-nodejs-react/nextjs/db-connections/README.md)
+        * [RethinkDB](dev/js-nodejs-react/nextjs/db-connections/rethinkdb.md)
         * [MariaDB](dev/js-nodejs-react/nextjs/db-connections/mariadb.md)
         * [\[STOPPED\] - Redis](dev/js-nodejs-react/nextjs/db-connections/stopped-redis.md)
         * [\[STOPPED\] - MongoDB](dev/js-nodejs-react/nextjs/db-connections/stopped-mongodb.md)
