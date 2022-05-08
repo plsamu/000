@@ -11,8 +11,8 @@
 
 ## 1. Tor
 
-{% content-ref url="../../ict/hidden-services-aka-onion-services/setup-an-hidden-service.md" %}
-[setup-an-hidden-service.md](../../ict/hidden-services-aka-onion-services/setup-an-hidden-service.md)
+{% content-ref url="../../../ict/hidden-services-aka-onion-services/setup-an-hidden-service.md" %}
+[setup-an-hidden-service.md](../../../ict/hidden-services-aka-onion-services/setup-an-hidden-service.md)
 {% endcontent-ref %}
 
 ## 2. System Meditations
