@@ -1,5 +1,7 @@
 # useReducer example
 
+## Clarifying example
+
 ```tsx
 const reducer = (state, action) => {
     // state === { red: number, blue: number, green: number }
@@ -24,4 +26,14 @@ const MyScreen = () => {
     const [state, runReducer] = useReducer(reducer, { red: 0, blue: 0, green: 0 }) 
     const { red, blue, green } = state
 }
+```
+
+## Community Conventions
+
+```
+action === { type: string, payload: number }
+
+examples:
+{ type: 'change_blue', payload: -15 }
+{ type: 'change_green', payload: 30 }
 ```
