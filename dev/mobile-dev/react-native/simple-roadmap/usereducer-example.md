@@ -1,6 +1,6 @@
 # useReducer example
 
-```
+```tsx
 const reducer = (state, action) => {
     // state === { red: number, blue: number, green: number }
     // action === { colorToChange: 'red', amount: -15 }
