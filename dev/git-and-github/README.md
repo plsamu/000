@@ -1,4 +1,4 @@
-# GIT
+# GIT & Github
 
 ## Configuration
 
@@ -22,10 +22,4 @@ git config --global user.email yourname@yourdomain.com
 ```
 git config user.name "Your Name"
 git config user.email yourname@yourdomain.com
-```
-
-### Ghp token example
-
-```
-git clone https://<ghp_token>@github.com/username/repo.git
 ```
