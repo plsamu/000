@@ -20,6 +20,13 @@
   * FlexBox Model\
     ![](../../../../.gitbook/assets/flex.png)
   * Position Model (overwrite BOM & FlexBox Model)
+* Navigators
+  * DrawerNavigator
+  * BottonTabNavigator
+  * StackNavigator
+* icons
+  * [https://icons.expo.fyi/](https://icons.expo.fyi)
+  *
 
 
 
