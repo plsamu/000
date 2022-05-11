@@ -39,6 +39,7 @@
       * [General](dev/js-nodejs-react/nextjs/general.md)
       * [Clean project](dev/js-nodejs-react/nextjs/clean-project.md)
       * [NO JS](dev/js-nodejs-react/nextjs/no-js/README.md)
+        * [Theme Changer without JS](dev/js-nodejs-react/nextjs/no-js/theme-changer-without-js.md)
         * [CSS](dev/js-nodejs-react/nextjs/no-js/css.md)
         * [Datas](dev/js-nodejs-react/nextjs/no-js/datas/README.md)
           * [SSG](dev/js-nodejs-react/nextjs/no-js/datas/ssg.md)
