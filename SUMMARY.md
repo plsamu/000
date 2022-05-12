@@ -148,7 +148,7 @@
   * [GIT & Github](dev/git-and-github/README.md)
     * [Github](dev/git-and-github/github/README.md)
       * [000](dev/git-and-github/github/000.md)
-    * [git flow](dev/git-and-github/git-flow.md)
+    * [Git flow](dev/git-and-github/git-flow.md)
     * [From local to remote by terminal](dev/git-and-github/from-local-to-remote-by-terminal.md)
     * [Remote](dev/git-and-github/remote.md)
   * [mProjects](dev/ideas.md)

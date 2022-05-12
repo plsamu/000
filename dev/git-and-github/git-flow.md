@@ -1,4 +1,4 @@
-# git flow
+# Git flow
 
 ## Install
 
@@ -16,4 +16,25 @@ git config --remove-section "gitflow.prefix"
 git config --remove-section "gitflow.branch"
 
 git flow init
+```
+
+## Flow example
+
+{% embed url="https://deepsource.io/blog/git-branch-naming-conventions" %}
+
+{% embed url="https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow" %}
+
+### start
+
+```
+git flow feature start 7220-add-button
+// code
+```
+
+### merge
+
+```
+// git fetch <remote> <src>:<dst>
+git fetch origin develop:develop
+git flow feature finish 7220-add-button
 ```
