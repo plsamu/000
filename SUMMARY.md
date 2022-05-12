@@ -17,6 +17,7 @@
   * [Install Node](raspberry-pi/install-node.md)
 * [Remember](remember.md)
 * [mProjects](ideas/README.md)
+  * [Onion service return public IP](ideas/onion-service-return-public-ip.md)
   * [Vanity GPG Key](ideas/vanity-gpg-key.md)
   * [Get list of Mastodon instances](ideas/get-list-of-mastodon-instances.md)
   * [Blog + Tor - JS](ideas/blog-+-tor-js/README.md)
