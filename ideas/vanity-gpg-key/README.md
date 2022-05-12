@@ -1,6 +1,6 @@
 # Vanity GPG Key
 
-* [Basic "theory"](../ict/gpg-key.md)
+* [Basic "theory"](../../ict/gpg-key.md)
 
 ## Automate it --- AKA less security and more implementation difficulties
 
@@ -24,3 +24,7 @@ FADE
 ```
 
 {% embed url="https://github.com/Diti/EgoKey" %}
+
+## Example of some keys
+
+{% embed url="https://keyserver.ubuntu.com/pks/lookup?fingerprint=on&op=index&search=0x" %}
