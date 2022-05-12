@@ -41,3 +41,5 @@ Key generation requires a lot of very high-quality random numbers; without the a
 FADE...
 
 ```
+
+{% embed url="https://github.com/Diti/EgoKey" %}
