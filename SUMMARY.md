@@ -111,6 +111,8 @@
         * [Native Module](dev/mobile-dev/react-native/code/native-module.md)
       * [Setup typescript](dev/mobile-dev/react-native/setup-typescript.md)
       * [Native Modules](dev/mobile-dev/react-native/native-modules/README.md)
+        * [Errors](dev/mobile-dev/react-native/native-modules/errors/README.md)
+          * [Direct local .aar file dependencies are not supported when building an AAR](dev/mobile-dev/react-native/native-modules/errors/direct-local-.aar-file-dependencies-are-not-supported-when-building-an-aar.md)
         * [Promises - React Native Bridge](dev/mobile-dev/react-native/native-modules/promises.md)
       * [Create native package](dev/mobile-dev/react-native/create-native-package.md)
     * [Expo](dev/mobile-dev/expo/README.md)
