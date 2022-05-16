@@ -14,6 +14,6 @@ sudo passwd root
 
 * `awk` is mostly used for data extraction and reporting
 * ``[`sed`stand for "stream editor"](sed.md)
-  * [try it](https://sed.js.org)
+  * [try it](https://sed.js.org/)
   * [tutorial](https://www.grymoire.com/Unix/Sed.html)
   * [e.g. you can return the portion of a line after a matching pattern](https://unix.stackexchange.com/questions/24140/return-only-the-portion-of-a-line-after-a-matching-pattern)

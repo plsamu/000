@@ -25,7 +25,7 @@
   * BottonTabNavigator
   * StackNavigator
 * icons
-  * [https://icons.expo.fyi/](https://icons.expo.fyi)
+  * [https://icons.expo.fyi/](https://icons.expo.fyi/)
   *
 
 

@@ -10,7 +10,7 @@ description: NodeJS + React
 
 ## 2 - Simple Question
 
-* [https://www.reddit.com/r/nextjs/comments/sh4elk/comment/hv08lfy/?utm\_source=share\&utm\_medium=web2x\&context=3](https://www.reddit.com/r/nextjs/comments/sh4elk/comment/hv08lfy/?context=3)
+* [https://www.reddit.com/r/nextjs/comments/sh4elk/comment/hv08lfy/?utm\_source=share\&utm\_medium=web2x\&context=3](https://www.reddit.com/r/nextjs/comments/sh4elk/comment/hv08lfy/?utm\_source=share\&utm\_medium=web2x\&context=3)
 
 ## 3 - Basics
 
