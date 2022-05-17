@@ -1,2 +1,0 @@
-# Build static gitbook
-

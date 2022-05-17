@@ -55,6 +55,12 @@ echo === LOAD GITBOOK ===
 export NVM_DIR=$HOME/.nvm
 source $NVM_DIR/nvm.sh
 nvm install 8
+if [ $? -eq 0 ]; then
+    echo OK
+else
+    echo FAIL: install nvm
+    exit 1
+fi
 
 echo ""
 which gitbook
