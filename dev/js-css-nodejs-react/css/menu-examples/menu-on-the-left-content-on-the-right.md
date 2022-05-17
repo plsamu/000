@@ -13,13 +13,12 @@
 }
 
 .navbar {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: fixed;
+  height: 100%;
+  width: var(--my-navbar-widht);
+  
   display: flex;
   flex-direction: column;
-  width: var(--my-navbar-widht);
-  height: 100%;
   padding: 10px;
 }
 ```

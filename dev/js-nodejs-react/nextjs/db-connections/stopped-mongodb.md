@@ -1,4 +1,4 @@
-# MongoDB
+# \[STOPPED] - MongoDB
 
 {% hint style="info" %}
 Time consuming if you want to install it on Raspberry Pi
