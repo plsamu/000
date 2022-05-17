@@ -48,6 +48,7 @@
           * [create database](dev/js-nodejs-react/nodejs/database/postgressql/create\_database.md)
           * [connect to database](dev/js-nodejs-react/nodejs/database/postgressql/connect\_2\_database.md)
     * [NextJS](dev/js-nodejs-react/nextjs/README.md)
+      * [Build / Prebuild](dev/js-css-nodejs-react/nextjs/build-prebuild.md)
       * [React.Context - Global data](dev/js-nodejs-react/nextjs/react.context-global-data.md)
       * [General](dev/js-nodejs-react/nextjs/general.md)
       * [Clean project](dev/js-nodejs-react/nextjs/clean-project.md)
