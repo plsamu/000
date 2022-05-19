@@ -1,6 +1,6 @@
 # Popup
 
-### Hidedable popup
+### Concealable popup
 
 ```javascript
 {quote && (
@@ -14,4 +14,20 @@
     </div>
   </>
 )}
+```
+
+```css
+.quote-p {
+  margin: auto;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+input[type="checkbox"] {
+  visibility: hidden;
+}
+
+input[type="checkbox"]:checked + .quote {
+  display: none;
+}
 ```
