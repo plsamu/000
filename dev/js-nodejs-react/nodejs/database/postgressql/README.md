@@ -60,3 +60,25 @@ const { Pool, Client } = require("pg");
 {% hint style="info" %}
 Use Pool if you expect multiple access to database
 {% endhint %}
+
+## Create Table
+
+```sql
+DROP TABLE IF EXISTS events;
+
+CREATE TABLE IF NOT EXISTS events (
+    name VARCHAR(255), 
+    address VARCHAR(255)
+);
+```
+
+```javascript
+let create_table_events = fs.readFileSync("./sql/events.sql", "utf8");
+pool.query(create_table_events, (err, res) => {
+  if (err) {
+    console.log(err);
+    return;
+  }
+  console.log(res);
+});
+```

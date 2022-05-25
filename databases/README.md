@@ -17,13 +17,8 @@
   * Prototyping, Startups, Hackathons
 * ElasticSearch (semi-schemaless)
 
-## Client DB manager
-
-* [DataGrip](https://www.jetbrains.com/datagrip/features/)
-
 ## Raspberry Pi
 
 {% hint style="info" %}
-The best databases to use on Raspberry Pi are TinyDB, SQLite, or MariaDB.\
-Also PostgreSQL.
+The best databases to use on Raspberry Pi are TinyDB, SQLite, or MariaDB.
 {% endhint %}

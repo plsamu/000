@@ -1,2 +1,2 @@
-# JS, CSS, NodeJS, React, NextJS
+# JS, CSS, NodeJS, React
 
