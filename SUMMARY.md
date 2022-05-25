@@ -20,6 +20,7 @@
     * [Install nvm](raspberry-pi/installations/install-nvm.md)
 * [Remember](remember.md)
 * [mProjects](ideas/README.md)
+  * [Backuper - SSH](ideas/backuper-ssh.md)
   * [Onion service return public IP](ideas/onion-service-return-public-ip/README.md)
     * [Protect the response](ideas/onion-service-return-public-ip/protect-the-response.md)
   * [Vanity GPG Key](ideas/vanity-gpg-key/README.md)
