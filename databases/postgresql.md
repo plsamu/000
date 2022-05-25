@@ -28,6 +28,7 @@ sudo -u postgres createuser $(whoami) --createdb
 sudo -u postgres psql
 \du
 ALTER USER <user_name> WITH CREATEDB;
+\password      # set a password for this user
 \q
 # no need to "exit"
 ```
@@ -44,5 +45,11 @@ createdb <db_name>
 psql -U Username DatabaseName
 # or
 psql <db_name>
+```
+
+### Set Password
+
+```
+PGPASSWORD=pass1234 psql -U MyUsername myDatabaseName
 ```
 
