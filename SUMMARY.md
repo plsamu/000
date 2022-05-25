@@ -179,6 +179,7 @@
 * [Databases](databases/README.md)
   * [Choose a DB](databases/choose-a-db.md)
   * [SQLite](databases/sqlite.md)
+  * [PostgreSQL](databases/postgresql.md)
   * [DB Clients](databases/db-clients.md)
   * [Exercise](databases/exercise/README.md)
     * [Save alive URL](databases/exercise/save-alive-url/README.md)
