@@ -280,6 +280,8 @@
   * [Footprinting](cybersec/footprinting/README.md)
     * [Nmap](cybersec/footprinting/nmap.md)
 * [Humanism](humanism/README.md)
+  * [Authors](humanism/authors/README.md)
+    * [Hakim Bey](humanism/authors/hakim-bey.md)
   * [Philosophy](humanism/philosophy/README.md)
     * [Anxiety](humanism/philosophy/anxiety.md)
   * [Psychology](humanism/psychology.md)
