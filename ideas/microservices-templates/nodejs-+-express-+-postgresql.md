@@ -15,7 +15,7 @@ Note that both are encrypted when using HTTPS
 
 ```
 npm init -y
-npm install --save pg express dotenv
+npm install --save pg express dotenv jsonwebtoken
 npm install -g nodemon
 ```
 
