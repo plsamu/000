@@ -33,6 +33,7 @@
   * [p1](ideas/p1.md)
 * [DEV](dev/README.md)
   * [Golang](dev/golang/README.md)
+    * [Basics](dev/golang/basics.md)
     * [Backend](dev/golang/backend.md)
   * [JS, CSS, NodeJS, React, NextJS](dev/js-nodejs-react/README.md)
     * [Only CSS component](dev/js-css-nodejs-react/only-css-component/README.md)
