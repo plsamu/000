@@ -21,6 +21,7 @@
 * [Remember](remember.md)
 * [mProjects](ideas/README.md)
   * [Microservices Templates](ideas/microservices-templates/README.md)
+    * [Golang](ideas/microservices-templates/golang.md)
     * [NodeJS + Express + PostgreSQL](ideas/microservices-templates/nodejs-+-express-+-postgresql.md)
   * [Backuper - SSH](ideas/backuper-ssh.md)
   * [Onion service return public IP](ideas/onion-service-return-public-ip/README.md)
