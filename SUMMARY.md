@@ -118,6 +118,8 @@
     * [Errors](dev/mobile-dev/errors.md)
     * [Setup](dev/mobile-dev/setup.md)
     * [React Native](dev/mobile-dev/react-native/README.md)
+      * [Components](dev/mobile-dev/react-native/components/README.md)
+        * [Circle](dev/mobile-dev/react-native/components/circle.md)
       * [Simple roadmap](dev/mobile-dev/react-native/simple-roadmap/README.md)
         * [useReducer example](dev/mobile-dev/react-native/simple-roadmap/usereducer-example.md)
       * [Tricky](dev/mobile-dev/react-native/tricky.md)
