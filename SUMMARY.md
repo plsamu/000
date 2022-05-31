@@ -82,6 +82,7 @@
   * [Mobile dev](dev/mobile-dev/README.md)
     * [Android](dev/mobile-dev/android-kotlin/README.md)
       * [UI](dev/mobile-dev/android-kotlin/ui/README.md)
+        * [Splash Screen](dev/mobile-dev/android/ui/splash-screen.md)
         * [Border](dev/mobile-dev/android/ui/border.md)
         * [Contextual Action Mode](dev/mobile-dev/android-kotlin/ui/contextual-action-mode.md)
         * [Hide/Show Action Bar](dev/mobile-dev/android-kotlin/ui/hide-show-action-bar.md)
