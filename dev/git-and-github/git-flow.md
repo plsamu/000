@@ -38,3 +38,7 @@ git flow feature start 7220-add-button
 git fetch origin develop:develop
 git flow feature finish 7220-add-button
 ```
+
+## Sync feature with develop
+
+{% embed url="https://hemanshubhojak.com/2016/06/09/keeping-feature-branch-insync-with-develop.html" %}
