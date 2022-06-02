@@ -9,3 +9,11 @@ In contrast with application languages, **system programming languages** typical
 {% endhint %}
 
 {% embed url="https://www.reddit.com/r/rust/comments/nn2k6t/rust_for_backend_development/" %}
+
+## Web
+
+{% embed url="https://blog.logrocket.com/current-state-rust-web-frameworks/" %}
+
+## VSCode
+
+{% embed url="https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer" %}
