@@ -38,7 +38,7 @@
   * [p1](ideas/p1.md)
 * [DEV](dev/README.md)
   * [Bash](dev/bash/README.md)
-    * [NPM](dev/bash/npm.md)
+    * [NPM](dev/utils.md)
   * [Batch](dev/batch.md)
   * [Scripts](dev/scripts/README.md)
     * [Node & NPM](dev/scripts/node-and-npm.md)
