@@ -259,3 +259,44 @@ match result {
 If match return something do not use semicolon and every check has to return the same type.
 {% endhint %}
 
+## Closures - move
+
+```rust
+let add = |x, y| { x + y };
+add(3, 4); // return 7
+
+// also
+
+let s = "Hi!".to_string()
+let mprint = || { println("{}", s) };
+mprint(); // Hi!
+
+// also with "move"
+
+let s = "Hi!".to_string()
+let mprint = move || { println("{}", s) };
+mprint(); // Hi!
+```
+
+### madness
+
+```rust
+v.iter()
+    .map(|x| x * 3)
+    .filter(|x| *x > 10)
+    .fold(0, |acc, x| acc + x);
+```
+
+## Threads
+
+```rust
+use std::thread;
+
+fn main() {
+    let handle = thread::spawn(move || {
+        // omfg
+    });
+    
+    handle.join().unwrap(); // wait until thread has exited
+}
+```
