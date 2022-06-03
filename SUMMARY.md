@@ -44,6 +44,7 @@
   * [Scripts](dev/scripts/README.md)
     * [Node & NPM](dev/scripts/node-and-npm.md)
   * [Rust](dev/rust/README.md)
+    * [Basics](dev/rust/basics.md)
     * [From Scratch](dev/rust/from-scratch/README.md)
       * [Server](dev/rust/from-scratch/server.md)
     * [Diary](dev/rust/diary.md)
