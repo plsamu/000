@@ -62,9 +62,19 @@ There are two ways to setup logs filter
 
 ### Setup env
 
+{% hint style="danger" %}
+When you build the executable, thing are different...
+{% endhint %}
+
+#### without build the executable
+
 ```batch
 set RUST_LOG=debug && cargo run
 ```
+
+#### with the executable
+
+TBD
 
 ### Setup dependencies flags (I like this)
 
