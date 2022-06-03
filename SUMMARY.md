@@ -38,6 +38,8 @@
 * [IRC](irc/README.md)
   * [WeeChat](irc/weechat.md)
 * [DEV](dev/README.md)
+  * [Cloud](dev/cloud/README.md)
+    * [AWS](dev/cloud/aws.md)
   * [Bash](dev/bash/README.md)
     * [NPM](dev/utils.md)
   * [Batch](dev/batch.md)
