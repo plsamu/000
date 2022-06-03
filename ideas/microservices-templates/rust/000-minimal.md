@@ -30,7 +30,11 @@ fn main() {
         get "**" => |_req, _res| { "Hello world!"}
     });
 
-    server.listen("127.0.0.1:6767").unwrap();
+    // only localhost
+    // server.listen("127.0.0.1:6767").unwrap();
+    
+    // visible on LAN 
+    server.listen("0.0.0.0:6767").unwrap();
 }
 ```
 
