@@ -3,7 +3,7 @@
 ## Help
 
 ```
-cargo new test1
+cargo new proj1
 ```
 
 ## Dictionary

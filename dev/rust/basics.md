@@ -1,7 +1,0 @@
-# Basics
-
-
-
-```
-cargo build --release
-```
