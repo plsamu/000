@@ -8,3 +8,4 @@ Design principles are core abstract principles that we are supposed to follow wh
 They can be applied in any language, on any platform regardless of the state as long as we are within the permissible conditions.
 {% endhint %}
 
+{% embed url="https://stackify.com/solid-design-principles/" %}
