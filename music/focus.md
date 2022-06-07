@@ -23,3 +23,7 @@
 {% embed url="https://www.youtube.com/watch?v=TAutddyBrOg" %}
 
 {% embed url="https://youtu.be/1HPqyQRw-PU?list=PLhPp-QAUKF_hS8_Ce3EfxvKEoYtyZRIPB" %}
+
+## Playlists
+
+{% embed url="https://www.youtube.com/watch?v=u9aDqJHAckE" %}
