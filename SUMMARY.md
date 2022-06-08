@@ -49,7 +49,7 @@
       * [Interface segregation principle](dev/theory/design-principles-solid/interface-segregation-principle.md)
       * [Dependency inversion principle](dev/theory/design-principles-solid/dependency-inversion-principle.md)
     * [Software Design Pattern](dev/theory/software-design-pattern/README.md)
-      * [Creational patterns](dev/theory/software-design-pattern/creational-patterns/README.md)
+      * [Creational patterns](dev/theory/software-design-pattern/creational-patterns.md)
         * [Singleton](dev/theory/software-design-pattern/creational-patterns/singleton.md)
       * [Structural patterns](dev/theory/software-design-pattern/structural-patterns.md)
       * [Behavioral patterns](dev/theory/software-design-pattern/behavioral-patterns.md)
