@@ -16,6 +16,12 @@ In contrast with application languages, **system programming languages** typical
 [https://www.reddit.com/r/rust/comments/8ob3og/intellijrust\_error\_can\_not\_attach\_stdlib\_sources/](https://www.reddit.com/r/rust/comments/8ob3og/intellijrust\_error\_can\_not\_attach\_stdlib\_sources/)
 {% endembed %}
 
+```
+sudo apt remove cargo
+sudo apt autoremove
+curl https://sh.rustup.rs -sSf | sh
+```
+
 ## Web
 
 {% embed url="https://www.reddit.com/r/rust/comments/nn2k6t/rust_for_backend_development/" %}
