@@ -7,7 +7,8 @@ description: Like a good old exam named software engineering.
 ## Legenda
 
 ```
-OOP         Object-Oriented Programming
+OOP          Object-Oriented Programming
+GRASP        General Responsibility Assignment Software Patterns
 ```
 
 ## OOP

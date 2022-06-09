@@ -1,0 +1,2 @@
+# Factory method pattern
+
