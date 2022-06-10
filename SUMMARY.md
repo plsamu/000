@@ -58,6 +58,8 @@
       * [Structural patterns](dev/theory/software-design-pattern/structural-patterns.md)
       * [Behavioral patterns](dev/theory/software-design-pattern/behavioral-patterns.md)
       * [Concurrency patterns](dev/theory/software-design-pattern/concurrency-patterns.md)
+    * [Others](dev/theory/others.md)
+    * [Tech Interview](dev/theory/tech-interview.md)
   * [Java](dev/java.md)
   * [Cloud](dev/cloud/README.md)
     * [AWS](dev/cloud/aws.md)
