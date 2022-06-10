@@ -12,6 +12,7 @@
     * [Mastodon](hunter-curious-things-internet-is-awesome/social/mastodon.md)
   * [Tools](tools.md)
 * [Linux](linux/README.md)
+  * [Sound](linux/sound.md)
   * [apt](linux/apt.md)
   * [systemd](linux/systemd/README.md)
     * [create - GIT LAN Server Service](linux/systemd/create-git-lan-server-service.md)
