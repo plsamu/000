@@ -117,7 +117,7 @@ Rust saves pointers in stack and data in heap.
 Every pointer has an index for data it owns indicating where data starts in the heap.
 {% endhint %}
 
-![](../../.gitbook/assets/Immagine.png)
+![](../../../.gitbook/assets/Immagine.png)
 
 ## References & Borrowing
 
