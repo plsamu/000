@@ -78,6 +78,7 @@
     * [Theory](dev/rust/theory/README.md)
       * [Diary](dev/rust/theory/diary.md)
       * [Associated](dev/rust/theory/associated.md)
+      * [&](dev/rust/theory/and.md)
     * [IDE](dev/rust/ide.md)
     * [Code](dev/rust/code/README.md)
       * [Log](dev/rust/code/log.md)

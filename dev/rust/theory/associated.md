@@ -15,5 +15,13 @@ struct Server {
     addr: String,
 }
 
+impl Server {
+    fn new(addr: string) -> Server {
+        Server {
+            addr
+        }
+    }
+}
+
 Server::new("127.0.0.1:8080");
 ```
