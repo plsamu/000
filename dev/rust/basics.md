@@ -1,4 +1,4 @@
-# IDE
+# Basics
 
 ## VSCode plugins
 
