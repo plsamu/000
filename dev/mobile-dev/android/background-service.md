@@ -44,3 +44,7 @@ class MyService : Service() {
 
 }
 ```
+
+### IntentService - deprecated
+
+{% embed url="https://stackoverflow.com/questions/18526131/how-to-run-service-not-on-main-thread" %}
