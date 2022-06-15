@@ -13,6 +13,12 @@ ContextCompat.startForegroundService(
 
 #### minimal service
 
+{% hint style="warning" %}
+Use Thread for async !!
+{% endhint %}
+
+{% embed url="https://stackoverflow.com/questions/68696064/android-jobintentservice-is-deprecated" %}
+
 ```kotlin
 class MyService : Service() {
 
