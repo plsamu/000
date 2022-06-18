@@ -83,6 +83,8 @@
       * [Future, async / await](dev/rust/theory/future-async-await.md)
     * [IDE](dev/rust/basics.md)
     * [Code](dev/rust/code/README.md)
+      * [Backend](dev/rust/code/backend/README.md)
+        * [HTTP](dev/rust/code/backend/http.md)
       * [Log](dev/rust/basics/log.md)
       * [From Scratch](dev/rust/from-scratch/README.md)
         * [Server](dev/rust/from-scratch/server.md)
