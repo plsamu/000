@@ -84,6 +84,7 @@
     * [IDE](dev/rust/basics.md)
     * [Code](dev/rust/code/README.md)
       * [Backend](dev/rust/code/backend/README.md)
+        * [Actix, DynamoDB](dev/rust/code/backend/actix-dynamodb.md)
         * [HTTP](dev/rust/code/backend/http.md)
         * [From Scratch](dev/rust/from-scratch/README.md)
           * [Server](dev/rust/from-scratch/server.md)
