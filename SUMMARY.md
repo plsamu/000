@@ -277,6 +277,8 @@
     * [Save alive URL](databases/exercise/save-alive-url/README.md)
       * [NodeJS - URL generator](databases/exercise/save-alive-url/nodejs-url-generator.md)
 * [ICT](ict/README.md)
+  * [Server](ict/server/README.md)
+    * [Remotely turn on and shut down](ict/server/remotely-turn-on-and-shut-down.md)
   * [Printers](ict/printers/README.md)
     * [RICOH](ict/printers/ricoh/README.md)
       * [Mute the sound](ict/printers/ricoh/mute-the-sound.md)
