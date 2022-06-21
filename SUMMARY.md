@@ -83,6 +83,8 @@
       * [Future, async / await](dev/rust/theory/future-async-await.md)
     * [IDE](dev/rust/basics.md)
     * [Code](dev/rust/code/README.md)
+      * [Basics](dev/rust/code/basics/README.md)
+        * [Result](dev/rust/code/basics/result.md)
       * [Backend](dev/rust/code/backend/README.md)
         * [Actix, DynamoDB](dev/rust/code/backend/actix-dynamodb.md)
         * [HTTP](dev/rust/code/backend/http.md)
