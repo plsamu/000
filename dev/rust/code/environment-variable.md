@@ -11,11 +11,23 @@
 
 ## Load env from file
 
+{% embed url="https://crates.io/crates/dotenv" %}
+
 {% hint style="info" %}
 [dotenv](https://docs.rs/dotenv/latest/dotenv/fn.dotenv.html)
 
 This is usually what you want. It loads the .env file located in the environment's current directory or its parents in sequence.
 {% endhint %}
+
+### filetree
+
+```
+src
+    main.rs
+.env
+```
+
+### .toml
 
 ```
 dotenv = "^0.15.0"
@@ -41,5 +53,3 @@ fn main() {
     }
 }
 ```
-
-{% embed url="https://crates.io/crates/dotenv" %}
