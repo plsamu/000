@@ -1,13 +1,21 @@
-# Libraries, Modules & Packages
+# Binary, Libraries, Modules & Packages
 
-## Modules
+## Binary
+
+{% hint style="warning" %}
+if it has a `main.rs` (entry point) it's a binary
+{% endhint %}
+
+## Binary with module
 
 ```
-src
-    main.rs
-    constant
-        mod.rs
-        server.rs
+/project
+    src
+        main.rs
+        constant
+            mod.rs
+            server.rs
+    Cargo.toml
 ```
 
 ### main.rs
@@ -43,9 +51,11 @@ pub mod server {
 ### Another way - 2
 
 ```
-src
-    main.rs
-    constant.rs
+/project
+    Cargo.toml
+    src
+        main.rs
+        constant.rs
 ```
 
 1. delete constant folder
@@ -56,3 +66,11 @@ pub mod server {
     pub const IP: &str = "127.0.0.1";
 }ì
 ```
+
+## Library
+
+{% hint style="info" %}
+has lib.rs inside
+{% endhint %}
+
+![](../../../.gitbook/assets/image.png)

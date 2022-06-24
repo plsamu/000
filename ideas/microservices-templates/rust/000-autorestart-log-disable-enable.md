@@ -1,4 +1,4 @@
-# 001 - autorestart, log disable/enable
+# 000 - autorestart, log disable/enable
 
 ## Auto restart when crash
 
@@ -15,6 +15,14 @@ C:\path\to\application.exe
 TIMEOUT /T 1
 GOTO:Start
 ```
+
+### Linux - systemd
+
+example:
+
+{% content-ref url="../../../linux/systemd/create-git-lan-server-service.md" %}
+[create-git-lan-server-service.md](../../../linux/systemd/create-git-lan-server-service.md)
+{% endcontent-ref %}
 
 ## Disable/Enable Logs
 
