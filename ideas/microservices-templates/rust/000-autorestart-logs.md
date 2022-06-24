@@ -1,4 +1,4 @@
-# 000 - autorestart, log disable/enable
+# 000 - autorestart, logs
 
 ## Auto restart when crash
 
@@ -25,6 +25,41 @@ example:
 {% endcontent-ref %}
 
 ## Disable/Enable Logs
+
+### From .env
+
+{% embed url="https://github.com/actix/examples/tree/master/basics/todo" %}
+
+```
+[dependencies]
+dotenv = "0.15.0"
+```
+
+```
+/project
+    src
+        main.rs
+    Cargo.toml
+    .env
+```
+
+```
+# .env
+ENV1=world!
+```
+
+```rust
+use std::{env};
+use dotenv::dotenv;
+
+fn main() {
+    dotenv().ok();
+    let daje = env::var("ENV1").ok().unwrap();
+    println!("Hello, {}", daje);
+}
+```
+
+### Also
 
 {% content-ref url="../../../dev/rust/basics/log.md" %}
 [log.md](../../../dev/rust/basics/log.md)
