@@ -257,7 +257,7 @@
   * [Uninstall package](ideas/uninstall-package.md)
   * [Microservices Templates](ideas/microservices-templates/README.md)
     * [Rust](ideas/microservices-templates/rust/README.md)
-      * [000 - autorestart, logs](ideas/microservices-templates/rust/000-autorestart-logs.md)
+      * [000 - autorestart, logs](ideas/microservices-templates/rust/001-autorestart-log-disable-enable.md)
       * [001 - actix](ideas/microservices-templates/rust/001-actix.md)
       * [002](ideas/microservices-templates/rust/002.md)
     * [Golang](ideas/microservices-templates/golang.md)
