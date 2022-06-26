@@ -11,6 +11,7 @@
   * [Social](hunter-curious-things-internet-is-awesome/social/README.md)
     * [Mastodon](hunter-curious-things-internet-is-awesome/social/mastodon.md)
   * [Tools](tools.md)
+* [From triodes to CPU](from-triodes-to-cpu.md)
 * [Linux](linux/README.md)
   * [TLP](linux/tlp.md)
   * [Sound](linux/sound.md)

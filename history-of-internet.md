@@ -30,6 +30,10 @@ ARPANET -> IANA -> [RIR ](https://en.wikipedia.org/wiki/Regional\_Internet\_regi
 GOLD SOURCE
 {% endembed %}
 
+{% embed url="https://www.servizi.garr.it/lir/riferimenti/link" %}
+Legenda
+{% endembed %}
+
 ### types of RIR
 
 * ARIN
