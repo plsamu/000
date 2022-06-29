@@ -251,7 +251,7 @@
 * [Meditation](meditation/README.md)
   * [Diary](meditation/diary.md)
   * [Types of meditation](meditation/types-of-meditation/README.md)
-    * [The good for nothing meditation](meditation/types-of-meditation/the-good-for-nothing-meditation.md)
+    * [Zazen  - The good for nothing meditation](meditation/types-of-meditation/zazen-the-good-for-nothing-meditation.md)
 * [Raspberry Pi](raspberry-pi/README.md)
   * [Build from source](raspberry-pi/build-from-source/README.md)
     * [Calibre](raspberry-pi/build-from-source/calibre.md)
