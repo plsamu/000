@@ -265,7 +265,7 @@
     * [Rust](ideas/microservices-templates/rust/README.md)
       * [000 - autorestart, logs](ideas/microservices-templates/rust/001-autorestart-log-disable-enable.md)
       * [001 - actix](ideas/microservices-templates/rust/001-actix/README.md)
-      * [002 - databases](ideas/microservices-templates/rust/002-databases/README.md)
+      * [002 - databases](ideas/microservices-templates/rust/002.md)
         * [postgress](ideas/microservices-templates/rust/002-databases/postgress/README.md)
           * [windows](ideas/microservices-templates/rust/002-databases/postgress/windows.md)
     * [Golang](ideas/microservices-templates/golang.md)

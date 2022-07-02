@@ -15,3 +15,22 @@ pgAdmin4 Installation Directory:               C:\Program Files\PostgreSQL\14\pg
 Stack Builder Installation Directory:          C:\Program Files\PostgreSQL\14
 Installation Log:                              C:\Users\S\AppData\Local\Temp\install-postgresql.log
 ```
+
+## Auto start database
+
+```
+C:\Users\S\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+```
+
+### open\_db\_connect.bat
+
+```batch
+@ECHO OFF
+START /B "CMD" "C:\Program Files\cmder\Cmder.exe" /TASK connect_to_db
+```
+
+### TASK connect\_to\_db
+
+```
+pg_ctl.exe -D C:\path\to\my_cluster start
+```
