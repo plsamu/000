@@ -34,3 +34,9 @@ START /B "CMD" "C:\Program Files\cmder\Cmder.exe" /TASK connect_to_db
 ```
 pg_ctl.exe -D C:\path\to\my_cluster start
 ```
+
+## Open Server
+
+```
+postgres -D "C:\Program Files\PostgreSQL\14\data"
+```
