@@ -254,7 +254,7 @@
 * [Databases](databases/README.md)
   * [Choose a DB](databases/choose-a-db.md)
   * [SQLite](databases/sqlite.md)
-  * [PostgreSQL](databases/postgresql/README.md)
+  * [PostgreSQL](databases/postgresql.md)
     * [windows](databases/postgresql/windows.md)
   * [DB Clients](databases/db-clients.md)
   * [Exercise](databases/exercise/README.md)
