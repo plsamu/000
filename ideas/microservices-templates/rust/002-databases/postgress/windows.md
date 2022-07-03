@@ -37,29 +37,23 @@ listen_addresses = '*'	     # what IP address(es) to listen on;
 port = 6543		     
 ```
 
-## Auto start database
+## Auto start database cluster
 
 ```
 C:\Users\S\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 ```
 
-### open\_db\_connect.bat
+### open\_db\_cluster.bat
 
 ```batch
 @ECHO OFF
-START /B "CMD" "C:\Program Files\cmder\Cmder.exe" /TASK connect_to_db
+START /B "CMD" "C:\Program Files\cmder\Cmder.exe" /TASK db_start_cluster
 ```
 
-### TASK connect\_to\_db
+### Cmder.exe -> TASK -> db\_start\_cluster
 
 ```
 pg_ctl.exe -D C:\path\to\my_cluster start
-```
-
-## Open Server
-
-```
-postgres -D "C:\Program Files\PostgreSQL\14\data"
 ```
 
 ##
