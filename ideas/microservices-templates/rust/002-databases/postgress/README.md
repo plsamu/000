@@ -13,5 +13,5 @@
 ## Flow
 
 ```bash
-psql -h localhost -p 6543        # connect to db
+psql -h 127.0.0.1 -U postgres -p 6543       # connect to db
 ```
