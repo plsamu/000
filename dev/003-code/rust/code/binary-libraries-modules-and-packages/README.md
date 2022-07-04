@@ -73,4 +73,4 @@ pub mod server {
 has lib.rs inside
 {% endhint %}
 
-![](../../../../../.gitbook/assets/image.png)
+![](<../../../../../.gitbook/assets/image (1).png>)
