@@ -20,11 +20,23 @@ _**Adesione tacita**_: avviene quando il lavoratore non si esprime entro i 6 mes
 ## TL; DR.
 
 {% hint style="info" %}
+La scelta circa la **destinazione del TFR deve essere fatta ad ogni cambio lavoro o del datore di lavoro.**
+{% endhint %}
+
+{% hint style="warning" %}
+Lasciando il TFR in azienda questo verrà liquidato e tassato ad ogni cambio lavoro!
+
+Al contrario, scegliendo il fondo pensione si potranno **accumulare i TFR maturati presso diversi datori di lavoro in un unico strumento e al contempo contare su un grande vantaggio fiscale**.
+
+In caso di cambio lavoro il TFR viene liquidato con l’applicazione di un’aliquota media IRPEF che va dal 23% in su (se lasciato in azienda), quindi di gran lunga superiore rispetto alla **tassazione agevolata dei fondi pensione** pari al 15% che dopo 35 anni di partecipazione alla previdenza integrativa diminuisce arrivando a un minimo del 9%.
+{% endhint %}
+
+{% hint style="info" %}
 Se non credi che avrai una lunga carriera in una azienda, lascia il TFR in azienda per riceverlo con la liquidazione.
 {% endhint %}
 
 {% hint style="info" %}
-TFR in azienda, al riparo da mercati e inflazione.
+TFR in azienda, al riparo da mercati e inflazione ma più tasse (tasse dello stipendio), dovrebbe essere per aziende con meno di 50 dipendenti.
 {% endhint %}
 
 ## FAQ
@@ -49,6 +61,28 @@ Se cambi contratto hai tre scelte:&#x20;
 * il TFR spetta sempre al dipendente (se non riesce l'azienda, allora tocca all'INPS \[buona fortuna])
 
 </details>
+
+<details>
+
+<summary>Posso cambiare scelta dopo 6 mesi?</summary>
+
+Il lavoratore può in qualsiasi momento decidere, **per il TFR maturando,** di aderire al fondo pensione compilando il modulo TFR2.
+
+</details>
+
+## Very Important Information
+
+{% hint style="warning" %}
+I fondi pensione possono essere trasferiti in altri fondi pensione ma ci sono diverse differenze:
+
+* fondi aperti vs fondi chiusi
+* tassazione
+* fasi di trasferimento
+
+
+
+Il fondo pensione è **trasferibile non prima di due anni** (?)
+{% endhint %}
 
 ## Sources
 
