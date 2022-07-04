@@ -4,7 +4,7 @@
 In questo grafico l'indice di inflazione è all'1%
 {% endhint %}
 
-![Nel grafico NON sono state calcolate le deduzioni fiscali del fondo pensione, a ulteriore vantaggio di quest'ultimo](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (1).png>)
 
 ## Sezione 1 - modulo TFR2
 
