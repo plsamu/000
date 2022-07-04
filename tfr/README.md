@@ -12,7 +12,9 @@ In questo grafico l'indice di inflazione è all'1%
 * scelta di lasciarlo in azienda
 
 {% hint style="warning" %}
-Con il silenzio assenso verrà investito nel "fondo pensione di categoria"
+Con il silenzio assenso verrà investito nel "fondo pensione di categoria" (metalmeccanica).\
+\
+_**Adesione tacita**_: avviene quando il lavoratore non si esprime entro i 6 mesi previsti. Si viene iscritti automaticamente al Fondo pensione negoziale previsto dal CCNL o contratto aziendale. Questo succede nel caso in cui l’azienda ha più di 50 dipendenti.
 {% endhint %}
 
 ## TL; DR.
@@ -39,7 +41,18 @@ Se cambi contratto hai tre scelte:&#x20;
 
 </details>
 
+<details>
+
+<summary>Cosa succede in caso di dimissioni volontarie?</summary>
+
+* non è possibile recuperare la NASPI (indennità mensile di disoccupazione)
+* il TFR spetta sempre al dipendente (se non riesce l'azienda, allora tocca all'INPS \[buona fortuna])
+
+</details>
+
 ## Sources
+
+{% embed url="https://www.studiomarcofranco.it/tfr-in-azienda-o-in-un-fondo-pensione-cosa-scegliere/" %}
 
 {% embed url="https://www.youtube.com/watch?v=LKUvzfYtU0c" %}
 

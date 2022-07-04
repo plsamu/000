@@ -12,6 +12,13 @@ Rendimento: in base all'obiettivo del fondo
 Fino al 50% subito (mentre in azienda tutto entro 6 mesi), il resto come rendita mensile
 {% endhint %}
 
+## Adesione
+
+Nel caso del **TFR in un fondo pensione**, l’adesione al fondo può essere di due tipologie, in base al fatto che la scelta venga esplicitata oppure no:
+
+* _**Adesione esplicita**_: avviene quando si decide di versare il TFR in un fondo pensione entro 6 mesi dall’assunzione.
+* _**Adesione tacita**_: avviene quando il lavoratore non si esprime entro i 6 mesi previsti. Si viene iscritti automaticamente al Fondo pensione negoziale previsto dal CCNL o contratto aziendale. Questo succede nel caso in cui l’azienda ha più di 50 dipendenti.
+
 ## Rischi
 
 {% hint style="info" %}
@@ -37,7 +44,7 @@ Dipende da:
 {% hint style="success" %}
 * le somme investite in un fondo pensione possono essere dedotte fino a 5174 euro annuo
 * 20% sulle plusvalenze generate
-* imposta ridotta sulla rendita del fondo pensione rispetto al TFR in azienda (dal 15% al 9% nel fondo pensione contro aliquota \[min 23%], o rivalutazione annuale \[17%])
+* imposta ridotta sulla rendita del fondo pensione rispetto al TFR in azienda (dal 15% al 9% nel fondo pensione VS aliquota \[min 23% che aumenta in base alla fascia di reddito])
 {% endhint %}
 
 ## Anticipi (molto più flessibile di quello in azienda)
