@@ -380,6 +380,7 @@
   * [Laser Engraving](diy/laser-engraving.md)
 * [Assicurazione](assicurazione.md)
 * [Music](music/README.md)
+  * [ADHD](music/adhd.md)
   * [Happy Nostalgia](music/happy-nostalgia.md)
   * [Heavenly](music/heavenly.md)
   * [Focus](music/focus.md)
