@@ -201,6 +201,7 @@
         * [Future, async / await](dev/003-code/rust/theory/future-async-await.md)
       * [IDE](dev/003-code/rust/ide.md)
       * [Code](dev/003-code/rust/code/README.md)
+        * [Tokio](dev/003-code/rust/code/tokio.md)
         * [GTK-3](dev/003-code/rust/code/gtk-3.md)
         * [Strings](dev/003-code/rust/code/strings/README.md)
           * [Concatenations](dev/003-code/rust/code/strings/concatenations.md)
