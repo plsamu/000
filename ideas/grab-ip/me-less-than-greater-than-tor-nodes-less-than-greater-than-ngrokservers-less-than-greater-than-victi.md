@@ -96,3 +96,51 @@ DIDN'T WORK (Ծ‸ Ծ)
 proxychains4 ngrok http 8080
 ```
 
+## Configure ngrok
+
+```
+nano ~/.config/ngrok/ngrok.yml
+
+# add
+proxy_url: "socks5://localhost:9050"
+```
+
+```
+ngrok http --config=./ngrok.yml 8080 
+```
+
+{% hint style="danger" %}
+ERROR: Your account is not authorized to run the agent with socks5 proxy.&#x20;
+
+\
+ERROR: Upgrade to an Enterprise plan at: https://dashboard.ngrok.com/billing/subscription
+
+
+
+ERROR: ERR\_NGROK\_9010
+{% endhint %}
+
+## Fuuuk \~(^-^)\~
+
+## Ideas
+
+* VPS
+* TailsOS
+* redirect all connection to TOR (system wide global proxy)
+
+## System wide global proxy
+
+{% embed url="https://forums.kali.org/showthread.php?17981-Use-a-system-wide-proxy=" %}
+
+{% hint style="info" %}
+Close everything that occupies port 8080
+{% endhint %}
+
+```
+Settings Manager
+  > Advance Network Configuration
+    > Wired
+      > Gear Icon
+        > 
+           
+```
