@@ -127,13 +127,14 @@ ERROR: ERR\_NGROK\_9010
 * VPS
 * TailsOS
 * redirect all connection to TOR (system wide global proxy)
+* torghost - powered by iptables
 
 ## System wide global proxy
 
 {% embed url="https://forums.kali.org/showthread.php?17981-Use-a-system-wide-proxy=" %}
 
-{% hint style="info" %}
-Close everything that occupies port 8080
+{% hint style="warning" %}
+Close everything that occupies port 8080 and restart
 {% endhint %}
 
 ```
@@ -144,3 +145,42 @@ Settings Manager
         > 
            
 ```
+
+{% hint style="danger" %}
+EEEMMMMHH Where is my "Manual Configuration"&#x20;
+
+&#x20;           the fu...      (⊙.☉)7
+{% endhint %}
+
+### **torghost - power of iptables**
+
+{% hint style="success" %}
+**worked**
+{% endhint %}
+
+{% embed url="https://github.com/SusmithKrishnan/torghost" %}
+
+#### install
+
+```bash
+wget https://www.python.org/ftp/python/3.7.5/Python-3.7.5.tgz
+sudo tar xvzf ./Python-3.7.5.tgz -C /usr/local/bin
+
+sudo apt install python3-pip
+sudo apt-get install python2-dev   # for python2.x installs
+sudo apt-get install python3-dev  # for python3.x installs
+sudo apt install libpython3.7-dev
+```
+
+{% hint style="info" %}
+script hardcode Python version.... ₍₋ ู₋₎ ᶻzᶻzᶻ
+{% endhint %}
+
+[https://check.torproject.org/](https://check.torproject.org/)
+
+start
+
+```
+ngrok http 8080 
+```
+
