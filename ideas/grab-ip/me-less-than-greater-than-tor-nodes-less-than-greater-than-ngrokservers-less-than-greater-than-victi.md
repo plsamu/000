@@ -72,6 +72,10 @@ ngrok config add-authtoken <token>
 
 ## Setup server
 
+{% hint style="danger" %}
+Read the HEADERS is not enough!!!
+{% endhint %}
+
 ```javascript
 let http = require('http')
 
