@@ -385,6 +385,7 @@
 * [Assicurazione](assicurazione.md)
 * [Music](music/README.md)
   * [ADHD](music/adhd.md)
+  * [Mix](music/mix.md)
   * [Happy Nostalgia](music/happy-nostalgia.md)
   * [Heavenly](music/heavenly.md)
   * [Focus](music/focus.md)
