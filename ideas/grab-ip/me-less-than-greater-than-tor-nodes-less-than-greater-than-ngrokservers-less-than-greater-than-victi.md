@@ -177,7 +177,7 @@ sudo apt install libpython3.7-dev
 ```
 
 {% hint style="info" %}
-script hardcode Python version.... ₍₋ ู₋₎ ᶻzᶻzᶻ
+change the version of Python hardcoded in the script as you need.... ₍₋ ู₋₎ ᶻzᶻzᶻ
 {% endhint %}
 
 [https://check.torproject.org/](https://check.torproject.org/)
