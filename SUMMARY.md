@@ -384,6 +384,7 @@
   * [Laser Engraving](diy/laser-engraving.md)
 * [Assicurazione](assicurazione.md)
 * [Music](music/README.md)
+  * [Tarantella, Pizzica, Saltarello](music/tarantella-pizzica-saltarello.md)
   * [ADHD](music/adhd.md)
   * [Mix](music/mix.md)
   * [Happy Nostalgia](music/happy-nostalgia.md)
