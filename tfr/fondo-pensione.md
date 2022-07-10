@@ -1,7 +1,8 @@
 # Fondo Pensione
 
 {% hint style="info" %}
-Un fondo pensione investe le quote del TFR nei mercati
+Un fondo pensione investe le quote del TFR nei mercati.\
+Ovvio è che il fondo pensione più conservativo avrà un andamento speculare (identico) a quello dei mercati: se tutti i mercati crollano, lo farà anche il fondo pensione.
 {% endhint %}
 
 {% hint style="info" %}
