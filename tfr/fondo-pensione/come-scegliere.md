@@ -6,10 +6,19 @@
   * diffidare dai costi diretti in percentuale, o superiori ai 30 euro annui
 * costi indiretti (costi di gestione del fondo)
   * percentuali più basse possibili (ci sono delle eccezioni)
+* costi di gestione
+
+{% hint style="info" %}
+Tenere sott'occhio l'ISC (indice sintetico di costo).\
+Indica in modo riassuntivo il costo annuale dello specifico comparto.
+{% endhint %}
 
 ## 2. Rendimenti
 
 * comparto azionario
+* comparti bilanciati
+  * 50% obbligazionario
+  * 50% azionario
 * comparto obbligazionario
 * comparto garantito&#x20;
 

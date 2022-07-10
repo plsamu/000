@@ -1,29 +1,21 @@
 # TFR
 
-{% hint style="warning" %}
-In questo grafico l'indice di inflazione è all'1%
-{% endhint %}
-
-![](<../.gitbook/assets/image (1).png>)
-
 ## Sezione 1 - modulo TFR2
 
-* scelta del fondo pensione
-* scelta di lasciarlo in azienda
+Nella sezione 1 si può indicare la propria scelta:
+
+* se destinare i soldi maturati in un fondo pensione
+* oppure se lasciarli in azienda
 
 {% hint style="warning" %}
-Con il silenzio assenso verrà investito nel "fondo pensione di categoria" (metalmeccanica).\
+Con il silenzio assenso verrà investito nel "fondo pensione di categoria" (metalmeccanica) se azienda superiore ai 50 dipendenti.\
 \
 _**Adesione tacita**_: avviene quando il lavoratore non si esprime entro i 6 mesi previsti. Si viene iscritti automaticamente al Fondo pensione negoziale previsto dal CCNL o contratto aziendale. Questo succede nel caso in cui l’azienda ha più di 50 dipendenti.
 {% endhint %}
 
 ## TL; DR.
 
-{% hint style="info" %}
-La scelta circa la **destinazione del TFR deve essere fatta ad ogni cambio lavoro o del datore di lavoro.**
-{% endhint %}
-
-{% hint style="warning" %}
+{% hint style="success" %}
 Lasciando il TFR in azienda questo verrà liquidato e tassato ad ogni cambio lavoro!
 
 Al contrario, scegliendo il fondo pensione si potranno **accumulare i TFR maturati presso diversi datori di lavoro in un unico strumento e al contempo contare su un grande vantaggio fiscale**.
@@ -32,26 +24,14 @@ In caso di cambio lavoro il TFR viene liquidato con l’applicazione di un’ali
 {% endhint %}
 
 {% hint style="info" %}
-Se non credi che avrai una lunga carriera in una azienda, lascia il TFR in azienda per riceverlo con la liquidazione.
+La scelta circa la **destinazione del TFR deve essere fatta ad ogni cambio lavoro o del datore di lavoro.**
 {% endhint %}
 
 {% hint style="info" %}
-TFR in azienda, al riparo da mercati e inflazione ma più tasse (tasse dello stipendio), dovrebbe essere per aziende con meno di 50 dipendenti.
+TFR in azienda, al riparo da mercati (non dall'inflazione) ma sottoposto a più tasse (eguali alle tasse dello stipendio), dovrebbe essere per aziende con meno di 50 dipendenti.
 {% endhint %}
 
 ## FAQ
-
-<details>
-
-<summary>Se io passo per esempio da un contratto metalmeccanico a un contratto diverso, posso rimanere sullo stesso fondo (es metalmeccanico)?</summary>
-
-Se cambi contratto hai tre scelte:&#x20;
-
-* puoi riscuotere tutto subito (attento: paghi tasse alte (23%), inoltre perdi l'anzianità di iscrizione ai Fondi Pensione)
-* lasci che il fondo metalmeccanico prosegua tranquillamente e lo riscuoti in un secondo momento oppure al momento del pensionamento (informati bene sulle relative regole)
-* trasferisci il fondo metalmeccanico nel fondo del nuovo settore lavorativo
-
-</details>
 
 <details>
 
@@ -70,6 +50,18 @@ Il lavoratore può in qualsiasi momento decidere, **per il TFR maturando,** di a
 
 </details>
 
+<details>
+
+<summary>Se io passo per esempio da un contratto metalmeccanico a un contratto diverso, posso rimanere sullo stesso fondo (es metalmeccanico)?</summary>
+
+Se cambi contratto hai tre scelte:&#x20;
+
+* puoi riscuotere tutto subito (attento: paghi tasse alte (23%), inoltre perdi l'anzianità di iscrizione ai Fondi Pensione)
+* lasci che il fondo metalmeccanico prosegua tranquillamente e lo riscuoti in un secondo momento oppure al momento del pensionamento (informati bene sulle relative regole)
+* trasferisci il fondo metalmeccanico nel fondo del nuovo settore lavorativo
+
+</details>
+
 ## Very Important Information
 
 {% hint style="warning" %}
@@ -78,16 +70,4 @@ I fondi pensione possono essere trasferiti in altri fondi pensione ma ci sono di
 * fondi aperti vs fondi chiusi
 * tassazione
 * fasi di trasferimento
-
-
-
-Il fondo pensione è **trasferibile non prima di due anni** (?)
 {% endhint %}
-
-## Sources
-
-{% embed url="https://www.studiomarcofranco.it/tfr-in-azienda-o-in-un-fondo-pensione-cosa-scegliere/" %}
-
-{% embed url="https://www.youtube.com/watch?v=LKUvzfYtU0c" %}
-
-{% embed url="https://www.youtube.com/watch?v=zIwgkbssV58" %}
