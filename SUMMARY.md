@@ -408,5 +408,5 @@
 * [Sports](sports.md)
 * [TFR](tfr/README.md)
   * [In Azienda](tfr/in-azienda.md)
-  * [Fondo Pensione](tfr/fondo-pensione.md)
-  * [Page 1](tfr/page-1.md)
+  * [Fondo Pensione](tfr/fondo-pensione/README.md)
+    * [Come scegliere](tfr/fondo-pensione/come-scegliere.md)
