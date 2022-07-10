@@ -13,6 +13,10 @@ Rendimento: in base all'obiettivo del fondo
 Fino al 50% subito (mentre in azienda tutto entro 6 mesi), il resto come rendita mensile
 {% endhint %}
 
+## Check this
+
+{% embed url="https://www.covip.it/per-gli-operatori/fondi-pensione/costi-e-rendimenti-dei-fondi-pensione/elenco-dei-rendimenti" %}
+
 ## Adesione
 
 Nel caso del **TFR in un fondo pensione**, l’adesione al fondo può essere di due tipologie, in base al fatto che la scelta venga esplicitata oppure no:
