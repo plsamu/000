@@ -15,6 +15,8 @@ Fino al 50% subito (mentre in azienda tutto entro 6 mesi), il resto come rendita
 
 ## Check this
 
+{% embed url="https://www.covip.it/per-gli-operatori/fondi-pensione/costi-e-rendimenti-dei-fondi-pensione/elenco-schede-costi" %}
+
 {% embed url="https://www.covip.it/per-gli-operatori/fondi-pensione/costi-e-rendimenti-dei-fondi-pensione/elenco-dei-rendimenti" %}
 
 ## Adesione
@@ -30,6 +32,14 @@ Nel caso del **TFR in un fondo pensione**, l’adesione al fondo può essere di 
 I rischi legati ai mercati... Crollano i mercati? Crolla il TFR.\
 \
 E' vero anche che i fondi pensione sono fortemente regolamentati e devono sottostare a delle politiche di investimento non troppo rischiose.&#x20;
+{% endhint %}
+
+{% hint style="info" %}
+Il problema sorge se hai la concreta possibilità di lavorare all'estero
+
+In quel caso ti converrebbe investire quei soldi per conto tuo cosi da essere più libero di trasferire tutto con te all'estero
+
+Puoi avere un conto in ITA da residente estero ma mi pare che non tutte le banche lo permettono
 {% endhint %}
 
 ## Rendimento Netto
