@@ -1,5 +1,7 @@
 # Fast, minimal, with wifi
 
+{% embed url="https://rufus.ie/en/" %}
+
 {% hint style="info" %}
 read long buffer
 
