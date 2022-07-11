@@ -44,5 +44,11 @@ station {interface} connect {SSID}
 station {interface} show
 ```
 
+## Didn't work
+
+{% hint style="danger" %}
+
+{% endhint %}
+
 {% embed url="https://github.com/picodotdev/alis" %}
 
