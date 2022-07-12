@@ -1,5 +1,7 @@
 # TFR
 
+{% embed url="https://www.reddit.com/r/ItaliaPersonalFinance/wiki/index#wiki_strumenti_previdenziali.3A_pensioni" %}
+
 ## Sezione 1 - modulo TFR2
 
 Nella sezione 1 si può indicare la propria scelta:
