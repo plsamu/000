@@ -411,6 +411,7 @@
   * [Legal free download](games/legal-free-download.md)
 * [Sports](sports.md)
 * [TFR](tfr/README.md)
+  * [TL; DR;](tfr/tl-dr.md)
   * [In Azienda](tfr/in-azienda.md)
   * [Fondo Pensione](tfr/fondo-pensione.md)
     * [Tipologie](tfr/fondo-pensione/tipologie.md)
