@@ -407,6 +407,7 @@
   * [Entrance Songs](music/entrance-songs.md)
 * [Books](books.md)
 * [Wallpaper](wallpaper.md)
+* [WOW](wow.md)
 * [Games](games/README.md)
   * [Legal free download](games/legal-free-download.md)
 * [Sports](sports.md)
