@@ -26,7 +26,7 @@ psql -h 127.0.0.1 -U postgres -p 6543       # connect to db
 
 ### Connection string
 
-
+{% embed url="https://github.com/plsamu/rust_backend_examples/blob/main/backend_actix/l003%20-%20load%20db%20connection%20from%20.env/src/mdb.rs" %}
 
 
 
