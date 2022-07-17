@@ -246,6 +246,8 @@
         * [from Tkinter to exe](dev/003-code/python/tkinter/from-tkinter-to-exe.md)
         * [Frame](dev/003-code/python/tkinter/frame/README.md)
           * [Minimal](dev/003-code/python/tkinter/frame/minimal.md)
+  * [004 - Concepts (e.g. Auth, ...)](dev/004-concepts-e.g.-auth-.../README.md)
+    * [Session vs Token Authentication](dev/004-concepts-e.g.-auth-.../session-vs-token-authentication.md)
   * [Web Plugin](dev/web-plugin/README.md)
     * [Firefox](dev/web-plugin/firefox.md)
   * [Cloud](dev/cloud/README.md)
@@ -421,3 +423,4 @@
   * [Sources](tfr/sources.md)
 * [Techwear](techwear/README.md)
   * [Backpacks](techwear/backpacks.md)
+* [Trash](trash.md)
