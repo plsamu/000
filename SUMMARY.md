@@ -252,6 +252,7 @@
   * [004 - Concepts (e.g. Auth, ...)](dev/004-concepts-e.g.-auth-.../README.md)
     * [UUID](dev/004-concepts-e.g.-auth-.../uuid.md)
     * [Session vs Token Authentication](dev/004-concepts-e.g.-auth-.../session-vs-token-authentication.md)
+  * [Offline](dev/offline.md)
   * [Web Plugin](dev/web-plugin/README.md)
     * [Firefox](dev/web-plugin/firefox.md)
   * [Cloud](dev/cloud/README.md)
