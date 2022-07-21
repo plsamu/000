@@ -15,6 +15,7 @@
   * [Videos](internet-is-awesome-random/videos.md)
 * [From triodes to CPU](from-triodes-to-cpu.md)
 * [Linux](linux/README.md)
+  * [WiFi](linux/wifi.md)
   * [Samba](linux/samba.md)
   * [TLP](linux/tlp.md)
   * [Sound](linux/sound.md)
