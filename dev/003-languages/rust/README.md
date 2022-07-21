@@ -4,6 +4,8 @@ description: f me can't decide. Rust as hobby. BCZ IZ SAFE.
 
 # Rust
 
+{% embed url="https://doc.rust-lang.org/cargo/getting-started/installation.html" %}
+
 {% hint style="info" %}
 In contrast with application languages, **system programming languages** typically offer more-direct access to the physical hardware of the machine.
 {% endhint %}

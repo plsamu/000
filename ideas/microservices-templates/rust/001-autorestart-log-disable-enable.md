@@ -61,6 +61,6 @@ fn main() {
 
 ### Also
 
-{% content-ref url="../../../dev/003-code/rust/code/log.md" %}
-[log.md](../../../dev/003-code/rust/code/log.md)
+{% content-ref url="../../../dev/003-languages/rust/code/log.md" %}
+[log.md](../../../dev/003-languages/rust/code/log.md)
 {% endcontent-ref %}
